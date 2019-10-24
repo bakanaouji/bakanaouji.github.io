@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "git checkout develop"
-git checkout develop
-
 echo "hugo"
 hugo
 
