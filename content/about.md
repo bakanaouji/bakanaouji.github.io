@@ -24,7 +24,7 @@ I am interested in reinforcement learning and imperfect-information games.
 * Imperfect Information Games
 * Hyperparameter Optimization
 
-# Email
+# E-mail
 abekenshi1224[at]gmail.com
 
 # SNS
