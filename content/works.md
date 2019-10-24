@@ -11,7 +11,7 @@ description = ""
 
 # Presentations
 * [多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~](https://www.slideshare.net/KenshiAbe/ai-165308197)
-* 論文解説
+* 論文勉強会
     * [Deep Counterfactual Regret Minimization](https://www.slideshare.net/KenshiAbe/deep-counterfactual-regret-minimization)
     * [Competitive Multi-agent Inverse Reinforcement Learning with Sub-optimal Demonstrations](https://www.slideshare.net/KenshiAbe/competitive-multiagent-inverse-reinforcement-learning-with-suboptimal-demonstrations-153126367)
     * [Deep Q-learning from Demonstrations](https://www.slideshare.net/KenshiAbe/deep-qlearning-from-demonstrations)

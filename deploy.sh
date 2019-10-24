@@ -5,7 +5,7 @@ hugo
 
 echo "git push to develop branch"
 git add .
-git commit -m $1
+git commit -m "$1"
 git push origin develop
 
 echo "git checkout master"
@@ -17,6 +17,6 @@ rm -rf ./docs
 
 echo "git push to master branch"
 git add .
-git commit -m $1 
+git commit -m "$1"
 git push origin master
 git checkout develop
