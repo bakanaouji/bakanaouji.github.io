@@ -30,7 +30,7 @@ disqusShortname = "bakanaouji" # Enable or disable Disqus.
     hideCopyright = false
 
     # Custom CSS
-    custom_css = []
+    custom_css = ["custom.css"]
 
     # Alignment of Mobile Menu items
     itemscentered = true
