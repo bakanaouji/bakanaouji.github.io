@@ -9,6 +9,13 @@ thumbnail = "<no value>"
 description = ""
 +++
 
+# Research
+* 野村将寛, 阿部拳之: "[Black-box最適化に対するBudgetを考慮した探索空間の初期化](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_4Rin102/_article/-char/ja)", [第33回人工知能学会全国大会](https://www.ai-gakkai.or.jp/jsai2019/), 2019.
+* 阿部拳之, 野村将寛: "非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案", [第21回情報論的学習理論ワークショップ (IBIS2018)](http://ibisml.org/ibis2018/), 2018.
+* 阿部拳之, 小野功: "活用と探索の釣り合いを考慮した事例ベース政策最適化", [第12回進化計算学会研究会](http://www.jpnsec.org/symposium201701.html), 2017. (ベストポスター発表賞)
+* 阿部拳之, 小野功: "多峰性景観下での自然進化戦略による事例ベース政策最適化", [計測自動制御学会システム・情報部門学術講演会2016 (SSI2016)](https://www.sice.or.jp/org/SSI2016/), 2016.
+* 阿部拳之, 小野功: "自然進化戦略を用いた事例ベース政策最適化", [第54回システム工学部会研究会](https://www.sice.or.jp/system/system_ken54.html), 2016.
+
 # Presentations
 * [多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~](https://www.slideshare.net/KenshiAbe/ai-165308197)
 * 論文勉強会
