@@ -29,7 +29,7 @@ SNS  Github Twitter LinkedIn  Blog and Presentation  Qiita Research Blog SlideSh
       <pubDate>Thu, 24 Oct 2019 06:01:09 +0900</pubDate>
       
       <guid>https://bakanaouji.github.io/works/</guid>
-      <description> Presentations  多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~ 論文勉強会  Deep Counterfactual Regret Minimization Competitive Multi-agent Inverse Reinforcement Learning with Sub-optimal Demonstrations Deep Q-learning from Demonstrations Multi-agent Reinforcement Learning in Sequential Social Dilemmas Evolved policy gradients   Blog Posts  Q-Learningがどの程度Off-Policyなのかを調べてみた ミニ花札のAIを作ってみよう 遺伝的アルゴリズムでコードフォーマッタのスタイルを最適化する max k-armed banditとは？ Successive Halvingの性能解析  </description>
+      <description> Research  野村将寛, 阿部拳之: &amp;ldquo;Black-box最適化に対するBudgetを考慮した探索空間の初期化&amp;rdquo;, 第33回人工知能学会全国大会, 2019. 阿部拳之, 野村将寛: &amp;ldquo;非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案&amp;rdquo;, 第21回情報論的学習理論ワークショップ (IBIS2018), 2018. 阿部拳之, 小野功: &amp;ldquo;活用と探索の釣り合いを考慮した事例ベース政策最適化&amp;rdquo;, 第12回進化計算学会研究会, 2017. (ベストポスター発表賞) 阿部拳之, 小野功: &amp;ldquo;多峰性景観下での自然進化戦略による事例ベース政策最適化&amp;rdquo;, 計測自動制御学会システム・情報部門学術講演会2016 (SSI2016), 2016. 阿部拳之, 小野功: &amp;ldquo;自然進化戦略を用いた事例ベース政策最適化&amp;rdquo;, 第54回システム工学部会研究会, 2016.  Presentations  多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~ 論文勉強会  Deep Counterfactual Regret Minimization Competitive Multi-agent Inverse Reinforcement Learning with Sub-optimal Demonstrations Deep Q-learning from Demonstrations Multi-agent Reinforcement Learning in Sequential Social Dilemmas Evolved policy gradients   Blog Posts  Q-Learningがどの程度Off-Policyなのかを調べてみた ミニ花札のAIを作ってみよう 遺伝的アルゴリズムでコードフォーマッタのスタイルを最適化する max k-armed banditとは？ Successive Halvingの性能解析  </description>
     </item>
     
   </channel>
