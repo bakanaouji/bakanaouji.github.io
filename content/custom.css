@@ -9,3 +9,26 @@
   margin-bottom: .5rem;
   font-size: 2.2rem
 }
+
+li {
+  padding-top: 7px;
+}
+
+.content a {
+  font-weight: 400;
+  color: #000;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+body {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+  body {
+    font-size: 1.3em;
+    line-height: 1.5em
+  }
+}
