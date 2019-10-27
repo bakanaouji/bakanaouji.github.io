@@ -19,7 +19,7 @@ disqusShortname = "bakanaouji" # Enable or disable Disqus.
     author = "Kenshi Abe" # Author's name.
     info = "Research Scientist of Reinforcement Learning and Imperfect Information Games" # Author's job title or info.
     description = "Kenshi Abe's personal website" # Site description.
-    keywords = "porfolio,researcher,personal" # Site keywords.
+    keywords = "portfolio,researcher,personal" # Site keywords.
     avatarurl = "/robo.png" # Contain the path of the optionnal avatar in the static folder.
 
     #footercontent = "Enter a text here." # Add footer content
