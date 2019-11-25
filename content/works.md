@@ -10,6 +10,7 @@ description = ""
 +++
 
 # Research
+* 阿部拳之: "花札におけるナッシュ均衡戦略の計算", [第22回情報論的学習理論ワークショップ (IBIS2019)](http://ibisml.org/ibis2019/), 2019.
 * 野村将寛, 阿部拳之: "[Black-box最適化に対するBudgetを考慮した探索空間の初期化](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_4Rin102/_article/-char/ja)", [第33回人工知能学会全国大会](https://www.ai-gakkai.or.jp/jsai2019/), 2019.
 * 阿部拳之, 野村将寛: "非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案", [第21回情報論的学習理論ワークショップ (IBIS2018)](http://ibisml.org/ibis2018/), 2018.
 * 阿部拳之, 小野功: "活用と探索の釣り合いを考慮した事例ベース政策最適化", [第12回進化計算学会研究会](http://www.jpnsec.org/symposium201701.html), 2017. (ベストポスター発表賞)
