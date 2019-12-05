@@ -10,6 +10,13 @@ description = ""
 +++
 
 # Research
+##### International Conference
+* Gota Morishita, Kenshi Abe, Kazuhisa Ogawa and Yusuke Kaneko: "Online Learning for Bidding Agent in First Price Auction", [AAAI 2020 Workshop on Reinforcement Learning in Games](http://aaai-rlg.mlanctot.info/index.html), to appear, 2019.
+
+##### Preprints
+* Masahiro Nomura, Kenshi Abe: "A Simple Heuristic for Bayesian Optimization with A Low Budget". [[Arxiv](https://arxiv.org/abs/1911.07790)].
+
+##### Internal Conference
 * 阿部拳之: "花札におけるナッシュ均衡戦略の計算", [第22回情報論的学習理論ワークショップ (IBIS2019)](http://ibisml.org/ibis2019/), 2019.
 * 野村将寛, 阿部拳之: "[Black-box最適化に対するBudgetを考慮した探索空間の初期化](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_4Rin102/_article/-char/ja)", [第33回人工知能学会全国大会](https://www.ai-gakkai.or.jp/jsai2019/), 2019.
 * 阿部拳之, 野村将寛: "非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案", [第21回情報論的学習理論ワークショップ (IBIS2018)](http://ibisml.org/ibis2018/), 2018.
