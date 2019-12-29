@@ -34,6 +34,7 @@ description = ""
     * [Evolved policy gradients](https://www.slideshare.net/KenshiAbe/evolved-policy-gradients)
 
 # Blog Posts
+* [【Unity ML-Agents】 Self-Play Reinforcement Learningで対戦ゲームのAIを作ってみた](https://qiita.com/bakanaouji/items/fefa93cc53cafbdd985d)
 * [Q-Learningがどの程度Off-Policyなのかを調べてみた](https://qiita.com/bakanaouji/items/d20c8903a1327e660de5)
 * [ミニ花札のAIを作ってみよう](https://cyberagent.ai/research/archives/2522)
 * [遺伝的アルゴリズムでコードフォーマッタのスタイルを最適化する](https://qiita.com/bakanaouji/items/aa076cef1e04f77f48ce)
