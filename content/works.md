@@ -11,7 +11,7 @@ description = ""
 
 # Research
 ##### International Conference
-* Gota Morishita, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko: "Online Learning for Bidding Agent in First Price Auction", [AAAI 2020 Workshop on Reinforcement Learning in Games](http://aaai-rlg.mlanctot.info/index.html), to appear, 2019. (<sup>\*</sup>equal contribution)
+* Gota Morishita<sup>\*</sup>, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko: "Online Learning for Bidding Agent in First Price Auction", [AAAI 2020 Workshop on Reinforcement Learning in Games](http://aaai-rlg.mlanctot.info/index.html), to appear, 2019. (<sup>\*</sup>equal contribution)
 
 ##### Preprints
 * Masahiro Nomura, Kenshi Abe: "A Simple Heuristic for Bayesian Optimization with A Low Budget". [[Arxiv](https://arxiv.org/abs/1911.07790)].
