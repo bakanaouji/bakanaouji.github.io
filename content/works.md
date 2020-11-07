@@ -14,6 +14,8 @@ description = ""
 * Gota Morishita<sup>\*</sup>, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko: "Online Learning for Bidding Agent in First Price Auction", [AAAI 2020 Workshop on Reinforcement Learning in Games](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf), to appear, 2019. (<sup>\*</sup>equal contribution)
 
 ##### Preprints
+* Kaito Ariu, Kenshi Abe, Alexandre Proutière: “Thresholded LASSO Bandit”, [[Arxiv](https://arxiv.org/abs/2010.11994)].
+* Masahiro Kato, Kenshi Abe, Kaito Ariu, Shota Yasui: “A Practical Guide of Off-Policy Evaluation for Bandit Problems”, [[Arxiv](https://arxiv.org/abs/2010.12470)].
 * Kenshi Abe, Yusuke Kaneko: "Off-Policy Exploitability-Evaluation and Equilibrium-Learning in Two-Player Zero-Sum Markov Games", [[Arxiv](https://arxiv.org/abs/2007.02141)].
 * Masahiro Nomura, Kenshi Abe: "A Simple Heuristic for Bayesian Optimization with A Low Budget". [[Arxiv](https://arxiv.org/abs/1911.07790)].
 
