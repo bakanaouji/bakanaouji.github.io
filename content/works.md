@@ -20,6 +20,8 @@ description = ""
 * Masahiro Nomura, Kenshi Abe: "A Simple Heuristic for Bayesian Optimization with A Low Budget". [[Arxiv](https://arxiv.org/abs/1911.07790)].
 
 ##### Internal Conference
+* 阿部拳之, 金子雄祐: "二人零和マルコフゲームにおけるオフ方策評価のためのQ学習", [第25回ゲームプログラミングワークショップ](https://www.logos.ic.i.u-tokyo.ac.jp/~tsuruoka/sig-gi/gpw/2020/index.html), 2020.
+* 阿部拳之: "広告配信オークションにおける入札戦略", [第19回情報科学技術フォーラム](https://www.ipsj.or.jp/event/fit/fit2020/splist-AITECHTALK.html), 2020.
 * 阿部拳之: "多人数不完全情報ゲームにおけるAI開発", [日本経済学会 2020年度春季大会](https://www.jeameetings.org/2020s/index.html), 2020.
 * 阿部拳之: "花札におけるナッシュ均衡戦略の計算", [第22回情報論的学習理論ワークショップ (IBIS2019)](http://ibisml.org/ibis2019/), 2019.
 * 野村将寛, 阿部拳之: "[Black-box最適化に対するBudgetを考慮した探索空間の初期化](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_4Rin102/_article/-char/ja)", [第33回人工知能学会全国大会](https://www.ai-gakkai.or.jp/jsai2019/), 2019.
