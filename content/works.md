@@ -11,7 +11,7 @@ description = ""
 
 # Research
 ##### International Conference
-* Kenshi Abe, Yusuke Kaneko: "Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games", [[AAMAS 2021 (Full Paper)](https://arxiv.org/abs/2007.02141)], to appear, 2021.
+* Kenshi Abe, Yusuke Kaneko: "Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games", [AAMAS 2021 (Full Paper)](https://arxiv.org/abs/2007.02141), to appear, 2021.
 * Gota Morishita<sup>\*</sup>, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko: "Online Learning for Bidding Agent in First Price Auction", [AAAI 2020 Workshop on Reinforcement Learning in Games](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf), 2020. (<sup>\*</sup>equal contribution)
 
 ##### Preprints
