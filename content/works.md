@@ -35,6 +35,7 @@ description = ""
 * 阿部拳之, 小野功: "自然進化戦略を用いた事例ベース政策最適化", [第54回システム工学部会研究会](https://www.sice.or.jp/system/system_ken54.html), 2016.
 
 # Presentations
+* [二人零和マルコフゲームにおけるオフ方策評価](https://www.slideshare.net/KenshiAbe/ss-248654457)
 * [多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~](https://www.slideshare.net/KenshiAbe/ai-165308197)
 * 論文勉強会
     * [Deep Counterfactual Regret Minimization](https://www.slideshare.net/KenshiAbe/deep-counterfactual-regret-minimization)
