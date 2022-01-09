@@ -15,7 +15,7 @@ description = ""
 Welcome to my web page!
 
 My name is Kenshi Abe and I am a research scientist at [CyberAgent, Inc., AI Lab](https://cyberagent.ai/ailab/).
-I am interested in reinforcement learning and imperfect-information games.
+I am interested in reinforcement learning, imperfect-information games, and multi-agent learning.
 
 # Research Interests
 * Reinforcement Learning
