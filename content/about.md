@@ -22,7 +22,6 @@ I am interested in reinforcement learning, imperfect-information games, and mult
     * Multi-agent Reinforcement Learning
     * Partially Observable Markov Decision Problems 
 * Imperfect Information Games
-* Hyperparameter Optimization
 
 # E-mail
 abekenshi1224[at]gmail.com
