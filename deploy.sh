@@ -3,12 +3,6 @@
 echo "hugo"
 hugo
 
-# echo "git commit submodules"
-# cd themes/coder-portfolio
-# git add .
-# git commit -m "$1"
-# cd ../../
-
 echo "git push to develop branch"
 git add .
 git commit -m "$1"
