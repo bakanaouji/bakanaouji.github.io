@@ -11,29 +11,67 @@ description = ""
 
 # Research
 ##### International Conference
-* Kaito Ariu, Kenshi Abe, Alexandre Proutière: “Thresholded LASSO Bandit”, [ICML 2022](https://arxiv.org/abs/2010.11994), 2022.
-* Kenshi Abe, Junpei Komiyama, Atsushi Iwasaki: "Anytime Capacity Expansion in Medical Residency Match by Monte Carlo Tree Search", [IJCAI 2022](https://arxiv.org/abs/2202.06570), 2022.
-* Yuki Shimano, Kenshi Abe, Atsushi Iwasaki, Kazunori Ohkawara: "Computing Strategies of American Football via Counterfactual Regret Minimization", [AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation)](http://aaai-rlg.mlanctot.info/sched.html), 2022.
-* Kenshi Abe, Yusuke Kaneko: "Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games", [AAMAS 2021 (Full Paper)](https://arxiv.org/abs/2007.02141), 2021.
-* Gota Morishita<sup>\*</sup>, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko: "Online Learning for Bidding Agent in First Price Auction", [AAAI 2020 Workshop on Reinforcement Learning in Games](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf), 2020. (<sup>\*</sup>equal contribution)
+1. Kaito Ariu, Kenshi Abe, Alexandre Proutière.<br>
+**Thresholded LASSO Bandit**<br>
+ICML 2022. [[paper](https://arxiv.org/abs/2010.11994)]
+1. Kenshi Abe, Junpei Komiyama, Atsushi Iwasaki.<br>
+**Anytime Capacity Expansion in Medical Residency Match by Monte Carlo Tree Search**<br>
+IJCAI 2022. [[paper](https://arxiv.org/abs/2202.06570)]
+1. Yuki Shimano, Kenshi Abe, Atsushi Iwasaki, Kazunori Ohkawara.<br>
+**Computing Strategies of American Football via Counterfactual Regret Minimization**<br>
+AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation). [[paper](http://aaai-rlg.mlanctot.info/sched.html)]
+1. Kenshi Abe, Yusuke Kaneko.<br>
+**Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games**<br>
+AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
+1. Gota Morishita<sup>\*</sup>, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko (<sup>\*</sup>equal contribution).<br>
+**Online Learning for Bidding Agent in First Price Auction**<br>
+AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)].
 
 ##### Preprints
-* Masahiro Kato, Kenshi Abe, Kaito Ariu, Shota Yasui: “A Practical Guide of Off-Policy Evaluation for Bandit Problems”, [[Arxiv](https://arxiv.org/abs/2010.12470)].
-* Masahiro Nomura, Kenshi Abe: "A Simple Heuristic for Bayesian Optimization with A Low Budget". [[Arxiv](https://arxiv.org/abs/1911.07790)].
+1. Masahiro Kato, Kenshi Abe, Kaito Ariu, Shota Yasui.<br>
+**A Practical Guide of Off-Policy Evaluation for Bandit Problems**<br>
+[[Arxiv](https://arxiv.org/abs/2010.12470)].
+1. Masahiro Nomura, Kenshi Abe.<br>
+**A Simple Heuristic for Bayesian Optimization with A Low Budget**.<br>
+[[Arxiv](https://arxiv.org/abs/1911.07790)].
 
 ##### Internal Conference
-* 坂本充生, 阿部拳之, 岩崎敦: "見間違えのある繰り返しゲームのためのActor-Critic型強化学習", [第24回情報論的学習理論ワークショップ (IBIS2021)](https://ibisml.org/ibis2021/), 2021.
-* 島野雄貴, 阿部拳之, 岩崎敦, 大河原一憲: "反実仮想後悔最小化によるアメリカンフットボールにおけるオフェンス戦略の均衡推定", [第20回情報科学技術フォーラム](https://www.ipsj.or.jp/event/fit/fit2021/FIT2021_program/data/html/program/f.html), 2021.
-* 坂本充生, 阿部拳之, 岩崎敦: "見間違えのある繰り返し囚人のジレンマにおける方策勾配法に関する研究", [第20回情報科学技術フォーラム](https://www.ipsj.or.jp/award/9faeag0000004eyo-att/CF-002.pdf), 2021. (FIT船井ベストペーパー賞)
-* 阿部拳之, 金子雄祐: "二人零和マルコフゲームにおけるオフ方策評価のためのQ学習", [第25回ゲームプログラミングワークショップ](https://www.logos.ic.i.u-tokyo.ac.jp/~tsuruoka/sig-gi/gpw/2020/index.html), 2020.
-* 阿部拳之: "広告配信オークションにおける入札戦略", [第19回情報科学技術フォーラム](https://www.ipsj.or.jp/event/fit/fit2020/splist-AITECHTALK.html), 2020.
-* 阿部拳之: "多人数不完全情報ゲームにおけるAI開発", [日本経済学会 2020年度春季大会](https://www.jeameetings.org/2020s/index.html), 2020.
-* 阿部拳之: "花札におけるナッシュ均衡戦略の計算", [第22回情報論的学習理論ワークショップ (IBIS2019)](http://ibisml.org/ibis2019/), 2019.
-* 野村将寛, 阿部拳之: "[Black-box最適化に対するBudgetを考慮した探索空間の初期化](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_4Rin102/_article/-char/ja)", [第33回人工知能学会全国大会](https://www.ai-gakkai.or.jp/jsai2019/), 2019.
-* 阿部拳之, 野村将寛: "非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案", [第21回情報論的学習理論ワークショップ (IBIS2018)](http://ibisml.org/ibis2018/), 2018.
-* 阿部拳之, 小野功: "活用と探索の釣り合いを考慮した事例ベース政策最適化", [第12回進化計算学会研究会](http://www.jpnsec.org/symposium201701.html), 2017. (ベストポスター発表賞)
-* 阿部拳之, 小野功: "多峰性景観下での自然進化戦略による事例ベース政策最適化", [計測自動制御学会システム・情報部門学術講演会2016 (SSI2016)](https://www.sice.or.jp/org/SSI2016/), 2016.
-* 阿部拳之, 小野功: "自然進化戦略を用いた事例ベース政策最適化", [第54回システム工学部会研究会](https://www.sice.or.jp/system/system_ken54.html), 2016.
+1. 坂本充生, 阿部拳之, 岩崎敦.<br>
+見間違えのある繰り返しゲームのためのActor-Critic型強化学習.<br>
+[第24回情報論的学習理論ワークショップ (IBIS2021)](https://ibisml.org/ibis2021/).
+1. 島野雄貴, 阿部拳之, 岩崎敦, 大河原一憲.<br>
+反実仮想後悔最小化によるアメリカンフットボールにおけるオフェンス戦略の均衡推定.<br>
+[第20回情報科学技術フォーラム (FIT 2021)](https://www.ipsj.or.jp/event/fit/fit2021/FIT2021_program/data/html/program/f.html).
+1. 坂本充生, 阿部拳之, 岩崎敦.<br>
+見間違えのある繰り返し囚人のジレンマにおける方策勾配法に関する研究.<br>
+[第20回情報科学技術フォーラム (FIT 2021)](https://www.ipsj.or.jp/award/9faeag0000004eyo-att/CF-002.pdf).  (FIT船井ベストペーパー賞)
+1. 阿部拳之, 金子雄祐.<br>
+二人零和マルコフゲームにおけるオフ方策評価のためのQ学習.<br>
+[第25回ゲームプログラミングワークショップ (GPW 2020)](https://www.logos.ic.i.u-tokyo.ac.jp/~tsuruoka/sig-gi/gpw/2020/index.html). [[paper]](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=207671&item_no=1&page_id=13&block_id=8)
+1. 阿部拳之.<br>
+広告配信オークションにおける入札戦略.<br>
+[第19回情報科学技術フォーラム (FIT 2020)](https://www.ipsj.or.jp/event/fit/fit2020/splist-AITECHTALK.html).
+1. 阿部拳之.<br>
+多人数不完全情報ゲームにおけるAI開発.<br>
+[日本経済学会 2020年度春季大会](https://www.jeameetings.org/2020s/index.html).
+1. 阿部拳之.<br>
+花札におけるナッシュ均衡戦略の計算.<br>
+[第22回情報論的学習理論ワークショップ (IBIS2019)](http://ibisml.org/ibis2019/).
+1. 野村将寛, 阿部拳之.<br>
+Black-box最適化に対するBudgetを考慮した探索空間の初期化.<br>
+[第33回人工知能学会全国大会 (JSAI 2019)](https://www.ai-gakkai.or.jp/jsai2019/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_4Rin102/_article/-char/ja)]
+1. 阿部拳之, 野村将寛.<br>
+非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案.<br>
+[第21回情報論的学習理論ワークショップ (IBIS2018)](http://ibisml.org/ibis2018/).
+1. 阿部拳之, 小野功.<br>
+活用と探索の釣り合いを考慮した事例ベース政策最適化.<br>
+[第12回進化計算学会研究会 (2017年)](http://www.jpnsec.org/symposium201701.html). (ベストポスター発表賞)
+1. 阿部拳之, 小野功.<br>
+多峰性景観下での自然進化戦略による事例ベース政策最適化.<br>
+[計測自動制御学会システム・情報部門学術講演会 (SSI2016)](https://www.sice.or.jp/org/SSI2016/).
+1. 阿部拳之, 小野功.<br>
+自然進化戦略を用いた事例ベース政策最適化.<br>
+[第54回システム工学部会研究会 (2016年)](https://www.sice.or.jp/system/system_ken54.html).
 
 # Presentations
 * [二人零和マルコフゲームにおけるオフ方策評価](https://www.slideshare.net/KenshiAbe/ss-248654457)
