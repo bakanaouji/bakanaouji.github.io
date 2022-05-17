@@ -11,13 +11,13 @@ description = ""
 
 # Research
 ##### International Conference
+* Kaito Ariu, Kenshi Abe, Alexandre Proutière: “Thresholded LASSO Bandit”, [ICML 2022](https://arxiv.org/abs/2010.11994), 2022.
 * Kenshi Abe, Junpei Komiyama, Atsushi Iwasaki: "Anytime Capacity Expansion in Medical Residency Match by Monte Carlo Tree Search", [IJCAI 2022](https://arxiv.org/abs/2202.06570), 2022.
 * Yuki Shimano, Kenshi Abe, Atsushi Iwasaki, Kazunori Ohkawara: "Computing Strategies of American Football via Counterfactual Regret Minimization", [AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation)](http://aaai-rlg.mlanctot.info/sched.html), 2022.
 * Kenshi Abe, Yusuke Kaneko: "Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games", [AAMAS 2021 (Full Paper)](https://arxiv.org/abs/2007.02141), 2021.
 * Gota Morishita<sup>\*</sup>, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko: "Online Learning for Bidding Agent in First Price Auction", [AAAI 2020 Workshop on Reinforcement Learning in Games](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf), 2020. (<sup>\*</sup>equal contribution)
 
 ##### Preprints
-* Kaito Ariu, Kenshi Abe, Alexandre Proutière: “Thresholded LASSO Bandit”, [[Arxiv](https://arxiv.org/abs/2010.11994)].
 * Masahiro Kato, Kenshi Abe, Kaito Ariu, Shota Yasui: “A Practical Guide of Off-Policy Evaluation for Bandit Problems”, [[Arxiv](https://arxiv.org/abs/2010.12470)].
 * Masahiro Nomura, Kenshi Abe: "A Simple Heuristic for Bayesian Optimization with A Low Budget". [[Arxiv](https://arxiv.org/abs/1911.07790)].
 
