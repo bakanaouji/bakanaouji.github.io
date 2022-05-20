@@ -19,7 +19,7 @@ ICML 2022. [[paper](https://arxiv.org/abs/2010.11994)]
 IJCAI 2022. [[paper](https://arxiv.org/abs/2202.06570)]
 1. Yuki Shimano, Kenshi Abe, Atsushi Iwasaki, Kazunori Ohkawara.<br>
 **Computing Strategies of American Football via Counterfactual Regret Minimization**<br>
-AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation). [[paper](http://aaai-rlg.mlanctot.info/sched.html)]
+AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation). [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI22-RLG_paper_23.pdf)]
 1. Kenshi Abe, Yusuke Kaneko.<br>
 **Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games**<br>
 AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
