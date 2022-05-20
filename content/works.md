@@ -38,13 +38,16 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 ##### Internal Conference
 1. 坂本充生, 阿部拳之, 岩崎敦.<br>
 見間違えのある繰り返しゲームのためのActor-Critic型強化学習.<br>
+[日本オペレーションズ・リサーチ学会 2021年 秋季研究発表会](https://ibisml.org/ibis2021/). [[paper](https://orsj.org/nc2021f/wp-content/uploads/sites/2/2021/08/2021f-2-C-11.pdf)]
+1. 坂本充生, 阿部拳之, 岩崎敦.<br>
+見間違えのある繰り返しゲームのためのActor-Critic型強化学習.<br>
 [第24回情報論的学習理論ワークショップ (IBIS2021)](https://ibisml.org/ibis2021/).
 1. 島野雄貴, 阿部拳之, 岩崎敦, 大河原一憲.<br>
 反実仮想後悔最小化によるアメリカンフットボールにおけるオフェンス戦略の均衡推定.<br>
 [第20回情報科学技術フォーラム (FIT 2021)](https://www.ipsj.or.jp/event/fit/fit2021/FIT2021_program/data/html/program/f.html).
 1. 坂本充生, 阿部拳之, 岩崎敦.<br>
 見間違えのある繰り返し囚人のジレンマにおける方策勾配法に関する研究.<br>
-[第20回情報科学技術フォーラム (FIT 2021)](https://www.ipsj.or.jp/award/9faeag0000004eyo-att/CF-002.pdf).  (FIT船井ベストペーパー賞)
+[第20回情報科学技術フォーラム (FIT 2021)](https://www.ipsj.or.jp/event/fit/fit2021/FIT2021_program/data/html/program/f.html) (FIT船井ベストペーパー賞). [[paper](https://www.ipsj.or.jp/award/9faeag0000004eyo-att/CF-002.pdf)]
 1. 阿部拳之, 金子雄祐.<br>
 二人零和マルコフゲームにおけるオフ方策評価のためのQ学習.<br>
 [第25回ゲームプログラミングワークショップ (GPW 2020)](https://www.logos.ic.i.u-tokyo.ac.jp/~tsuruoka/sig-gi/gpw/2020/index.html). [[paper]](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=207671&item_no=1&page_id=13&block_id=8)
