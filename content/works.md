@@ -11,6 +11,9 @@ description = ""
 
 # Research
 ##### International Conference
+1. Kenshi Abe, Mitsuki Sakamoto, Atsushi Iwasaki.<br>
+**Mutation-Driven Follow the Regularized Leader for Last-Iterate Convergence in Zero-Sum Games**<br>
+UAI 2022.
 1. Kaito Ariu, Kenshi Abe, Alexandre Proutière.<br>
 **Thresholded LASSO Bandit**<br>
 ICML 2022. [[paper](https://arxiv.org/abs/2010.11994)]
