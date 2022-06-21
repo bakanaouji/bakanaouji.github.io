@@ -23,6 +23,9 @@ IJCAI 2022. [[paper](https://arxiv.org/abs/2202.06570)]
 1. Yuki Shimano, Kenshi Abe, Atsushi Iwasaki, Kazunori Ohkawara.<br>
 **Computing Strategies of American Football via Counterfactual Regret Minimization**<br>
 AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation). [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI22-RLG_paper_23.pdf)]
+1. Masahiro Kato, Kei Nakagawa, Kenshi Abe, Tetsuro Morimura.<br>
+**Direct Expected Quadratic Utility Maximization for Mean-Variance Controlled Reinforcement Learning**<br>
+NeurIPS 2021 Workshop on Deep Reinforcement Learning. [[paper](https://arxiv.org/abs/2010.01404)]
 1. Kenshi Abe, Yusuke Kaneko.<br>
 **Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games**<br>
 AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
