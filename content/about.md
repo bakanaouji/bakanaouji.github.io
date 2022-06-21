@@ -33,6 +33,6 @@ abekenshi1224[at]gmail.com
 
 # Blog and Presentation
 * [Qiita](https://qiita.com/bakanaouji)
-* [Research Blog](https://cyberagent.ai/research/archives/author/kenshi)
+* [Research Blog](https://cyberagent.ai/people/90/)
 * [SlideShare](https://www.slideshare.net/KenshiAbe)
 
