@@ -48,10 +48,16 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 [[Arxiv](https://arxiv.org/abs/1911.07790)].
 
 ##### Internal Conference
+1. 豊島健太郎, 坂本充生, 阿部拳之, 岩崎敦.<br>
+二人零和ゲームにおける突然変異駆動型Follow-The-Regularized-Leaderの終極反復収束.<br>
+[第21回情報科学技術フォーラム (FIT 2022)](https://onsite.gakkai-web.net/fit2022/abstract/data/html/program/f.html).
+1. 坂本充生, 豊島健太郎, 阿部拳之, 岩崎敦.<br>
+二人零和ゲームにおける突然変異付きレプリケータダイナミクスを用いた学習アルゴリズムに関する研究.<br>
+[第36回人工知能学会全国大会 (JSAI2022)](https://www.ai-gakkai.or.jp/jsai2022/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_2O6GS502/_pdf/-char/ja)]
 1. 坂本充生, 阿部拳之, 岩崎敦.<br>
 二人零和ゲームにおける突然変異付きレプリケータダイナミクスを用いた学習アルゴリズムに関する研究.<br>
 [情報処理学会 第84回全国大会](https://www.ipsj.or.jp/event/taikai/84/index.html).
-1. 豊島 健太郎, 坂本 充生, 阿部 拳之, 岩崎 敦.<br>
+1. 豊島健太郎, 坂本充生, 阿部拳之, 岩崎敦.<br>
 クールノー競争におけるマルチエージェント強化学習に関する研究.<br>
 [情報処理学会 第84回全国大会](https://www.ipsj.or.jp/event/taikai/84/index.html).
 1. 坂本充生, 阿部拳之, 岩崎敦.<br>
