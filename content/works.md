@@ -11,6 +11,9 @@ description = ""
 
 # Research
 ##### International Conference
+1. Riku Togashi, Kenshi Abe.<br>
+**Fair Matrix Factorisation for Large-Scale Recommender Systems**<br>
+RecSys 2022 FAccTRec Workshop. [[paper](https://arxiv.org/abs/2209.04394)]
 1. Kenshi Abe, Mitsuki Sakamoto, Atsushi Iwasaki.<br>
 **Mutation-Driven Follow the Regularized Leader for Last-Iterate Convergence in Zero-Sum Games**<br>
 UAI 2022. [[paper](https://arxiv.org/abs/2206.09254)]
@@ -34,6 +37,9 @@ AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
 AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)].
 
 ##### Preprints
+1. Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Kentaro Toyoshima, Atsushi Iwasaki.<br>
+**Last-Iterate Convergence with Full- and Noisy-Information Feedback in Two-Player Zero-Sum Games**<br>
+[[Arxiv](https://arxiv.org/abs/2208.09855)].
 1. Masahiro Kato, Kenshi Abe, Kaito Ariu, Shota Yasui.<br>
 **A Practical Guide of Off-Policy Evaluation for Bandit Problems**<br>
 [[Arxiv](https://arxiv.org/abs/2010.12470)].
@@ -42,6 +48,12 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 [[Arxiv](https://arxiv.org/abs/1911.07790)].
 
 ##### Internal Conference
+1. 坂本充生, 阿部拳之, 岩崎敦.<br>
+二人零和ゲームにおける突然変異付きレプリケータダイナミクスを用いた学習アルゴリズムに関する研究.<br>
+[情報処理学会 第84回全国大会](https://www.ipsj.or.jp/event/taikai/84/index.html).
+1. 豊島 健太郎, 坂本 充生, 阿部 拳之, 岩崎 敦.<br>
+クールノー競争におけるマルチエージェント強化学習に関する研究.<br>
+[情報処理学会 第84回全国大会](https://www.ipsj.or.jp/event/taikai/84/index.html).
 1. 坂本充生, 阿部拳之, 岩崎敦.<br>
 見間違えのある繰り返しゲームのためのActor-Critic型強化学習.<br>
 [日本オペレーションズ・リサーチ学会 2021年 秋季研究発表会](https://ibisml.org/ibis2021/). [[paper](https://orsj.org/nc2021f/wp-content/uploads/sites/2/2021/08/2021f-2-C-11.pdf)]
