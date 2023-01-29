@@ -89,3 +89,9 @@ disqusShortname = "bakanaouji" # Enable or disable Disqus.
     name = "Blog"
     weight = 3
     url  = "https://qiita.com/bakanaouji"
+
+# Goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
