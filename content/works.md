@@ -12,7 +12,7 @@ description = ""
 # Research
 ##### International Conference
 1. Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Kentaro Toyoshima, Atsushi Iwasaki.<br>
-**Last-Iterate Convergence with Full- and Noisy-Information Feedback in Two-Player Zero-Sum Games**<br>
+**Last-Iterate Convergence with Full and Noisy Feedback in Two-Player Zero-Sum Games**<br>
 AISTATS 2023. [[paper](https://arxiv.org/abs/2208.09855)].
 1. Riku Togashi, Kenshi Abe.<br>
 **Fair Matrix Factorisation for Large-Scale Recommender Systems**<br>
@@ -40,6 +40,9 @@ AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
 AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)].
 
 ##### Preprints
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium**<br>
+[[Arxiv](https://arxiv.org/abs/2302.01073)]
 1. Tetsuro Morimura, Kazuhiro Ota, Kenshi Abe, Peinan Zhang.<br>
 **Policy Gradient Algorithms with Monte-Carlo Tree Search for Non-Markov Decision Processes**<br>
 [[Arxiv](https://arxiv.org/abs/2206.01011)]
