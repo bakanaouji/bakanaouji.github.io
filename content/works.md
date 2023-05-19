@@ -11,6 +11,9 @@ description = ""
 
 # Research
 ##### International Conference
+1. Hiroaki Shiino, Kaito Ariu, Kenshi Abe, Togashi Riku.<br>
+**Exploration of Unranked Items in Safe Online Learning to Re-Rank**<br>
+SIGIR 2023 (Short Paper). [[Paper](https://arxiv.org/abs/2305.01202)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium**<br>
 IJCAI 2023. [[Paper](https://arxiv.org/abs/2302.01073)]
