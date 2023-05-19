@@ -57,6 +57,18 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 [[Arxiv](https://arxiv.org/abs/1911.07790)].
 
 ##### Internal Conference
+1. 阿部拳之, 蟻生開人, 坂本充生, 豊島健太郎, 岩崎敦.<br>
+Last-Iterate Convergence with Full- and Noisy-Information Feedback in Two-Player Zero-Sum Games.<br>
+[第24回情報論的学習理論ワークショップ (IBIS2022)](https://ibisml.org/ibis2022/).
+1. 蟻生開人, 阿部拳之, Alexandre Proutiere.<br>
+Thresholded Lasso Bandit.<br>
+[第24回情報論的学習理論ワークショップ (IBIS2022)](https://ibisml.org/ibis2022/).
+1. 富樫陸, 阿部拳之.<br>
+公平性を考慮した大規模推薦システム.<br>
+[第24回情報論的学習理論ワークショップ (IBIS2022)](https://ibisml.org/ibis2022/).
+1. 森村哲郎, 大田和寛, 阿部拳之, 張培楠.<br>
+ビームサーチ推論のための強化学習.<br>
+[第24回情報論的学習理論ワークショップ (IBIS2022)](https://ibisml.org/ibis2022/).
 1. 豊島健太郎, 坂本充生, 阿部拳之, 岩崎敦.<br>
 二人零和ゲームにおける突然変異駆動型Follow-The-Regularized-Leaderの終極反復収束.<br>
 [第21回情報科学技術フォーラム (FIT 2022)](https://onsite.gakkai-web.net/fit2022/abstract/data/html/program/f.html).
