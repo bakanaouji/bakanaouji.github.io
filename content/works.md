@@ -46,6 +46,12 @@ AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
 AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)].
 
 ##### Preprints
+1. Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Atsushi Iwasaki.<br>
+**A Slingshot Approach to Learning in Monotone Games**<br>
+[[Arxiv](https://arxiv.org/abs/2305.16610)]
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Memory Asymmetry: A Key to Convergence in Zero-Sum Games**<br>
+[[Arxiv](https://arxiv.org/abs/2305.13619)]
 1. Tetsuro Morimura, Kazuhiro Ota, Kenshi Abe, Peinan Zhang.<br>
 **Policy Gradient Algorithms with Monte-Carlo Tree Search for Non-Markov Decision Processes**<br>
 [[Arxiv](https://arxiv.org/abs/2206.01011)]
