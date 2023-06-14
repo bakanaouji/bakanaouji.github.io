@@ -17,10 +17,10 @@ disqusShortname = "bakanaouji" # Enable or disable Disqus.
 
 [params] # theme parameters
     author = "Kenshi Abe" # Author's name.
-    info = "Research Scientist of Reinforcement Learning and Learning in Games" # Author's job title or info.
+    info = "Research Scientist of Learning in Games" # Author's job title or info.
     description = "Kenshi Abe's personal website" # Site description.
     keywords = "portfolio,researcher,personal" # Site keywords.
-    avatarurl = "/logo.png" # Contain the path of the optionnal avatar in the static folder.
+    avatarurl = "/logo.jpeg" # Contain the path of the optionnal avatar in the static folder.
 
     #footercontent = "Enter a text here." # Add footer content
     fixedbarContent = "Do you want to get in touch with me? →" # Add fixedbar content
