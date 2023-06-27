@@ -128,6 +128,7 @@ Black-box最適化に対するBudgetを考慮した探索空間の初期化.<br>
 [第54回システム工学部会研究会 (2016年)](https://www.sice.or.jp/system/system_ken54.html).
 
 # Presentations
+* [Learning in games: ゲーム理論とオンライン学習](https://speakerdeck.com/bakanaouji/learning-in-games)
 * [二人零和マルコフゲームにおけるオフ方策評価](https://www.slideshare.net/KenshiAbe/ss-248654457)
 * [多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~](https://www.slideshare.net/KenshiAbe/ai-165308197)
 * 論文勉強会
