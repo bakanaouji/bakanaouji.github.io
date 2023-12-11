@@ -5,33 +5,21 @@
     <link>https://bakanaouji.github.io/</link>
     <description>Recent content on Kenshi Abe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://bakanaouji.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="https://bakanaouji.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kenshi Abe (阿部 拳之)</title>
       <link>https://bakanaouji.github.io/about/</link>
       <pubDate>Thu, 24 Oct 2019 06:01:15 +0900</pubDate>
-      
       <guid>https://bakanaouji.github.io/about/</guid>
-      <description> About Me Welcome to my web page!
-My name is Kenshi Abe and I am a research scientist at CyberAgent, Inc., AI Lab. I am interested in reinforcement learning, imperfect-information games, and multi-agent learning.
-Research Interests Reinforcement Learning Multi-agent Reinforcement Learning Partially Observable Markov Decision Problems Imperfect Information Games E-mail abekenshi1224[at]gmail.com
-SNS Github Twitter LinkedIn Blog and Presentation Qiita Research Blog SlideShare </description>
+      <description> About Me Welcome to my web page!&#xA;My name is Kenshi Abe and I am a research scientist at CyberAgent, Inc., AI Lab. I am interested in reinforcement learning, imperfect-information games, and multi-agent learning.&#xA;Research Interests Reinforcement Learning Multi-agent Reinforcement Learning Partially Observable Markov Decision Problems Imperfect Information Games E-mail abekenshi1224[at]gmail.com&#xA;SNS Github Twitter LinkedIn Blog and Presentation Qiita Research Blog SlideShare </description>
     </item>
-    
     <item>
       <title></title>
       <link>https://bakanaouji.github.io/works/</link>
       <pubDate>Thu, 24 Oct 2019 06:01:09 +0900</pubDate>
-      
       <guid>https://bakanaouji.github.io/works/</guid>
-      <description>Research International Conference Hiroaki Shiino, Kaito Ariu, Kenshi Abe, Togashi Riku.
-Exploration of Unranked Items in Safe Online Learning to Re-Rank
-SIGIR 2023 (Short Paper). [Paper] Yuma Fujimoto, Kaito Ariu, Kenshi Abe.
-Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium
-IJCAI 2023. [Paper] Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Kentaro Toyoshima, Atsushi Iwasaki.
-Last-Iterate Convergence with Full and Noisy Feedback in Two-Player Zero-Sum Games
-AISTATS 2023. [paper] Riku Togashi, Kenshi Abe.</description>
+      <description>Research International Conference Yuma Fujimoto, Kaito Ariu, Kenshi Abe.&#xA;Memory Asymmetry Creates Heteroclinic Orbits to Nash Equilibrium in Learning in Zero-Sum Games&#xA;AAAI 2024. [Paper] Hiroaki Shiino, Kaito Ariu, Kenshi Abe, Togashi Riku.&#xA;Exploration of Unranked Items in Safe Online Learning to Re-Rank&#xA;SIGIR 2023 (Short Paper). [Paper] Yuma Fujimoto, Kaito Ariu, Kenshi Abe.&#xA;Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium&#xA;IJCAI 2023. [Paper] Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Kentaro Toyoshima, Atsushi Iwasaki.</description>
     </item>
-    
   </channel>
 </rss>
