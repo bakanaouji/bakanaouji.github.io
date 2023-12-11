@@ -11,6 +11,9 @@ description = ""
 
 # Research
 ##### International Conference
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Memory Asymmetry Creates Heteroclinic Orbits to Nash Equilibrium in Learning in Zero-Sum Games**<br>
+AAAI 2024. [[Paper](https://arxiv.org/abs/2305.13619)]
 1. Hiroaki Shiino, Kaito Ariu, Kenshi Abe, Togashi Riku.<br>
 **Exploration of Unranked Items in Safe Online Learning to Re-Rank**<br>
 SIGIR 2023 (Short Paper). [[Paper](https://arxiv.org/abs/2305.01202)]
@@ -43,24 +46,30 @@ NeurIPS 2021 Workshop on Deep Reinforcement Learning. [[paper](https://arxiv.org
 AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
 1. Gota Morishita<sup>\*</sup>, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko (<sup>\*</sup>equal contribution).<br>
 **Online Learning for Bidding Agent in First Price Auction**<br>
-AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)].
+AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)]
 
 ##### Preprints
+1. Yuu Jinnai, Tetsuro Morimura, Ukyo Honda, Kaito Ariu, Kenshi Abe.<br>
+**Model-Based Minimum Bayes Risk Decoding**<br>
+[[Arxiv](https://arxiv.org/abs/2311.05263)]
+1. Hakuei Yamada, Junpei Komiyama, Kenshi Abe, Atsushi Iwasaki.<br>
+**Learning Fair Division from Bandit Feedback**<br>
+[[Arxiv](https://arxiv.org/abs/2311.09068)]
+1. Sho Shimoyama, Tetsuro Morimura, Kenshi Abe, Toda Takamichi, Yuta Tomomatsu, Masakazu Sugiyama, Asahi Hentona, Yuuki Azuma, Hirotaka Ninomiya.<br>
+**Why Guided Dialog Policy Learning performs well? Understanding the role of adversarial learning and its alternative**<br>
+[[Arxiv](https://arxiv.org/abs/2307.06721)]
 1. Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Atsushi Iwasaki.<br>
 **A Slingshot Approach to Learning in Monotone Games**<br>
 [[Arxiv](https://arxiv.org/abs/2305.16610)]
-1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
-**Memory Asymmetry: A Key to Convergence in Zero-Sum Games**<br>
-[[Arxiv](https://arxiv.org/abs/2305.13619)]
 1. Tetsuro Morimura, Kazuhiro Ota, Kenshi Abe, Peinan Zhang.<br>
 **Policy Gradient Algorithms with Monte-Carlo Tree Search for Non-Markov Decision Processes**<br>
 [[Arxiv](https://arxiv.org/abs/2206.01011)]
 1. Masahiro Kato, Kenshi Abe, Kaito Ariu, Shota Yasui.<br>
 **A Practical Guide of Off-Policy Evaluation for Bandit Problems**<br>
-[[Arxiv](https://arxiv.org/abs/2010.12470)].
+[[Arxiv](https://arxiv.org/abs/2010.12470)]
 1. Masahiro Nomura, Kenshi Abe.<br>
 **A Simple Heuristic for Bayesian Optimization with A Low Budget**.<br>
-[[Arxiv](https://arxiv.org/abs/1911.07790)].
+[[Arxiv](https://arxiv.org/abs/1911.07790)]
 
 ##### Internal Conference
 1. 阿部拳之, 蟻生開人, 坂本充生, 豊島健太郎, 岩崎敦.<br>
