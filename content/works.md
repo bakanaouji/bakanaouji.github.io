@@ -11,6 +11,12 @@ description = ""
 
 # Research
 ##### International Conference
+1. Riku Togashi, Kenshi Abe, Yuta Saito.<br>
+**Scalable and Provably Fair Exposure Control for Large-Scale Recommender Systems**<br>
+WWW 2024. [[paper](https://arxiv.org/abs/2209.04394)]
+1. Hakuei Yamada, Junpei Komiyama, Kenshi Abe, Atsushi Iwasaki.<br>
+**Learning Fair Division from Bandit Feedback**<br>
+AISTATS 2024. [[Paper](https://arxiv.org/abs/2311.09068)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Memory Asymmetry Creates Heteroclinic Orbits to Nash Equilibrium in Learning in Zero-Sum Games**<br>
 AAAI 2024. [[Paper](https://arxiv.org/abs/2305.13619)]
@@ -52,9 +58,6 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 1. Yuu Jinnai, Tetsuro Morimura, Ukyo Honda, Kaito Ariu, Kenshi Abe.<br>
 **Model-Based Minimum Bayes Risk Decoding**<br>
 [[Arxiv](https://arxiv.org/abs/2311.05263)]
-1. Hakuei Yamada, Junpei Komiyama, Kenshi Abe, Atsushi Iwasaki.<br>
-**Learning Fair Division from Bandit Feedback**<br>
-[[Arxiv](https://arxiv.org/abs/2311.09068)]
 1. Sho Shimoyama, Tetsuro Morimura, Kenshi Abe, Toda Takamichi, Yuta Tomomatsu, Masakazu Sugiyama, Asahi Hentona, Yuuki Azuma, Hirotaka Ninomiya.<br>
 **Why Guided Dialog Policy Learning performs well? Understanding the role of adversarial learning and its alternative**<br>
 [[Arxiv](https://arxiv.org/abs/2307.06721)]
@@ -68,7 +71,7 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 **A Practical Guide of Off-Policy Evaluation for Bandit Problems**<br>
 [[Arxiv](https://arxiv.org/abs/2010.12470)]
 1. Masahiro Nomura, Kenshi Abe.<br>
-**A Simple Heuristic for Bayesian Optimization with A Low Budget**.<br>
+**A Simple Heuristic for Bayesian Optimization with A Low Budget**<br>
 [[Arxiv](https://arxiv.org/abs/1911.07790)]
 
 ##### Internal Conference
