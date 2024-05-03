@@ -11,6 +11,12 @@ description = ""
 
 # Research
 ##### International Conference
+1. Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Atsushi Iwasaki.<br>
+**A Slingshot Approach to Learning in Monotone Games**<br>
+ICML 2024. [[paper](https://arxiv.org/abs/2305.16610)]
+1. Yuu Jinnai, Tetsuro Morimura, Ukyo Honda, Kaito Ariu, Kenshi Abe.<br>
+**Model-Based Minimum Bayes Risk Decoding**<br>
+ICML 2024. [[paper](https://arxiv.org/abs/2311.05263)]
 1. Riku Togashi, Kenshi Abe, Yuta Saito.<br>
 **Scalable and Provably Fair Exposure Control for Large-Scale Recommender Systems**<br>
 WWW 2024. [[paper](https://arxiv.org/abs/2209.04394)]
@@ -19,13 +25,13 @@ WWW 2024. [[paper](https://arxiv.org/abs/2209.04394)]
 AISTATS 2024. [[Paper](https://arxiv.org/abs/2311.09068)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Memory Asymmetry Creates Heteroclinic Orbits to Nash Equilibrium in Learning in Zero-Sum Games**<br>
-AAAI 2024. [[Paper](https://arxiv.org/abs/2305.13619)]
+AAAI 2024. [[paper](https://arxiv.org/abs/2305.13619)]
 1. Hiroaki Shiino, Kaito Ariu, Kenshi Abe, Togashi Riku.<br>
 **Exploration of Unranked Items in Safe Online Learning to Re-Rank**<br>
-SIGIR 2023 (Short Paper). [[Paper](https://arxiv.org/abs/2305.01202)]
+SIGIR 2023 (Short Paper). [[paper](https://arxiv.org/abs/2305.01202)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium**<br>
-IJCAI 2023. [[Paper](https://arxiv.org/abs/2302.01073)]
+IJCAI 2023. [[paper](https://arxiv.org/abs/2302.01073)]
 1. Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Kentaro Toyoshima, Atsushi Iwasaki.<br>
 **Last-Iterate Convergence with Full and Noisy Feedback in Two-Player Zero-Sum Games**<br>
 AISTATS 2023. [[paper](https://arxiv.org/abs/2208.09855)]
@@ -55,15 +61,21 @@ AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
 AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)]
 
 ##### Preprints
-1. Yuu Jinnai, Tetsuro Morimura, Ukyo Honda, Kaito Ariu, Kenshi Abe.<br>
-**Model-Based Minimum Bayes Risk Decoding**<br>
-[[Arxiv](https://arxiv.org/abs/2311.05263)]
+1. Tetsuro Morimura, Mitsuki Sakamoto, Yuu Jinnai, Kenshi Abe, Kaito Ariu.<br>
+**Filtered Direct Preference Optimization**<br>
+[[Arxiv](https://arxiv.org/abs/2404.13846)]
+1. Yuu Jinnai, Tetsuro Morimura, Kaito Ariu, Kenshi Abe.<br>
+**Regularized Best-of-N Sampling to Mitigate Reward Hacking for Language Model Alignment**<br>
+[[Arxiv](https://arxiv.org/abs/2404.01054)]
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Nash Equilibrium and Learning Dynamics in Three-Player Matching m-Action Games**<br>
+[[Arxiv](https://arxiv.org/abs/2402.10825)]
+1. Tsunehiko Tanaka, Kenshi Abe, Kaito Ariu, Tetsuro Morimura, Edgar Simo-Serra.<br>
+**Return-Aligned Decision Transformer**<br>
+[[Arxiv](https://arxiv.org/abs/2402.03923)]
 1. Sho Shimoyama, Tetsuro Morimura, Kenshi Abe, Toda Takamichi, Yuta Tomomatsu, Masakazu Sugiyama, Asahi Hentona, Yuuki Azuma, Hirotaka Ninomiya.<br>
 **Why Guided Dialog Policy Learning performs well? Understanding the role of adversarial learning and its alternative**<br>
 [[Arxiv](https://arxiv.org/abs/2307.06721)]
-1. Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Atsushi Iwasaki.<br>
-**A Slingshot Approach to Learning in Monotone Games**<br>
-[[Arxiv](https://arxiv.org/abs/2305.16610)]
 1. Tetsuro Morimura, Kazuhiro Ota, Kenshi Abe, Peinan Zhang.<br>
 **Policy Gradient Algorithms with Monte-Carlo Tree Search for Non-Markov Decision Processes**<br>
 [[Arxiv](https://arxiv.org/abs/2206.01011)]
