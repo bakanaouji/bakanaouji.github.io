@@ -17,6 +17,9 @@ ICML 2024. [[paper](https://arxiv.org/abs/2305.16610)]
 1. Yuu Jinnai, Tetsuro Morimura, Ukyo Honda, Kaito Ariu, Kenshi Abe.<br>
 **Model-Based Minimum Bayes Risk Decoding**<br>
 ICML 2024. [[paper](https://arxiv.org/abs/2311.05263)]
+1. Tetsuro Morimura, Kazuhiro Ota, Kenshi Abe, Peinan Zhang.<br>
+**Policy Gradient Algorithms with Monte-Carlo Tree Search for Non-Markov Decision Processes**<br>
+Reinforcement Learning Conference (RLC) 2024. [[paper](https://arxiv.org/abs/2206.01011)]
 1. Riku Togashi, Kenshi Abe, Yuta Saito.<br>
 **Scalable and Provably Fair Exposure Control for Large-Scale Recommender Systems**<br>
 WWW 2024. [[paper](https://arxiv.org/abs/2209.04394)]
@@ -76,9 +79,6 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 1. Sho Shimoyama, Tetsuro Morimura, Kenshi Abe, Toda Takamichi, Yuta Tomomatsu, Masakazu Sugiyama, Asahi Hentona, Yuuki Azuma, Hirotaka Ninomiya.<br>
 **Why Guided Dialog Policy Learning performs well? Understanding the role of adversarial learning and its alternative**<br>
 [[Arxiv](https://arxiv.org/abs/2307.06721)]
-1. Tetsuro Morimura, Kazuhiro Ota, Kenshi Abe, Peinan Zhang.<br>
-**Policy Gradient Algorithms with Monte-Carlo Tree Search for Non-Markov Decision Processes**<br>
-[[Arxiv](https://arxiv.org/abs/2206.01011)]
 1. Masahiro Kato, Kenshi Abe, Kaito Ariu, Shota Yasui.<br>
 **A Practical Guide of Off-Policy Evaluation for Bandit Problems**<br>
 [[Arxiv](https://arxiv.org/abs/2010.12470)]
