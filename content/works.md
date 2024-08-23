@@ -69,6 +69,12 @@ AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
 **Online Learning for Bidding Agent in First Price Auction**<br>
 AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)]
 
+
+##### Journal
+1. 阿部拳之, 豊島健太郎, 坂本充生, 岩崎敦.<br>
+二人零和ゲームにおける突然変異駆動型正則化先導者追従法の終極反復収束<br>
+情報処理学会論文誌. [[paper](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=234275&item_no=1)]
+
 ##### Preprints
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Synchronization behind Learning in Periodic Zero-Sum Games Triggers Divergence from Nash equilibrium**<br>
@@ -92,7 +98,52 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 **A Simple Heuristic for Bayesian Optimization with A Low Budget**<br>
 [[Arxiv](https://arxiv.org/abs/1911.07790)]
 
-##### Internal Conference
+##### Domestic Conference
+1. 坂本充生, 阿部拳之, 蟻生開人, 岩崎敦.<br>
+RLHFにおける分布シフトの評価.<br>
+[第38回人工知能学会全国大会 (JSAI2024)](https://www.ai-gakkai.or.jp/jsai2024/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_1B3GS202/_article/-char/ja/)]
+1. 石橋宙希, 島野雄貴, 阿部拳之, 岩崎敦.<br>
+二人零和マルコフゲームにおける状態抽象化法に関する研究.<br>
+[情報処理学会 第86回全国大会](https://www.ipsj.or.jp/event/taikai/86/) [[paper](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=235852&item_no=1&page_id=13&block_id=8)].
+1. 板垣圭知, 小宮山純平, 阿部拳之, 岩崎敦.<br>
+研修医配属における地域間格差を調整する制約のモンテカルロ木探索.<br>
+[情報処理学会 第86回全国大会](https://www.ipsj.or.jp/event/taikai/86/) [[paper](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=235850&item_no=1&page_id=13&block_id=8)].
+1. 阿部拳之, 蟻生開人, 坂本充生, 岩崎敦.<br>
+A Slingshot Approach to Learning in Monotone Games.<br>
+[第25回情報論的学習理論ワークショップ (IBIS2023)](https://ibisml.org/ibis2023/).
+1. 坂本充生, 阿部拳之, 蟻生開人, 岩崎敦.<br>
+Zero-Variance Perturbation Utiity for Extensive-Form Games.<br>
+[第25回情報論的学習理論ワークショップ (IBIS2023)](https://ibisml.org/ibis2023/).
+1. 藤本悠雅, 蟻生開人, 阿部拳之.<br>
+Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium.<br>
+[第25回情報論的学習理論ワークショップ (IBIS2023)](https://ibisml.org/ibis2023/).
+1. 山田博瑛, 小宮山純平, 阿部拳之, 岩崎敦.<br>
+オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究.<br>
+[第25回情報論的学習理論ワークショップ (IBIS2023)](https://ibisml.org/ibis2023/).
+1. 山田博瑛, 小宮山純平, 阿部拳之, 岩崎敦.<br>
+オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究.<br>
+[第22回情報科学技術フォーラム (FIT 2023)](https://www.ipsj.or.jp/event/fit/fit2023/abstract/data/html/program/f.html).
+1. 板垣圭知, 小宮山純平, 阿部拳之, 岩崎敦.<br>
+研修医配属における地域間格差を調整するための制約のモンテカルロ木探索.<br>
+[第22回情報科学技術フォーラム (FIT 2023)](https://www.ipsj.or.jp/event/fit/fit2023/abstract/data/html/program/f.html).
+1. 戸田隆道, 森村哲郎, 阿部拳之.<br>
+タスク指向対話システムの方策学習への Decision Transformerの適用.<br>
+[言語処理学会 第29回年次大会 (NLP2023)](https://www.anlp.jp/nlp2023/) [[paper](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q12-6.pdf)].
+1. 下山翔, 森村哲郎, 阿部拳之.<br>
+タスク指向対話における強化学習を用いた対話方策学習への敵対的学習の役割の解明.<br>
+[言語処理学会 第29回年次大会 (NLP2023)](https://www.anlp.jp/nlp2023/) [[paper](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q12-5.pdf)].
+1. 山田博瑛, 小宮山純平, 阿部拳之, 岩崎敦.<br>
+オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究.<br>
+[情報処理学会 第85回全国大会](https://www.ipsj.or.jp/event/taikai/85/) [[paper](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=230043&item_no=1&page_id=13&block_id=8)].
+1. 板垣圭知, 小宮山純平, 阿部拳之, 岩崎敦.<br>
+研修医配属における地域間格差を調整するための制約のモンテカルロ木探索.<br>
+[情報処理学会 第85回全国大会](https://www.ipsj.or.jp/event/taikai/85/) [[paper](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=230050&item_no=1)].
+1. 坂本充生, 阿部拳之, 蟻生開人, 岩崎敦.<br>
+二人零和展開型ゲームにおける突然変異付き乗算型重み更新に関する研究.<br>
+[第37回人工知能学会全国大会 (JSAI2023)](https://www.ai-gakkai.or.jp/jsai2023/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2T4GS502/_article/-char/ja/)]
+1. 山田博瑛, 小宮山純平, 阿部拳之, 岩崎敦.<br>
+オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究.<br>
+[第37回人工知能学会全国大会 (JSAI2023)](https://www.ai-gakkai.or.jp/jsai2023/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2T4GS503/_article/-char/ja/)]
 1. 阿部拳之, 蟻生開人, 坂本充生, 豊島健太郎, 岩崎敦.<br>
 Last-Iterate Convergence with Full- and Noisy-Information Feedback in Two-Player Zero-Sum Games.<br>
 [第24回情報論的学習理論ワークショップ (IBIS2022)](https://ibisml.org/ibis2022/).
@@ -107,7 +158,7 @@ Thresholded Lasso Bandit.<br>
 [第24回情報論的学習理論ワークショップ (IBIS2022)](https://ibisml.org/ibis2022/).
 1. 豊島健太郎, 坂本充生, 阿部拳之, 岩崎敦.<br>
 二人零和ゲームにおける突然変異駆動型Follow-The-Regularized-Leaderの終極反復収束.<br>
-[第21回情報科学技術フォーラム (FIT 2022)](https://onsite.gakkai-web.net/fit2022/abstract/data/html/program/f.html).
+[第21回情報科学技術フォーラム (FIT 2022)](https://www.ipsj.or.jp/event/fit/fit2022/FIT2022_program/data/html/program/f.html).
 1. 坂本充生, 豊島健太郎, 阿部拳之, 岩崎敦.<br>
 二人零和ゲームにおける突然変異付きレプリケータダイナミクスを用いた学習アルゴリズムに関する研究.<br>
 [第36回人工知能学会全国大会 (JSAI2022)](https://www.ai-gakkai.or.jp/jsai2022/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_2O6GS502/_pdf/-char/ja)]
@@ -133,12 +184,6 @@ Thresholded Lasso Bandit.<br>
 二人零和マルコフゲームにおけるオフ方策評価のためのQ学習.<br>
 [第25回ゲームプログラミングワークショップ (GPW 2020)](https://www.logos.ic.i.u-tokyo.ac.jp/~tsuruoka/sig-gi/gpw/2020/index.html). [[paper]](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=207671&item_no=1&page_id=13&block_id=8)
 1. 阿部拳之.<br>
-広告配信オークションにおける入札戦略.<br>
-[第19回情報科学技術フォーラム (FIT 2020)](https://www.ipsj.or.jp/event/fit/fit2020/splist-AITECHTALK.html).
-1. 阿部拳之.<br>
-多人数不完全情報ゲームにおけるAI開発.<br>
-[日本経済学会 2020年度春季大会](https://www.jeameetings.org/2020s/index.html).
-1. 阿部拳之.<br>
 花札におけるナッシュ均衡戦略の計算.<br>
 [第22回情報論的学習理論ワークショップ (IBIS2019)](http://ibisml.org/ibis2019/).
 1. 野村将寛, 阿部拳之.<br>
@@ -158,15 +203,20 @@ Black-box最適化に対するBudgetを考慮した探索空間の初期化.<br>
 [第54回システム工学部会研究会 (2016年)](https://www.sice.or.jp/system/system_ken54.html).
 
 # Presentations
-* [Learning in games: ゲーム理論とオンライン学習](https://speakerdeck.com/bakanaouji/learning-in-games)
-* [二人零和マルコフゲームにおけるオフ方策評価](https://www.slideshare.net/KenshiAbe/ss-248654457)
-* [多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~](https://www.slideshare.net/KenshiAbe/ai-165308197)
-* 論文勉強会
-    * [Deep Counterfactual Regret Minimization](https://www.slideshare.net/KenshiAbe/deep-counterfactual-regret-minimization)
-    * [Competitive Multi-agent Inverse Reinforcement Learning with Sub-optimal Demonstrations](https://www.slideshare.net/KenshiAbe/competitive-multiagent-inverse-reinforcement-learning-with-suboptimal-demonstrations-153126367)
-    * [Deep Q-learning from Demonstrations](https://www.slideshare.net/KenshiAbe/deep-qlearning-from-demonstrations)
-    * [Multi-agent Reinforcement Learning in Sequential Social Dilemmas](https://www.slideshare.net/KenshiAbe/multiagent-reinforcement-learning-in-sequential-social-dilemmas-144749583)
-    * [Evolved policy gradients](https://www.slideshare.net/KenshiAbe/evolved-policy-gradients)
+1. **Adaptively Perturbed Mirror Descent for Learning in Games**<br>
+[ICML 2024 著者発表会](https://cyberagent.connpass.com/event/320641/) (2024/7/10).
+1. 機械学習が紡ぐゲーム理論のフロンティア<br>
+[第38回人工知能学会全国大会 (JSAI 2024) 企画セッション](https://www.ai-gakkai.or.jp/jsai2024/ks#ks-1) (2024/5/29).
+1. [Learning in games: ゲーム理論とオンライン学習](https://speakerdeck.com/bakanaouji/learning-in-games)<br>
+[Algorithmic Learning & Optimization 勉強会#1](https://cyberagent.connpass.com/event/286764/) (2023/6/24).
+1. [二人零和マルコフゲームにおけるオフ方策評価](https://www.slideshare.net/KenshiAbe/ss-248654457)<br>
+[AAMAS2021 著者発表会](https://connpass.com/event/212654/) (2021/5/27).
+1. 広告配信オークションにおける入札戦略<br>
+[第19回情報科学技術フォーラム (FIT 2020)](https://www.ipsj.or.jp/event/fit/fit2020/splist-AITECHTALK.html) (2020/9/1).
+1. 多人数不完全情報ゲームにおけるAI開発<br>
+[日本経済学会 2020年度春季大会](https://www.jeameetings.org/2020s/index.html) (2020/5/30).
+1. [多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~](https://www.slideshare.net/KenshiAbe/ai-165308197)<br>
+[第43回強化学習アーキテクチャ勉強会](https://rlarch.connpass.com/event/143128/) (2019/8/20).
 
 # Blog Posts
 * [【ゲーム理論】展開型ゲームのナッシュ均衡を計算しよう：Counterfactual Regret Minimizationの解説](https://qiita.com/bakanaouji/items/f70d7948931c96d94ef8)
