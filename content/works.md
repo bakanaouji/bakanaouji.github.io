@@ -11,6 +11,9 @@ description = ""
 
 # Research
 ##### International Conference
+1. Tetsuro Morimura, Mitsuki Sakamoto, Yuu Jinnai, Kenshi Abe, Kaito Ariu.<br>
+**Filtered Direct Preference Optimization**<br>
+EMNLP 2024. [[paper](https://arxiv.org/abs/2404.13846)]
 1. Kenshi Abe, Kaito Ariu, Mitsuki Sakamoto, Atsushi Iwasaki.<br>
 **Adaptively Perturbed Mirror Descent for Learning in Games**<br>
 ICML 2024. [[paper](https://arxiv.org/abs/2305.16610)]
@@ -76,6 +79,9 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 情報処理学会論文誌. [[paper](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=234275&item_no=1)]
 
 ##### Preprints
+1. Kenshi Abe, Mitsuki Sakamoto, Kaito Ariu, Atsushi Iwasaki.<br>
+**Boosting Perturbed Gradient Ascent for Last-Iterate Convergence in Games**<br>
+[[Arxiv](https://arxiv.org/abs/2410.02388)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Synchronization behind Learning in Periodic Zero-Sum Games Triggers Divergence from Nash equilibrium**<br>
 [[Arxiv](https://arxiv.org/abs/2408.10595)]
