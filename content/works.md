@@ -11,6 +11,21 @@ description = ""
 
 # Research
 ##### International Conference
+1. Kenshi Abe, Mitsuki Sakamoto, Kaito Ariu, Atsushi Iwasaki.<br>
+**Boosting Perturbed Gradient Ascent for Last-Iterate Convergence in Games**<br>
+ICLR 2025. [[paper](https://arxiv.org/abs/2410.02388)]
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Global Behavior of Learning Dynamics in Zero-Sum Games with Memory Asymmetry**<br>
+AAMAS 2025 (Full paper). [[paper](https://arxiv.org/abs/2405.14546)]
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Nash Equilibrium and Learning Dynamics in Three-Player Matching m-Action Games**<br>
+AAMAS 2025 (Extended abstract). [[paper](https://arxiv.org/abs/2402.10825)]
+1. Hiroki Ishibashi, Kenshi Abe, Atsushi Iwasaki.<br>
+**Approximate State Abstraction for Markov Games**<br>
+AAAI 2025. [[paper](https://arxiv.org/abs/2412.15877)]
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Synchronization behind Learning in Periodic Zero-Sum Games Triggers Divergence from Nash equilibrium**<br>
+AAAI 2025. [[paper](https://arxiv.org/abs/2408.10595)]
 1. Tetsuro Morimura, Mitsuki Sakamoto, Yuu Jinnai, Kenshi Abe, Kaito Ariu.<br>
 **Filtered Direct Preference Optimization**<br>
 EMNLP 2024. [[paper](https://arxiv.org/abs/2404.13846)]
@@ -79,18 +94,6 @@ AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.
 情報処理学会論文誌. [[paper](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=234275&item_no=1)]
 
 ##### Preprints
-1. Kenshi Abe, Mitsuki Sakamoto, Kaito Ariu, Atsushi Iwasaki.<br>
-**Boosting Perturbed Gradient Ascent for Last-Iterate Convergence in Games**<br>
-[[Arxiv](https://arxiv.org/abs/2410.02388)]
-1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
-**Synchronization behind Learning in Periodic Zero-Sum Games Triggers Divergence from Nash equilibrium**<br>
-[[Arxiv](https://arxiv.org/abs/2408.10595)]
-1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
-**Global Behavior of Learning Dynamics in Zero-Sum Games with Memory Asymmetry**<br>
-[[Arxiv](https://arxiv.org/abs/2405.14546)]
-1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
-**Nash Equilibrium and Learning Dynamics in Three-Player Matching m-Action Games**<br>
-[[Arxiv](https://arxiv.org/abs/2402.10825)]
 1. Tsunehiko Tanaka, Kenshi Abe, Kaito Ariu, Tetsuro Morimura, Edgar Simo-Serra.<br>
 **Return-Aligned Decision Transformer**<br>
 [[Arxiv](https://arxiv.org/abs/2402.03923)]
