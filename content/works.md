@@ -11,9 +11,15 @@ description = ""
 
 # Research
 ##### International Conference
+1. Daiki Katsuragawa, Yusuke Kaneko, Kaito Ariu, Kenshi Abe.<br>
+**Efficient Creative Selection in Online Advertising using Top-Two Thompson Sampling**<br>
+WSDM 2025 (Industry day talks). [[paper](https://www.researchgate.net/publication/388836603_Efficient_Creative_Selection_in_Online_Advertising_using_Top-Two_Thompson_Sampling)]
 1. Kenshi Abe, Mitsuki Sakamoto, Kaito Ariu, Atsushi Iwasaki.<br>
 **Boosting Perturbed Gradient Ascent for Last-Iterate Convergence in Games**<br>
 ICLR 2025. [[paper](https://arxiv.org/abs/2410.02388)]
+1. Yuu Jinnai, Tetsuro Morimura, Kaito Ariu, Kenshi Abe.<br>
+**Regularized Best-of-N Sampling with Minimum Bayes Risk Objective for Language Model Alignment**<br>
+NAACL 2025. [[paper](https://arxiv.org/abs/2404.01054)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Global Behavior of Learning Dynamics in Zero-Sum Games with Memory Asymmetry**<br>
 AAMAS 2025 (Full paper). [[paper](https://arxiv.org/abs/2405.14546)]
