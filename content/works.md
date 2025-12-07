@@ -11,6 +11,12 @@ description = ""
 
 # Research
 ##### International Conference
+1. Noboru Isobe, Kenshi Abe, Kaito Ariu.<br>
+**Last Iterate Convergence in Monotone Mean Field Games**<br>
+NeurIPS 2025. [[paper](https://arxiv.org/abs/2410.05127)]
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Learning from Delayed Feedback in Games via Extra Prediction**<br>
+NeurIPS 2025. [[paper](https://arxiv.org/abs/2509.22426)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Global Behavior of Learning Dynamics in Zero-Sum Games with Memory Asymmetry**<br>
 AAMAS 2025 (Full paper). [[paper](https://arxiv.org/abs/2405.14546)]
@@ -44,12 +50,6 @@ ICML 2024. [[paper](https://arxiv.org/abs/2305.16610)]
 1. Yuu Jinnai, Tetsuro Morimura, Ukyo Honda, Kaito Ariu, Kenshi Abe.<br>
 **Model-Based Minimum Bayes Risk Decoding**<br>
 ICML 2024. [[paper](https://arxiv.org/abs/2311.05263)]
-1. Yuu Jinnai, Tetsuro Morimura, Kaito Ariu, Kenshi Abe.<br>
-**Regularized Best-of-N Sampling to Mitigate Reward Hacking for Language Model Alignment**<br>
-ICML 2024 Workshop on Models of Human Feedback for AI Alignment. [[paper](https://arxiv.org/abs/2404.01054)]
-1. Tetsuro Morimura, Mitsuki Sakamoto, Yuu Jinnai, Kenshi Abe, Kaito Ariu.<br>
-**Filtered Direct Preference Optimization**<br>
-ICML 2024 Workshop on Models of Human Feedback for AI Alignment. [[paper](https://arxiv.org/abs/2404.13846)]
 1. Riku Togashi, Kenshi Abe, Yuta Saito.<br>
 **Scalable and Provably Fair Exposure Control for Large-Scale Recommender Systems**<br>
 WWW 2024. [[paper](https://arxiv.org/abs/2209.04394)]
@@ -68,9 +68,6 @@ AISTATS 2023. [[paper](https://arxiv.org/abs/2208.09855)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium**<br>
 IJCAI 2023. [[paper](https://arxiv.org/abs/2302.01073)]
-1. Riku Togashi, Kenshi Abe.<br>
-**Fair Matrix Factorisation for Large-Scale Recommender Systems**<br>
-RecSys 2022 FAccTRec Workshop. [[paper](https://arxiv.org/abs/2209.04394)]
 1. Kenshi Abe, Mitsuki Sakamoto, Atsushi Iwasaki.<br>
 **Mutation-Driven Follow the Regularized Leader for Last-Iterate Convergence in Zero-Sum Games**<br>
 UAI 2022. [[paper](https://arxiv.org/abs/2206.09254)]
@@ -80,15 +77,30 @@ ICML 2022. [[paper](https://arxiv.org/abs/2010.11994)]
 1. Kenshi Abe, Junpei Komiyama, Atsushi Iwasaki.<br>
 **Anytime Capacity Expansion in Medical Residency Match by Monte Carlo Tree Search**<br>
 IJCAI 2022. [[paper](https://arxiv.org/abs/2202.06570)]
+1. Kenshi Abe, Yusuke Kaneko.<br>
+**Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games**<br>
+AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
+
+
+##### International Workshop
+1. Kaito Ariu, Po-An Wang, Alexandre Proutiere, Kenshi Abe.<br>
+**Policy Testing in Markov Decision Processes**<br>
+NeurIPS 2025 Workshop on Aligning Reinforcement Learning Experimentalists and Theorists. [[paper](https://arxiv.org/abs/2505.15342)]
+1. Yuu Jinnai, Tetsuro Morimura, Kaito Ariu, Kenshi Abe.<br>
+**Regularized Best-of-N Sampling to Mitigate Reward Hacking for Language Model Alignment**<br>
+ICML 2024 Workshop on Models of Human Feedback for AI Alignment. [[paper](https://arxiv.org/abs/2404.01054)]
+1. Tetsuro Morimura, Mitsuki Sakamoto, Yuu Jinnai, Kenshi Abe, Kaito Ariu.<br>
+**Filtered Direct Preference Optimization**<br>
+ICML 2024 Workshop on Models of Human Feedback for AI Alignment. [[paper](https://arxiv.org/abs/2404.13846)]
+1. Riku Togashi, Kenshi Abe.<br>
+**Fair Matrix Factorisation for Large-Scale Recommender Systems**<br>
+RecSys 2022 FAccTRec Workshop. [[paper](https://arxiv.org/abs/2209.04394)]
 1. Yuki Shimano, Kenshi Abe, Atsushi Iwasaki, Kazunori Ohkawara.<br>
 **Computing Strategies of American Football via Counterfactual Regret Minimization**<br>
 AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation). [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI22-RLG_paper_23.pdf)]
 1. Masahiro Kato, Kei Nakagawa, Kenshi Abe, Tetsuro Morimura.<br>
 **Direct Expected Quadratic Utility Maximization for Mean-Variance Controlled Reinforcement Learning**<br>
 NeurIPS 2021 Workshop on Deep Reinforcement Learning. [[paper](https://arxiv.org/abs/2010.01404)]
-1. Kenshi Abe, Yusuke Kaneko.<br>
-**Off-Policy Exploitability-Evaluation in Two-Player Zero-Sum Markov Games**<br>
-AAMAS 2021 (Full Paper). [[paper](https://arxiv.org/abs/2007.02141)]
 1. Gota Morishita<sup>\*</sup>, Kenshi Abe<sup>\*</sup>, Kazuhisa Ogawa, Yusuke Kaneko (<sup>\*</sup>equal contribution).<br>
 **Online Learning for Bidding Agent in First Price Auction**<br>
 AAAI 2020 Workshop on Reinforcement Learning in Games. [[paper](http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf)]
@@ -105,22 +117,17 @@ Transactions on Machine Learning Research. [[paper](https://arxiv.org/abs/2502.1
 **二人零和ゲームにおける突然変異駆動型正則化先導者追従法の終極反復収束**<br>
 情報処理学会論文誌. [[paper](https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=234275&item_no=1)]
 
+
 ##### Preprints
 1. Kenshi Abe, Mitsuki Sakamoto, Kaito Ariu, Atsushi Iwasaki.<br>
 **Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization**<br>
 [[Arxiv](https://arxiv.org/abs/2506.05747)]
-1. Kaito Ariu, Po-An Wang, Alexandre Proutiere, Kenshi Abe.<br>
-**Policy Testing in Markov Decision Processes**<br>
-[[Arxiv](https://arxiv.org/abs/2505.15342)]
 1. Wataru Masaka, Mitsuki Sakamoto, Kenshi Abe, Kaito Ariu, Tuomas Sandholm, Atsushi Iwasaki.<br>
 **The Power of Perturbation under Sampling in Solving Extensive-Form Games**<br>
 [[Arxiv](https://arxiv.org/abs/2501.16600)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Time-Varyingness in Auction Breaks Revenue Equivalence**<br>
 [[Arxiv](https://arxiv.org/abs/2410.12306)]
-1. Noboru Isobe, Kenshi Abe, Kaito Ariu.<br>
-**Last Iterate Convergence in Monotone Mean Field Games**<br>
-[[Arxiv](https://arxiv.org/abs/2410.05127)]
 1. Sho Shimoyama, Tetsuro Morimura, Kenshi Abe, Toda Takamichi, Yuta Tomomatsu, Masakazu Sugiyama, Asahi Hentona, Yuuki Azuma, Hirotaka Ninomiya.<br>
 **Why Guided Dialog Policy Learning performs well? Understanding the role of adversarial learning and its alternative**<br>
 [[Arxiv](https://arxiv.org/abs/2307.06721)]
@@ -130,6 +137,7 @@ Transactions on Machine Learning Research. [[paper](https://arxiv.org/abs/2502.1
 1. Masahiro Nomura, Kenshi Abe.<br>
 **A Simple Heuristic for Bayesian Optimization with A Low Budget**<br>
 [[Arxiv](https://arxiv.org/abs/1911.07790)]
+
 
 ##### Domestic Conference
 1. 眞坂 航宙, 坂本 充生, 阿部 拳之, 蟻生 開人, 岩崎 敦.<br>
@@ -265,6 +273,7 @@ Black-box最適化に対するBudgetを考慮した探索空間の初期化.<br>
 自然進化戦略を用いた事例ベース政策最適化.<br>
 [第54回システム工学部会研究会 (2016年)](https://www.sice.or.jp/system/system_ken54.html).
 
+
 # Presentations
 1. [学習理論におけるゲーム理論のフロンティア](https://speakerdeck.com/bakanaouji/bu-wan-quan-qing-bao-kemunojun-heng-xue-xi)<br>
 [第39回人工知能学会全国大会 (JSAI 2025) 企画セッション](https://www.ai-gakkai.or.jp/jsai2025/ks#ks-12) (2025/5/28).
@@ -282,6 +291,7 @@ Black-box最適化に対するBudgetを考慮した探索空間の初期化.<br>
 [日本経済学会 2020年度春季大会](https://www.jeameetings.org/2020s/index.html) (2020/5/30).
 1. [多人数不完全情報ゲームにおけるAI ~ポーカーと麻雀を例として~](https://www.slideshare.net/KenshiAbe/ai-165308197)<br>
 [第43回強化学習アーキテクチャ勉強会](https://rlarch.connpass.com/event/143128/) (2019/8/20).
+
 
 # Blog Posts
 * [【ゲーム理論】展開型ゲームのナッシュ均衡を計算しよう：Counterfactual Regret Minimizationの解説](https://qiita.com/bakanaouji/items/f70d7948931c96d94ef8)
