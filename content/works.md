@@ -11,6 +11,9 @@ description = ""
 
 # Research
 ##### International Conference
+1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
+**Time-Varyingness in Auction Breaks Revenue Equivalence**<br>
+AAMAS 2026 (Extended abstract). [[paper](https://arxiv.org/abs/2410.12306)]
 1. Noboru Isobe, Kenshi Abe, Kaito Ariu.<br>
 **Last Iterate Convergence in Monotone Mean Field Games**<br>
 NeurIPS 2025. [[paper](https://arxiv.org/abs/2410.05127)]
@@ -125,9 +128,6 @@ Transactions on Machine Learning Research. [[paper](https://arxiv.org/abs/2502.1
 1. Wataru Masaka, Mitsuki Sakamoto, Kenshi Abe, Kaito Ariu, Tuomas Sandholm, Atsushi Iwasaki.<br>
 **The Power of Perturbation under Sampling in Solving Extensive-Form Games**<br>
 [[Arxiv](https://arxiv.org/abs/2501.16600)]
-1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
-**Time-Varyingness in Auction Breaks Revenue Equivalence**<br>
-[[Arxiv](https://arxiv.org/abs/2410.12306)]
 1. Sho Shimoyama, Tetsuro Morimura, Kenshi Abe, Toda Takamichi, Yuta Tomomatsu, Masakazu Sugiyama, Asahi Hentona, Yuuki Azuma, Hirotaka Ninomiya.<br>
 **Why Guided Dialog Policy Learning performs well? Understanding the role of adversarial learning and its alternative**<br>
 [[Arxiv](https://arxiv.org/abs/2307.06721)]
