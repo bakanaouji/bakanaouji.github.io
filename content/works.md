@@ -11,6 +11,9 @@ description = ""
 
 # Research
 ##### International Conference
+1. Kaito Ariu, Po-An Wang, Alexandre Proutiere, Kenshi Abe.<br>
+**Policy Testing in Markov Decision Processes**<br>
+AISTATS 2026. [[paper](https://arxiv.org/abs/2505.15342)]
 1. Yuma Fujimoto, Kaito Ariu, Kenshi Abe.<br>
 **Time-Varyingness in Auction Breaks Revenue Equivalence**<br>
 AAMAS 2026 (Extended abstract). [[paper](https://arxiv.org/abs/2410.12306)]
