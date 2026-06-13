@@ -11,6 +11,9 @@ description = ""
 
 # Research
 ##### International Conference
+1. Kenshi Abe, Mitsuki Sakamoto, Kaito Ariu, Atsushi Iwasaki.<br>
+**Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization**<br>
+ICML 2026. [[paper](https://arxiv.org/abs/2506.05747)]
 1. Kaito Ariu, Po-An Wang, Alexandre Proutiere, Kenshi Abe.<br>
 **Policy Testing in Markov Decision Processes**<br>
 AISTATS 2026. [[paper](https://arxiv.org/abs/2505.15342)]
