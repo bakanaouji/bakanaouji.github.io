@@ -143,6 +143,36 @@ Transactions on Machine Learning Research. [[paper](https://arxiv.org/abs/2502.1
 
 
 ##### Domestic Conference
+1. 阿部 拳之, 坂本 充生, 蟻生 開人, 岩崎 敦.<br>
+Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization.<br>
+[第28回情報論的学習理論ワークショップ (IBIS 2025)](https://ibisml.org/ibis2025/).
+1. 阿部 拳之, 坂本 充生, 眞坂 航宙, 蟻生 開人, 岩崎 敦.<br>
+Unified Convergence Guarantees for Learning with General Payoff Perturbations in Extensive-Form Games.<br>
+[第28回情報論的学習理論ワークショップ (IBIS 2025)](https://ibisml.org/ibis2025/).
+1. 藤本 悠雅, 阿部 拳之, 蟻生 開人.<br>
+ゲームにおける時間遅れフィードバックからの学習.<br>
+[第28回情報論的学習理論ワークショップ (IBIS 2025)](https://ibisml.org/ibis2025/).
+1. 藤本 悠雅, 蟻生 開人, 阿部 拳之.<br>
+オークション環境の時間変動による収入同値の破れ.<br>
+[第28回情報論的学習理論ワークショップ (IBIS 2025)](https://ibisml.org/ibis2025/).
+1. 暮石 航大, 蟻生 開人, 阿部 拳之.<br>
+共通トレンドを考慮した加法報酬モデルに基づく非定常バンディットアルゴリズム.<br>
+[第28回情報論的学習理論ワークショップ (IBIS 2025)](https://ibisml.org/ibis2025/).
+1. Po-An Wang, Kaito Ariu, Alexandre Proutiere, Kenshi Abe.<br>
+Policy Testing in Markov Decision Processes.<br>
+[第28回情報論的学習理論ワークショップ (IBIS 2025)](https://ibisml.org/ibis2025/).
+1. 眞坂 航宙, 坂本 充生, 阿部 拳之, 蟻生 開人, 岩崎 敦.<br>
+不完全情報展開型ゲームの求解における利得摂動に関する研究.<br>
+[第24回情報科学技術フォーラム (FIT 2025)](https://www.ipsj.or.jp/event/fit/fit2025/abstract/data/html/program/f.html).
+1. 藤本 悠雅, 蟻生 開人, 阿部 拳之.<br>
+周期的なゼロ和ゲームにおけるマルチエージェント学習.<br>
+[第39回人工知能学会全国大会 (JSAI 2025)](https://www.ai-gakkai.or.jp/jsai2025/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1L3OS3403/_article/-char/ja/)]
+1. 坂本 充生, 陣内 佑, 森村 哲郎, 阿部 拳之, 蟻生 開人.<br>
+日本語大規模言語モデルの自己学習によるアライメントの実験評価.<br>
+[第39回人工知能学会全国大会 (JSAI 2025)](https://www.ai-gakkai.or.jp/jsai2025/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1L3OS3401/_article/-char/ja/)]
+1. 眞坂 航宙, 坂本 充生, 阿部 拳之, 蟻生 開人, 岩崎 敦.<br>
+不完全情報展開型ゲームの求解における利得摂動に関する研究.<br>
+[第39回人工知能学会全国大会 (JSAI 2025)](https://www.ai-gakkai.or.jp/jsai2025/). [[paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_3J4GS501/_article/-char/ja/)]
 1. 眞坂 航宙, 坂本 充生, 阿部 拳之, 蟻生 開人, 岩崎 敦.<br>
 不完全情報展開型ゲームの求解における利得摂動に関する研究.<br>
 [情報処理学会 第87回全国大会](https://www.ipsj.or.jp/event/taikai/87/index.html).
@@ -278,12 +308,14 @@ Black-box最適化に対するBudgetを考慮した探索空間の初期化.<br>
 
 
 # Presentations
-1. [学習理論におけるゲーム理論のフロンティア](https://speakerdeck.com/bakanaouji/bu-wan-quan-qing-bao-kemunojun-heng-xue-xi)<br>
-[第39回人工知能学会全国大会 (JSAI 2025) 企画セッション](https://www.ai-gakkai.or.jp/jsai2025/ks#ks-12) (2025/5/28).
+1. [不完全情報ゲームAIを支えるゲーム理論的技術の進展](https://speakerdeck.com/bakanaouji/bu-wan-quan-qing-bao-gemuaiwozhi-erugemuli-lun-de-ji-shu-nojin-zhan)<br>
+[第40回人工知能学会全国大会 (JSAI 2026) 企画セッション「学習理論におけるゲーム理論のフロンティア」](https://conf.ai-gakkai.or.jp/jsai2026/ks/#ks-6) (2026/6/13).
+1. [不完全情報ゲームの均衡学習](https://speakerdeck.com/bakanaouji/bu-wan-quan-qing-bao-kemunojun-heng-xue-xi)<br>
+[第39回人工知能学会全国大会 (JSAI 2025) 企画セッション「学習理論におけるゲーム理論のフロンティア」](https://www.ai-gakkai.or.jp/jsai2025/ks#ks-12) (2025/5/28).
 1. **Adaptively Perturbed Mirror Descent for Learning in Games**<br>
 [ICML 2024 著者発表会](https://cyberagent.connpass.com/event/320641/) (2024/7/10).
-1. 機械学習が紡ぐゲーム理論のフロンティア<br>
-[第38回人工知能学会全国大会 (JSAI 2024) 企画セッション](https://www.ai-gakkai.or.jp/jsai2024/ks#ks-1) (2024/5/29).
+1. ゲーム理論とオンライン学習<br>
+[第38回人工知能学会全国大会 (JSAI 2024) 企画セッション「機械学習が紡ぐゲーム理論のフロンティア」](https://www.ai-gakkai.or.jp/jsai2024/ks#ks-1) (2024/5/29).
 1. [Learning in games: ゲーム理論とオンライン学習](https://speakerdeck.com/bakanaouji/learning-in-games)<br>
 [Algorithmic Learning & Optimization 勉強会#1](https://cyberagent.connpass.com/event/286764/) (2023/6/24).
 1. [二人零和マルコフゲームにおけるオフ方策評価](https://www.slideshare.net/KenshiAbe/ss-248654457)<br>
