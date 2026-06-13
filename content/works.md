@@ -125,9 +125,6 @@ Transactions on Machine Learning Research. [[paper](https://arxiv.org/abs/2502.1
 
 
 ##### Preprints
-1. Kenshi Abe, Mitsuki Sakamoto, Kaito Ariu, Atsushi Iwasaki.<br>
-**Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization**<br>
-[[Arxiv](https://arxiv.org/abs/2506.05747)]
 1. Wataru Masaka, Mitsuki Sakamoto, Kenshi Abe, Kaito Ariu, Tuomas Sandholm, Atsushi Iwasaki.<br>
 **The Power of Perturbation under Sampling in Solving Extensive-Form Games**<br>
 [[Arxiv](https://arxiv.org/abs/2501.16600)]
