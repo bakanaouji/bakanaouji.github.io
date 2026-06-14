@@ -1,0 +1,35 @@
+{{- $p := . -}}
+{{- $venue := .Params.venue | default "" -}}
+{{- $vshort := .Params.venue_short | default "" -}}
+{{- $status := .Params.status | default "" -}}
+{{- $type := .Params.type | default "" -}}
+{{- $year := .Params.year | default "" -}}
+{{- $authors := .Params.authors | default slice -}}
+{{- $topics := .Params.topics | default slice -}}
+{{- $projects := .Params.projects | default slice -}}
+{{- $projectNames := .Params.project_names | default slice -}}
+{{- $links := .Params.links | default slice -}}
+{{- $primary := "" -}}
+{{- if $links -}}{{- $primary = (index $links 0).url -}}{{- end -}}
+{{- $search := lower (print $p.Title " " (delimit $authors " ") " " $venue " " $year " " (delimit $topics " ") " " (delimit $projectNames " ") " " $status " " $type) -}}
+<article class="pub-card"
+  data-status="{{ lower $status }}"
+  data-type="{{ lower $type }}"
+  data-year="{{ $year }}"
+  data-venue="{{ lower $vshort }}"
+  data-project="{{ if $projects }}{{ index $projects 0 }}{{ end }}"
+  data-search="{{ $search }}">
+  <div class="pub-card__head">
+    {{ with $venue }}<span class="pub-venue">{{ . }}</span>{{ end }}
+    {{ with $status }}<span class="pub-badge pub-badge--{{ . | lower }}">{{ . }}</span>{{ end }}
+    {{ if and $type (ne (lower $type) (lower $status)) }}<span class="pub-type">{{ $type }}</span>{{ end }}
+  </div>
+  <h3 class="pub-title">
+    {{ if $primary }}<a href="{{ $primary }}" target="_blank" rel="noopener">{{ $p.Title }}</a>{{ else }}{{ $p.Title }}{{ end }}
+  </h3>
+  {{ with $authors }}<p class="pub-authors">{{ delimit . ", " }}</p>{{ end }}
+  {{ if $projects }}
+    <a class="pub-project" href="/research/{{ index $projects 0 }}/">{{ if $projectNames }}{{ index $projectNames 0 }}{{ else }}{{ index $projects 0 }}{{ end }}</a>
+  {{ end }}
+  {{ with $links }}<div class="pub-links">{{ range . }}<a class="pub-link" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ end }}</div>{{ end }}
+</article>

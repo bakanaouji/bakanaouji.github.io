@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <header>
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="mt-5 mb-2 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    {{ with .Params.summary }}<p class="text-lg text-neutral-500 dark:text-neutral-400">{{ . }}</p>{{ end }}
+  </header>
+
+  <article class="prose dark:prose-invert max-w-none mt-6">
+    {{ .Content }}
+  </article>
+
+  {{ $id := path.Base .File.Dir }}
+  {{ $related := where (where .Site.RegularPages "Section" "publications") "Params.projects" "intersect" (slice $id) }}
+  {{ with $related }}
+    <section class="mt-12">
+      <h2 class="text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-4">{{ i18n "x.related_publications" }}</h2>
+      <div class="pub-grid">
+        {{ range (sort . "Params.year" "desc") }}{{ partial "publication-card.html" . }}{{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,17 @@
+---
+title: "二人零和展開型ゲームにおける突然変異付き乗算型重み更新に関する研究"
+authors: ["坂本 充生","阿部 拳之","蟻生 開人","岩崎 敦"]
+venue: "第37回人工知能学会全国大会 (JSAI 2023)"
+year: 2023
+date: 2023-01-01
+status: "Accepted"
+type: "Domestic"
+projects: ["learning-dynamics-equilibrium-games"]
+project_names: ["Learning Dynamics and Equilibrium Computation in Games"]
+topics: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]
+showDate: false
+showReadingTime: false
+links:
+  - name: "Paper"
+    url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2T4GS502/_article/-char/ja/"
+---

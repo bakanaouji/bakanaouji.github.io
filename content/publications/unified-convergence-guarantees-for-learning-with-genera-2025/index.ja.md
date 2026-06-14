@@ -1,0 +1,14 @@
+---
+title: "Unified Convergence Guarantees for Learning with General Payoff Perturbations in Extensive-Form Games"
+authors: ["阿部 拳之","坂本 充生","眞坂 航宙","蟻生 開人","岩崎 敦"]
+venue: "第28回情報論的学習理論ワークショップ (IBIS 2025)"
+year: 2025
+date: 2025-01-01
+status: "Accepted"
+type: "Domestic"
+projects: ["learning-dynamics-equilibrium-games"]
+project_names: ["Learning Dynamics and Equilibrium Computation in Games"]
+topics: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]
+showDate: false
+showReadingTime: false
+---

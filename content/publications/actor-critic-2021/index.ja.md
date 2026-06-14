@@ -1,0 +1,14 @@
+---
+title: "見間違えのある繰り返しゲームのためのActor-Critic型強化学習"
+authors: ["坂本 充生","阿部 拳之","岩崎 敦"]
+venue: "第24回情報論的学習理論ワークショップ (IBIS 2021)"
+year: 2021
+date: 2021-01-01
+status: "Accepted"
+type: "Domestic"
+projects: ["reinforcement-learning-sequential-decision"]
+project_names: ["Reinforcement Learning and Sequential Decision Making"]
+topics: ["Reinforcement Learning","Sequential Decision Making","Markov Games","Policy Evaluation"]
+showDate: false
+showReadingTime: false
+---

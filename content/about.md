@@ -1,15 +1,13 @@
 +++ 
 draft = false
 date = 2019-10-24T06:01:15+09:00
-title = "Kenshi Abe (阿部 拳之)"
-slug = "" 
+title = "About"
+slug = ""
 tags = []
 categories = []
-thumbnail = "<no value>"
-description = ""
+description = "About Kenshi Abe — Research Scientist at CyberAgent AI Lab."
+showTableOfContents = false
 +++
-
-<img src="/profile.png" width="30%">
 
 # About Me
 Welcome to my web page!

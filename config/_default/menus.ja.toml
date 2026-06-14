@@ -1,0 +1,25 @@
+# -- 日本語メインメニュー --
+[[main]]
+  name = "自己紹介"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "研究"
+  pageRef = "research"
+  weight = 20
+
+[[main]]
+  name = "論文"
+  pageRef = "publications"
+  weight = 30
+
+[[main]]
+  name = "発表"
+  pageRef = "talks"
+  weight = 40
+
+[[main]]
+  name = "ブログ"
+  url = "https://qiita.com/bakanaouji"
+  weight = 50

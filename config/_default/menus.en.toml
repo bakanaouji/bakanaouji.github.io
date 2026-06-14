@@ -1,0 +1,30 @@
+# -- Main Menu --
+# https://blowfish.page/docs/configuration/#menus
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Research"
+  pageRef = "research"
+  weight = 20
+
+[[main]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 30
+
+[[main]]
+  name = "Talks"
+  pageRef = "talks"
+  weight = 40
+
+[[main]]
+  name = "Blog"
+  url = "https://qiita.com/bakanaouji"
+  weight = 50
+
+# -- Footer Menu --
+# (left empty; footer menu is disabled in params.toml)

@@ -1,0 +1,17 @@
+---
+title: "オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究"
+authors: ["山田 博瑛","小宮山 純平","阿部 拳之","岩崎 敦"]
+venue: "第37回人工知能学会全国大会 (JSAI 2023)"
+year: 2023
+date: 2023-01-01
+status: "Accepted"
+type: "Domestic"
+projects: ["fairness-recsys-allocation"]
+project_names: ["Fairness in Recommender Systems and Allocation"]
+topics: ["Fairness","Recommender Systems","Resource Allocation"]
+showDate: false
+showReadingTime: false
+links:
+  - name: "Paper"
+    url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2T4GS503/_article/-char/ja/"
+---

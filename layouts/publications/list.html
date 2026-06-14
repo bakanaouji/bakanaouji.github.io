@@ -1,0 +1,83 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+
+  <section class="mt-1 mb-8 prose flex max-w-full flex-col dark:prose-invert">
+    <div class="min-w-0 min-h-0 max-w-prose w-full">{{ .Content }}</div>
+  </section>
+
+  {{ if gt (len .Pages) 0 }}
+    {{ $pages := .Pages }}
+    {{ $statuses := slice }}{{ $types := slice }}{{ $years := slice }}{{ $venues := slice }}
+    {{ $themes := dict }}
+    {{ range $pages }}
+      {{ with .Params.status }}{{ $statuses = $statuses | append . }}{{ end }}
+      {{ with .Params.type }}{{ $types = $types | append . }}{{ end }}
+      {{ with .Params.year }}{{ $years = $years | append . }}{{ end }}
+      {{ with .Params.venue_short }}{{ $venues = $venues | append . }}{{ end }}
+      {{ if .Params.projects }}{{ $themes = merge $themes (dict (index .Params.projects 0) (cond (gt (len (.Params.project_names | default slice)) 0) (index .Params.project_names 0) (index .Params.projects 0))) }}{{ end }}
+    {{ end }}
+    {{ $statuses = $statuses | uniq }}
+    {{ $years = collections.Reverse ($years | uniq | sort) }}
+    {{ $venues = $venues | uniq | sort }}
+    {{ $typeOrder := slice "Conference" "Journal" "Workshop" "Domestic" }}
+
+    <div class="pub-controls mb-8 print:hidden" data-pub-controls>
+      <div class="pub-facet" role="group" aria-label="{{ i18n "x.facet_status" }}">
+        <span class="pub-facet__label">{{ i18n "x.facet_status" }}</span>
+        <button type="button" class="pub-btn is-active" data-facet="status" data-value="all" aria-pressed="true">{{ i18n "x.filter_all" }}</button>
+        {{ range $statuses }}<button type="button" class="pub-btn" data-facet="status" data-value="{{ lower . }}" aria-pressed="false">{{ . }}</button>{{ end }}
+      </div>
+      <div class="pub-facet" role="group" aria-label="{{ i18n "x.facet_type" }}">
+        <span class="pub-facet__label">{{ i18n "x.facet_type" }}</span>
+        <button type="button" class="pub-btn is-active" data-facet="type" data-value="all" aria-pressed="true">{{ i18n "x.filter_all" }}</button>
+        {{ range $typeOrder }}{{ if in $types . }}<button type="button" class="pub-btn" data-facet="type" data-value="{{ lower . }}" aria-pressed="false">{{ . }}</button>{{ end }}{{ end }}
+      </div>
+      <div class="pub-facet" role="group" aria-label="{{ i18n "x.facet_year" }}">
+        <span class="pub-facet__label">{{ i18n "x.facet_year" }}</span>
+        <button type="button" class="pub-btn is-active" data-facet="year" data-value="all" aria-pressed="true">{{ i18n "x.filter_all" }}</button>
+        {{ range $years }}<button type="button" class="pub-btn" data-facet="year" data-value="{{ . }}" aria-pressed="false">{{ . }}</button>{{ end }}
+      </div>
+      <div class="pub-facet" role="group" aria-label="{{ i18n "x.facet_venue" }}">
+        <span class="pub-facet__label">{{ i18n "x.facet_venue" }}</span>
+        <button type="button" class="pub-btn is-active" data-facet="venue" data-value="all" aria-pressed="true">{{ i18n "x.filter_all" }}</button>
+        {{ range $venues }}<button type="button" class="pub-btn" data-facet="venue" data-value="{{ lower . }}" aria-pressed="false">{{ . }}</button>{{ end }}
+      </div>
+      <div class="pub-facet" role="group" aria-label="{{ i18n "x.facet_theme" }}">
+        <span class="pub-facet__label">{{ i18n "x.facet_theme" }}</span>
+        <button type="button" class="pub-btn pub-btn--theme is-active" data-facet="project" data-value="all" aria-pressed="true">{{ i18n "x.filter_all" }}</button>
+        {{ range $k, $v := $themes }}<button type="button" class="pub-btn pub-btn--theme" data-facet="project" data-value="{{ $k }}" aria-pressed="false">{{ $v }}</button>{{ end }}
+      </div>
+      <label class="block mt-3"><span class="sr-only">{{ i18n "x.pub_search_placeholder" }}</span>
+        <input type="search" class="pub-search" data-pub-search placeholder="{{ i18n "x.pub_search_placeholder" }}" autocomplete="off"></label>
+    </div>
+
+    {{ $cats := slice
+        (dict "v" "Conference" "k" "cat_intl_conference")
+        (dict "v" "Journal" "k" "cat_journal")
+        (dict "v" "Workshop" "k" "cat_intl_workshop")
+        (dict "v" "Preprint" "k" "cat_preprints")
+        (dict "v" "Domestic" "k" "cat_domestic") }}
+    {{ range $cats }}
+      {{ $c := . }}
+      {{ $items := sort (where $pages "Params.type" $c.v) "Params.year" "desc" }}
+      {{ with $items }}
+        <section class="pub-group{{ if eq $c.v "Domestic" }} pub-group--domestic{{ end }}" data-pub-group data-type="{{ lower $c.v }}">
+          <h2 class="pub-group__title">{{ i18n (printf "x.%s" $c.k) }} <span class="pub-group__count">({{ len . }})</span></h2>
+          {{ if eq $c.v "Domestic" }}<p class="pub-group__note">{{ i18n "x.domestic_note" }}</p>{{ end }}
+          <div class="pub-grid">{{ range . }}{{ partial "publication-card.html" . }}{{ end }}</div>
+        </section>
+      {{ end }}
+    {{ end }}
+
+    <p class="pub-empty mt-8 text-neutral-500 dark:text-neutral-400" data-pub-empty hidden><em>{{ i18n "x.pub_empty" }}</em></p>
+  {{ end }}
+
+  {{ with resources.Get "js/publications-filter.js" }}
+    {{ $js := . | fingerprint }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{ end }}
+{{ end }}

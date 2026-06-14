@@ -1,0 +1,70 @@
+# -- Site Configuration --
+# https://blowfish.page/docs/getting-started/
+
+theme = "blowfish"
+baseURL = "https://bakanaouji.github.io/"
+publishDir = "docs" # deploy.sh builds here, then copies to master root
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+summaryLength = 0
+
+buildDrafts = false
+buildFuture = false
+
+enableEmoji = true
+
+# NOTE: This is a legacy Universal Analytics ID (UA-) and is no longer
+# functional (UA was shut down in 2023). Migrate to a GA4 ID ("G-XXXX")
+# to resume tracking. Left here to preserve prior intent.
+googleAnalytics = "UA-150920247-1"
+
+[pagination]
+  pagerSize = 100
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # JSON is required for built-in search
+
+[related]
+  threshold = 0
+  toLower = false
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "authors"
+        weight = 20
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+    [[related.indices]]
+      applyFilter = false
+      name = 'fragmentrefs'
+      type = 'fragments'
+      weight = 10
