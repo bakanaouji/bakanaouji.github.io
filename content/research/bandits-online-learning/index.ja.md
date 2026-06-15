@@ -1,5 +1,6 @@
 ---
 title: "Bandits and Online Learning"
+short: "Bandits"
 summary: "バンディットとオンライン学習。高次元スパース・非定常設定での効率的な探索、ベイズ最適化やハイパーパラメータ最適化、入札への応用を扱う。"
 order: 4
 keywords: ["Bandits","Online Learning","Bayesian Optimization"]

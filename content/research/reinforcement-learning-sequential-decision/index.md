@@ -1,5 +1,6 @@
 ---
 title: "Reinforcement Learning and Sequential Decision Making"
+short: "Reinforcement Learning"
 summary: "How can agents improve and evaluate policies over time?"
 order: 4
 keywords: ["Reinforcement Learning", "Sequential Decision Making", "Policy Evaluation"]

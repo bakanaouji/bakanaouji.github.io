@@ -1,6 +1,6 @@
 ---
 title: "研究"
-description: "ゲームにおける学習・強化学習などの研究テーマの一覧です。"
+description: "ゲームにおける学習と逐次意思決定を中心とした研究テーマと、関連論文の一覧です。"
 showDate: false
 showReadingTime: false
 showTableOfContents: false

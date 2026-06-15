@@ -3,9 +3,6 @@
 
   {{ $authors := .Params.authors | default slice }}
   {{ $venue := .Params.venue | default "" }}
-  {{ $status := .Params.status | default "" }}
-  {{ $type := .Params.type | default "" }}
-  {{ $year := .Params.year | default "" }}
   {{ $abstract := .Params.abstract | default "" }}
   {{ $links := .Params.links | default slice }}
   {{ $projects := .Params.projects | default slice }}
@@ -16,9 +13,6 @@
 
     <div class="pub-detail__meta">
       {{ with $venue }}<span class="pub-detail__venue">{{ . }}</span>{{ end }}
-      {{ with $status }}<span class="pub-badge pub-badge--{{ . | lower }}">{{ . }}</span>{{ end }}
-      {{ if and $type (ne (lower $type) (lower $status)) }}<span class="pub-type">{{ $type }}</span>{{ end }}
-      {{ with $year }}<span class="pub-detail__year">{{ . }}</span>{{ end }}
     </div>
 
     {{ with $authors }}<p class="pub-detail__authors">{{ delimit . ", " }}</p>{{ end }}

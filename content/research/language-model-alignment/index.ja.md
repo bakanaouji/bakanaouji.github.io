@@ -1,5 +1,6 @@
 ---
 title: "Language Model Alignment and Preference Optimization"
+short: "LLM Alignment"
 summary: "大規模言語モデルのアライメントと選好最適化。Best-of-N・最小ベイズリスク復号・DPO などで報酬ハッキングを抑えつつ整合性を高める。"
 order: 2
 keywords: ["LLM Alignment","Preference Optimization","Decoding"]

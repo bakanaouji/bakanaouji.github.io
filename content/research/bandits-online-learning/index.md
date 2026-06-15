@@ -1,5 +1,6 @@
 ---
 title: "Bandits and Online Learning"
+short: "Bandits"
 summary: "How can online systems learn while making decisions?"
 order: 2
 keywords: ["Bandits", "Online Learning", "Non-Stationarity"]

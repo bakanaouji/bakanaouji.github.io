@@ -1,5 +1,6 @@
 ---
 title: "Reinforcement Learning and Sequential Decision Making"
+short: "Reinforcement Learning"
 summary: "強化学習と逐次意思決定。マルコフゲームのオフ方策評価・良方策検定、状態抽象化、モンテカルロ木探索によるマッチング設計などを扱う。"
 order: 3
 keywords: ["Reinforcement Learning","Sequential Decision Making","Markov Games","Policy Evaluation"]

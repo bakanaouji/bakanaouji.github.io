@@ -1,5 +1,6 @@
 ---
 title: "Fairness in Recommender Systems and Allocation"
+short: "Fairness & Allocation"
 summary: "How can systems allocate limited opportunities fairly?"
 order: 5
 keywords: ["Fairness", "Recommender Systems", "Matching"]

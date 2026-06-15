@@ -1,5 +1,6 @@
 ---
 title: "Language Model Alignment and Preference Optimization"
+short: "LLM Alignment"
 summary: "How can we generate language model outputs that align with human preferences?"
 order: 3
 keywords: ["LLM Alignment", "Preference Optimization"]

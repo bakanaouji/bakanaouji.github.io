@@ -1,5 +1,6 @@
 ---
 title: "Learning Dynamics and Equilibrium Computation in Games"
+short: "Learning Dynamics"
 summary: "ゲームにおける学習ダイナミクスと均衡計算を扱う。最終反復収束・利得摂動、不完全情報展開型ゲームの CFR 系求解、マルチエージェントの大域挙動やメカニズム・オークションを研究する。"
 order: 1
 keywords: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]
