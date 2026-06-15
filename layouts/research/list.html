@@ -15,7 +15,7 @@
     <section class="research-grid">
       {{ range $i, $p := .Pages.ByParam "order" }}
         {{ $id := path.Base $p.File.Dir }}
-        {{ $count := len (where (where site.RegularPages "Section" "publications") "Params.projects" "intersect" (slice $id)) }}
+        {{ $count := len (where (where (where site.RegularPages "Section" "publications") "Params.projects" "intersect" (slice $id)) "Params.lang" "en") }}
         {{ $img := ($p.Resources.ByType "image").GetMatch "*featured*" }}
         {{ $hue := mod (mul $i 53) 360 }}
         <div class="research-item">
