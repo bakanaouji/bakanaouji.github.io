@@ -2,11 +2,6 @@
 # https://blowfish.page/docs/configuration/#menus
 
 [[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 10
-
-[[main]]
   name = "Research"
   pageRef = "research"
   weight = 20

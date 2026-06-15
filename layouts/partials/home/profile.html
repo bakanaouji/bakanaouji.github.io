@@ -1,0 +1,49 @@
+{{/* Project override of Blowfish's profile homepage partial.
+     The homepage now reads like every other page (Publications, Research): a
+     left-aligned title and full-width, left-aligned content — no centered
+     profile column. The author photo is kept as a small avatar to the left of
+     the name/headline/social links in a compact header. */}}
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<article class="home-intro">
+  <header class="home-intro__header">
+    {{ with .Site.Params.Author.image }}
+      {{ $authorImage := "" }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $authorImage = resources.GetRemote . }}
+      {{ else }}
+        {{ $authorImage = resources.Get . }}
+      {{ end }}
+      {{ if $authorImage }}
+        {{ $final := $authorImage }}
+        {{ $squareImage := $authorImage }}
+        {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
+          {{ $final = $authorImage.Fill (print "192x192 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+          {{ $shortSide := int (math.Min $authorImage.Width $authorImage.Height) }}
+          {{ $squareImage = $authorImage.Crop (printf "%dx%d" $shortSide $shortSide ) }}
+        {{ end }}
+        <img
+          class="home-intro__avatar"
+          width="96"
+          height="96"
+          alt="{{ $.Site.Params.Author.name | default `Author` }}"
+          src="{{ $final.RelPermalink }}"
+          data-zoom-src="{{ $squareImage.RelPermalink }}">
+      {{ end }}
+    {{ end }}
+    <div class="home-intro__heading">
+      <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Site.Params.Author.name | default .Site.Title }}
+      </h1>
+      {{ with .Site.Params.Author.headline }}
+        <p class="home-intro__headline">{{ . | markdownify }}</p>
+      {{ end }}
+      <div class="home-intro__links">
+        {{ partialCached "author-links.html" . }}
+      </div>
+    </div>
+  </header>
+  <section class="prose max-w-full dark:prose-invert">{{ .Content }}</section>
+</article>
+<section>
+  {{ partial "recent-articles/main.html" . }}
+</section>

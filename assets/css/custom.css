@@ -1,3 +1,18 @@
+/* ===== Homepage intro header (compact author block) =====
+   Photo sits to the left of the name/headline/social links; the rest of the page
+   (Selected Publications, Research Interests) flows left-aligned and full width,
+   matching the Publications and Research pages. */
+.home-intro__header { display:flex; align-items:center; gap:1.25rem; margin:0.5rem 0 1.75rem; }
+.home-intro__avatar { flex:none; height:6rem; width:6rem; border-radius:9999px; object-fit:cover; }
+.home-intro__heading { min-width:0; }
+.home-intro__heading h1 { margin:0; line-height:1.1; }
+.home-intro__headline { margin:0.2rem 0 0; font-size:1.125rem; color:rgb(115 115 115); }
+.dark .home-intro__headline { color:rgb(163 163 163); }
+.home-intro__links { margin-top:0.45rem; font-size:1.35rem; }
+@media (max-width:480px){
+  .home-intro__header { flex-direction:column; align-items:flex-start; gap:0.85rem; }
+}
+
 /* ===== Shared filter buttons ===== */
 .research-controls, .pub-controls { --accent: #2563eb; --accent2: #0f766e; }
 .research-filter-btn, .pub-btn {
@@ -51,6 +66,8 @@
 .pub-grid { display:grid; gap:1rem; grid-template-columns:1fr; }
 @media (min-width:640px){ .pub-grid{ grid-template-columns:repeat(2,1fr);} }
 @media (min-width:1024px){ .pub-grid{ grid-template-columns:repeat(3,1fr);} }
+/* Homepage selected publications share the publications-page grid (1/2/3 cols) so
+   the cards look identical across both pages. */
 .pub-card { display:flex; flex-direction:column; gap:0.5rem; padding:1rem 1.1rem; height:100%;
   border:1px solid rgb(229 229 229); border-radius:0.75rem; background:rgb(255 255 255);
   transition:transform .2s,box-shadow .2s; }

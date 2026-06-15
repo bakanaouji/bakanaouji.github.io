@@ -1,0 +1,23 @@
+{{/* Selected (featured) publications for the homepage, rendered as cards.
+     Source of truth: data/publications/<project>.yaml — venues flagged `featured: true`.
+     en venues are shown on both sites (matching publications/_content.gotmpl); date desc.
+     Reuses partials/publication-card.html by resolving each featured venue back to its
+     generated publication page (slug == <project>-<venue_short>-<year>). */}}
+{{- $lang := site.Language.Lang -}}
+{{- $pages := slice -}}
+{{- range $pid, $proj := site.Data.publications -}}
+  {{- range $v := $proj.venues -}}
+    {{- if and $v.featured (or (eq $lang "ja") (eq $v.lang "en")) -}}
+      {{- $date := time.AsTime $v.date -}}
+      {{- $year := or $v.year $date.Year -}}
+      {{- $slug := urlize (printf "%s-%s-%v" $pid $v.venue_short $year) -}}
+      {{- with site.GetPage (printf "/publications/%s" $slug) -}}
+        {{- $pages = $pages | append . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $pages = sort $pages "Date" "desc" -}}
+<div class="pub-grid pub-grid--home">
+  {{- range $pages -}}{{ partial "publication-card.html" . }}{{- end -}}
+</div>

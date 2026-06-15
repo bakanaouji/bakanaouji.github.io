@@ -4,6 +4,7 @@ projects:
 - learning-dynamics-equilibrium-games
 venues:
 - lang: en
+  featured: true
   title: Boosting Perturbed Gradient Ascent for Last-Iterate Convergence in Games
   authors:
   - Kenshi Abe

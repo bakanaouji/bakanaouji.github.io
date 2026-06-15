@@ -17,6 +17,7 @@ venues:
   date: 2025-11-12
   type: Domestic
 - lang: en
+  featured: true
   title: Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization
   authors:
   - Kenshi Abe

@@ -13,13 +13,14 @@ title = "Kenshi Abe"
 
 [params.author]
   name = "Kenshi Abe"
-  headline = "Research Scientist · Learning in Games"
+  headline = "Research Scientist at [CyberAgent AI Lab](https://cyberagent.ai/ailab/)"
   image = "img/profile.png"
   imageQuality = 96
   bio = "Research Scientist at CyberAgent AI Lab. I work on reinforcement learning, imperfect-information games, and multi-agent learning."
   links = [
     { github = "https://github.com/bakanaouji/" },
-    { x-twitter = "https://twitter.com/bakanaouji/" },
+    { google-scholar = "https://scholar.google.com/citations?user=rImmohoAAAAJ" },
     { linkedin = "https://www.linkedin.com/in/kenshi-abe/" },
+    { x-twitter = "https://twitter.com/bakanaouji/" },
     { email = "mailto:abekenshi1224@gmail.com" },
   ]

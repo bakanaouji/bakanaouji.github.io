@@ -13,13 +13,14 @@ title = "阿部 拳之"
 
 [params.author]
   name = "阿部 拳之"
-  headline = "リサーチサイエンティスト · ゲームにおける学習"
+  headline = "[サイバーエージェント AI Lab](https://cyberagent.ai/ailab/) リサーチサイエンティスト"
   image = "img/profile.png"
   imageQuality = 96
   bio = "サイバーエージェント AI Lab のリサーチサイエンティスト。ゲームにおける学習、強化学習、不完全情報ゲームを研究しています。"
   links = [
     { github = "https://github.com/bakanaouji/" },
-    { x-twitter = "https://twitter.com/bakanaouji/" },
+    { google-scholar = "https://scholar.google.com/citations?user=rImmohoAAAAJ" },
     { linkedin = "https://www.linkedin.com/in/kenshi-abe/" },
+    { x-twitter = "https://twitter.com/bakanaouji/" },
     { email = "mailto:abekenshi1224@gmail.com" },
   ]

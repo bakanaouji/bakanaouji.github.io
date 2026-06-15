@@ -18,6 +18,7 @@ venues:
   date: 2022-11-20
   type: Domestic
 - lang: en
+  featured: true
   title: Last-Iterate Convergence with Full and Noisy Feedback in Two-Player Zero-Sum Games
   authors:
   - Kenshi Abe

@@ -36,7 +36,7 @@ fingerprintAlgorithm = "sha512"
 
 [homepage]
   layout = "profile" # author profile as the landing page
-  showRecent = true  # surface latest research cards under the profile
+  showRecent = false # research themes live on /research/; top features Selected Publications
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/research/"

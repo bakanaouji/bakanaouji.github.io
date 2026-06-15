@@ -3,6 +3,20 @@ title: "Kenshi Abe"
 description: "Research Scientist working on learning in games, reinforcement learning, and imperfect-information games."
 ---
 
-I am a Research Scientist at [CyberAgent AI Lab](https://cyberagent.ai/ailab/). My research focuses on **learning in games**, **reinforcement learning**, and **imperfect-information games** — with an emphasis on last-iterate convergence, perturbation methods, and multi-agent learning dynamics.
+My research centers on learning dynamics in games and sequential decision making.
 
-Browse my [research projects](/research/) or the full [publication list](/publications/).
+## Selected Publications
+
+{{< selected-publications >}}
+
+[View all publications →](/publications/)
+
+## Research Interests
+
+- Learning dynamics and equilibrium computation in games
+- Reinforcement learning and sequential decision making
+- Bandits and online learning
+- Language model alignment and preference optimization
+- Fairness in allocation and recommendation
+
+[View research themes →](/research/)

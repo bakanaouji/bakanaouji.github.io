@@ -17,6 +17,7 @@ venues:
   date: 2023-10-29
   type: Domestic
 - lang: en
+  featured: true
   title: Adaptively Perturbed Mirror Descent for Learning in Games
   authors:
   - Kenshi Abe
