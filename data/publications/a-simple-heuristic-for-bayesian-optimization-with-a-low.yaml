@@ -6,7 +6,6 @@ topics:
 - Bandits
 - Online Learning
 - Bayesian Optimization
-abstract: ''
 venues:
 - slug: a-simple-heuristic-for-bayesian-optimization-with-a-low
   lang: en
@@ -14,6 +13,7 @@ venues:
   authors:
   - Masahiro Nomura
   - Kenshi Abe
+  abstract: The aim of black-box optimization is to optimize an objective function within the constraints of a given evaluation budget. In this problem, it is generally assumed that the computational cost for evaluating a point is large; thus, it is important to search efficiently with as low budget as possible. Bayesian optimization is an efficient method for black-box optimization and provides exploration-exploitation trade-off by constructing a surrogate model that considers uncertainty of the objective function. However, because Bayesian optimization should construct the surrogate model for the entire search space, it does not exhibit good performance when points are not sampled sufficiently. In this study, we develop a heuristic method refining the search space for Bayesian optimization when the available evaluation budget is low. The proposed method refines a promising region by dividing the original region so that Bayesian optimization can be executed with the promising region as the initial search space. We confirm that Bayesian optimization with the proposed method outperforms Bayesian optimization alone and shows equal or better performance to two search-space division algorithms through experiments on the benchmark functions and the hyperparameter optimization of machine learning algorithms.
   venue: arXiv
   venue_short: arXiv
   date: 2019-11-18

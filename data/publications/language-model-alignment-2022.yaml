@@ -6,7 +6,6 @@ topics:
 - LLM Alignment
 - Preference Optimization
 - Decoding
-abstract: ''
 venues:
 - slug: language-model-alignment-2022
   lang: ja
@@ -16,6 +15,7 @@ venues:
   - 大田 和寛
   - 阿部 拳之
   - 張 培楠
+  abstract: ''
   venue: 第25回情報論的学習理論ワークショップ (IBIS 2022)
   year: 2022
   date: 2022-11-20

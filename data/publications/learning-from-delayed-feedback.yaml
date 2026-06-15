@@ -8,7 +8,6 @@ topics:
 - Equilibrium Computation
 - Last-Iterate Convergence
 - Game Theory
-abstract: ''
 venues:
 - slug: learning-dynamics-equilibrium-games-2025
   lang: ja
@@ -17,6 +16,7 @@ venues:
   - 藤本 悠雅
   - 阿部 拳之
   - 蟻生 開人
+  abstract: ''
   venue: 第28回情報論的学習理論ワークショップ (IBIS 2025)
   year: 2025
   date: 2025-11-12
@@ -29,6 +29,7 @@ venues:
   - Yuma Fujimoto
   - Kaito Ariu
   - Kenshi Abe
+  abstract: This study raises and addresses the problem of time-delayed feedback in learning in games. Because learning in games assumes that multiple agents independently learn their strategies, a discrepancy in optimization often emerges among the agents. To overcome this discrepancy, the prediction of the future reward is incorporated into algorithms, typically known as Optimistic Follow-the-Regularized-Leader (OFTRL). However, the time delay in observing the past rewards hinders the prediction. Indeed, this study firstly proves that even a single-step delay worsens the performance of OFTRL from the aspects of social regret and convergence. This study proposes the weighted OFTRL (WOFTRL), where the prediction vector of the next reward in OFTRL is weighted $n$ times. We further capture an intuition that the optimistic weight cancels out this time delay. We prove that when the optimistic weight exceeds the time delay, our WOFTRL recovers the good performances that social regret is constant in general-sum normal-form games, and the strategies last-iterate converge to the Nash equilibrium in poly-matrix zero-sum games. The theoretical results are supported and strengthened by our experiments.
   venue: NeurIPS 2025
   venue_short: NeurIPS
   year: 2025

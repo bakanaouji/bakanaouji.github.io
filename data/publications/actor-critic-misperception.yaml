@@ -7,7 +7,6 @@ topics:
 - Sequential Decision Making
 - Markov Games
 - Policy Evaluation
-abstract: ''
 venues:
 - slug: actor-critic-2021-2
   lang: ja
@@ -16,6 +15,7 @@ venues:
   - 坂本 充生
   - 阿部 拳之
   - 岩崎 敦
+  abstract: ''
   venue: 日本オペレーションズ・リサーチ学会 2021年 秋季研究発表会
   year: 2021
   date: 2021-09-16
@@ -31,6 +31,7 @@ venues:
   - 坂本 充生
   - 阿部 拳之
   - 岩崎 敦
+  abstract: ''
   venue: 第24回情報論的学習理論ワークショップ (IBIS 2021)
   year: 2021
   date: 2021-11-10

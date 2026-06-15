@@ -8,7 +8,6 @@ topics:
 - Equilibrium Computation
 - Last-Iterate Convergence
 - Game Theory
-abstract: ''
 venues:
 - slug: learning-dynamics-equilibrium-games-2021-2
   lang: ja
@@ -18,6 +17,7 @@ venues:
   - 阿部 拳之
   - 岩崎 敦
   - 大河原 一憲
+  abstract: ''
   venue: 第20回情報科学技術フォーラム (FIT 2021)
   year: 2021
   date: 2021-08-25
@@ -31,6 +31,7 @@ venues:
   - Kenshi Abe
   - Atsushi Iwasaki
   - Kazunori Ohkawara
+  abstract: ''
   venue: AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation)
   venue_short: AAAI
   year: 2022

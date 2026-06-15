@@ -6,7 +6,6 @@ topics:
 - Bandits
 - Online Learning
 - Bayesian Optimization
-abstract: ''
 venues:
 - slug: black-box-budget-2019
   lang: ja
@@ -14,6 +13,7 @@ venues:
   authors:
   - 野村 将寛
   - 阿部 拳之
+  abstract: ''
   venue: 第33回人工知能学会全国大会 (JSAI 2019)
   year: 2019
   date: 2019-06-04

@@ -6,7 +6,6 @@ topics:
 - Bandits
 - Online Learning
 - Bayesian Optimization
-abstract: ''
 venues:
 - slug: online-learning-for-bidding-agent-in-first-price-auctio-2020
   lang: en
@@ -16,6 +15,7 @@ venues:
   - Kenshi Abe
   - Kazuhisa Ogawa
   - Yusuke Kaneko
+  abstract: ''
   venue: AAAI 2020 Workshop on Reinforcement Learning in Games
   venue_short: AAAI
   year: 2020

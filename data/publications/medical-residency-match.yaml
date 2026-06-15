@@ -7,7 +7,6 @@ topics:
 - Sequential Decision Making
 - Markov Games
 - Policy Evaluation
-abstract: ''
 venues:
 - slug: anytime-capacity-expansion-in-medical-residency-match-b-2022
   lang: en
@@ -16,6 +15,7 @@ venues:
   - Kenshi Abe
   - Junpei Komiyama
   - Atsushi Iwasaki
+  abstract: This paper considers the capacity expansion problem in two-sided matchings, where the policymaker is allowed to allocate some extra seats as well as the standard seats. In medical residency match, each hospital accepts a limited number of doctors. Such capacity constraints are typically given in advance. However, such exogenous constraints can compromise the welfare of the doctors; some popular hospitals inevitably dismiss some of their favorite doctors. Meanwhile, it is often the case that the hospitals are also benefited to accept a few extra doctors. To tackle the problem, we propose an anytime method that the upper confidence tree searches the space of capacity expansions, each of which has a resident-optimal stable assignment that the deferred acceptance method finds. Constructing a good search tree representation significantly boosts the performance of the proposed method. Our simulation shows that the proposed method identifies an almost optimal capacity expansion with a significantly smaller computational budget than exact methods based on mixed-integer programming.
   venue: IJCAI 2022
   venue_short: IJCAI
   year: 2022
@@ -33,6 +33,7 @@ venues:
   - 小宮山 純平
   - 阿部 拳之
   - 岩崎 敦
+  abstract: ''
   venue: 情報処理学会 第85回全国大会
   date: 2023-03-02
   status: Accepted
@@ -48,6 +49,7 @@ venues:
   - 小宮山 純平
   - 阿部 拳之
   - 岩崎 敦
+  abstract: ''
   venue: 第22回情報科学技術フォーラム (FIT 2023)
   year: 2023
   date: 2023-09-06
@@ -61,6 +63,7 @@ venues:
   - 小宮山 純平
   - 阿部 拳之
   - 岩崎 敦
+  abstract: ''
   venue: 情報処理学会 第86回全国大会
   date: 2024-03-15
   status: Accepted

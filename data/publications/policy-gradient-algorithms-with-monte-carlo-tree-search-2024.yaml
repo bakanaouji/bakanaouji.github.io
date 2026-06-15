@@ -7,7 +7,6 @@ topics:
 - Sequential Decision Making
 - Markov Games
 - Policy Evaluation
-abstract: ''
 venues:
 - slug: policy-gradient-algorithms-with-monte-carlo-tree-search-2024
   lang: en
@@ -17,6 +16,7 @@ venues:
   - Kazuhiro Ota
   - Kenshi Abe
   - Peinan Zhang
+  abstract: Policy gradient (PG) is a reinforcement learning (RL) approach that optimizes a parameterized policy model for an expected return using gradient ascent. While PG can work well even in non-Markovian environments, it may encounter plateaus or peakiness issues. As another successful RL approach, algorithms based on Monte Carlo Tree Search (MCTS), which include AlphaZero, have obtained groundbreaking results, especially in the game-playing domain. They are also effective when applied to non-Markov decision processes. However, the standard MCTS is a method for decision-time planning, which differs from the online RL setting. In this work, we first introduce Monte Carlo Tree Learning (MCTL), an adaptation of MCTS for online RL setups. We then explore a combined policy approach of PG and MCTL to leverage their strengths. We derive conditions for asymptotic convergence with the results of a two-timescale stochastic approximation and propose an algorithm that satisfies these conditions and converges to a reasonable solution. Our numerical experiments validate the effectiveness of the proposed methods.
   venue: Reinforcement Learning Conference (RLC) 2024
   venue_short: RLC
   year: 2024

@@ -8,7 +8,6 @@ topics:
 - Equilibrium Computation
 - Last-Iterate Convergence
 - Game Theory
-abstract: ''
 venues:
 - slug: learning-dynamics-equilibrium-games-2025-4
   lang: ja
@@ -17,6 +16,7 @@ venues:
   - 藤本 悠雅
   - 蟻生 開人
   - 阿部 拳之
+  abstract: ''
   venue: 第39回人工知能学会全国大会 (JSAI 2025)
   year: 2025
   date: 2025-05-27

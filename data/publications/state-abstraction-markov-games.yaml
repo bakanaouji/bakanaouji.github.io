@@ -7,7 +7,6 @@ topics:
 - Sequential Decision Making
 - Markov Games
 - Policy Evaluation
-abstract: ''
 venues:
 - slug: reinforcement-learning-sequential-decision
   lang: ja
@@ -17,6 +16,7 @@ venues:
   - 島野 雄貴
   - 阿部 拳之
   - 岩崎 敦
+  abstract: ''
   venue: 情報処理学会 第86回全国大会
   date: 2024-03-15
   status: Accepted
@@ -31,6 +31,7 @@ venues:
   - 石橋 宙希
   - 阿部 拳之
   - 岩崎 敦
+  abstract: ''
   venue: 第23回情報科学技術フォーラム (FIT 2024)
   year: 2024
   date: 2024-09-04
@@ -43,6 +44,7 @@ venues:
   - Hiroki Ishibashi
   - Kenshi Abe
   - Atsushi Iwasaki
+  abstract: This paper introduces state abstraction for two-player zero-sum Markov games (TZMGs), where the payoffs for the two players are determined by the state representing the environment and their respective actions, with state transitions following Markov decision processes. For example, in games like soccer, the value of actions changes according to the state of play, and thus such games should be described as Markov games. In TZMGs, as the number of states increases, computing equilibria becomes more difficult. Therefore, we consider state abstraction, which reduces the number of states by treating multiple different states as a single state. There is a substantial body of research on finding optimal policies for Markov decision processes using state abstraction. However, in the multi-player setting, the game with state abstraction may yield different equilibrium solutions from those of the ground game. To evaluate the equilibrium solutions of the game with state abstraction, we derived bounds on the duality gap, which represents the distance from the equilibrium solutions of the ground game. Finally, we demonstrate our state abstraction with Markov Soccer, compute equilibrium policies, and examine the results.
   venue: AAAI 2025
   venue_short: AAAI
   year: 2025

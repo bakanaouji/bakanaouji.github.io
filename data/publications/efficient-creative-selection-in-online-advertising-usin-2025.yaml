@@ -6,7 +6,6 @@ topics:
 - Bandits
 - Online Learning
 - Bayesian Optimization
-abstract: ''
 venues:
 - slug: efficient-creative-selection-in-online-advertising-usin-2025
   lang: en
@@ -16,6 +15,7 @@ venues:
   - Yusuke Kaneko
   - Kaito Ariu
   - Kenshi Abe
+  abstract: ''
   venue: WSDM 2025 (Industry day talks)
   venue_short: WSDM
   year: 2025

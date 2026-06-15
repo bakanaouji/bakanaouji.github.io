@@ -6,7 +6,6 @@ topics:
 - Bandits
 - Online Learning
 - Bayesian Optimization
-abstract: ''
 venues:
 - slug: bandits-online-learning-2025
   lang: ja
@@ -15,6 +14,7 @@ venues:
   - 暮石 航大
   - 蟻生 開人
   - 阿部 拳之
+  abstract: ''
   venue: 第28回情報論的学習理論ワークショップ (IBIS 2025)
   year: 2025
   date: 2025-11-12

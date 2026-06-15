@@ -6,7 +6,6 @@ topics:
 - LLM Alignment
 - Preference Optimization
 - Decoding
-abstract: ''
 venues:
 - slug: language-model-alignment-2025
   lang: ja
@@ -17,6 +16,7 @@ venues:
   - 森村 哲郎
   - 阿部 拳之
   - 蟻生 開人
+  abstract: ''
   venue: 第39回人工知能学会全国大会 (JSAI 2025)
   year: 2025
   date: 2025-05-27

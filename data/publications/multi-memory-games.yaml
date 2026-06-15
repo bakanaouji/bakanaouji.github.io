@@ -8,7 +8,6 @@ topics:
 - Equilibrium Computation
 - Last-Iterate Convergence
 - Game Theory
-abstract: ''
 venues:
 - slug: learning-in-multi-memory-games-triggers-complex-dynamic-2023
   lang: en
@@ -17,6 +16,7 @@ venues:
   - Yuma Fujimoto
   - Kaito Ariu
   - Kenshi Abe
+  abstract: Repeated games consider a situation where multiple agents are motivated by their independent rewards throughout learning. In general, the dynamics of their learning become complex. Especially when their rewards compete with each other like zero-sum games, the dynamics often do not converge to their optimum, i.e., the Nash equilibrium. To tackle such complexity, many studies have understood various learning algorithms as dynamical systems and discovered qualitative insights among the algorithms. However, such studies have yet to handle multi-memory games (where agents can memorize actions they played in the past and choose their actions based on their memories), even though memorization plays a pivotal role in artificial intelligence and interpersonal relationship. This study extends two major learning algorithms in games, i.e., replicator dynamics and gradient ascent, into multi-memory games. Then, we prove their dynamics are identical. Furthermore, theoretically and experimentally, we clarify that the learning dynamics diverge from the Nash equilibrium in multi-memory zero-sum games and reach heteroclinic cycles (sojourn longer around the boundary of the strategy space), providing a fundamental advance in learning in games.
   venue: IJCAI 2023
   venue_short: IJCAI
   year: 2023
@@ -33,6 +33,7 @@ venues:
   - 藤本 悠雅
   - 蟻生 開人
   - 阿部 拳之
+  abstract: ''
   venue: 第26回情報論的学習理論ワークショップ (IBIS 2023)
   year: 2023
   date: 2023-10-29

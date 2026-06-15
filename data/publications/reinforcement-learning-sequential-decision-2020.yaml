@@ -7,7 +7,6 @@ topics:
 - Sequential Decision Making
 - Markov Games
 - Policy Evaluation
-abstract: ''
 venues:
 - slug: reinforcement-learning-sequential-decision-2020
   lang: ja
@@ -15,6 +14,7 @@ venues:
   authors:
   - 阿部 拳之
   - 金子 雄祐
+  abstract: ''
   venue: 第25回ゲームプログラミングワークショップ (GPW 2020)
   year: 2020
   date: 2020-11-14

@@ -6,7 +6,6 @@ topics:
 - Bandits
 - Online Learning
 - Bayesian Optimization
-abstract: ''
 venues:
 - slug: bandits-online-learning-2018
   lang: ja
@@ -14,6 +13,7 @@ venues:
   authors:
   - 阿部 拳之
   - 野村 将寛
+  abstract: ''
   venue: 第21回情報論的学習理論ワークショップ (IBIS 2018)
   year: 2018
   date: 2018-11-04
