@@ -6,8 +6,8 @@
      come from the page front matter so EN/JA stay in sync. */}}
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 {{ $isJa := eq .Site.Language.Lang "ja" }}
-{{ $bioLabel := cond $isJa "自己紹介" "Biography" }}
-{{ $interestsLabel := cond $isJa "研究関心" "Interests" }}
+{{ $bioLabel := cond $isJa "プロフィール" "Biography" }}
+{{ $interestsLabel := cond $isJa "研究領域" "Interests" }}
 {{ $eduLabel := cond $isJa "学歴" "Education" }}
 {{ $themesText := cond $isJa "研究テーマを見る" "View research themes" }}
 <article class="home-intro">

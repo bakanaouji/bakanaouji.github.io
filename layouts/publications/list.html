@@ -1,13 +1,15 @@
 {{ define "main" }}
   {{ .Scratch.Set "scope" "list" }}
 
-  <header>
+  <header class="mb-8">
     <h1 class="mt-2 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
   </header>
 
-  <section class="mt-1 mb-8 prose flex max-w-full flex-col dark:prose-invert">
-    <div class="min-w-0 min-h-0 max-w-prose w-full">{{ .Content }}</div>
-  </section>
+  {{ with .Content }}
+    <section class="mt-1 mb-8 prose flex max-w-full flex-col dark:prose-invert">
+      <div class="min-w-0 min-h-0 max-w-prose w-full">{{ . }}</div>
+    </section>
+  {{ end }}
 
   {{ if gt (len .Pages) 0 }}
     {{ $pages := .Pages }}
@@ -40,9 +42,8 @@
       {{ $c := . }}
       {{ $items := sort (where $pages "Params.type" $c.v) "Params.date" "desc" }}
       {{ with $items }}
-        <section class="pub-group{{ if eq $c.v "Domestic" }} pub-group--domestic{{ end }}" data-pub-group data-type="{{ lower $c.v }}">
+        <section class="pub-group" data-pub-group data-type="{{ lower $c.v }}">
           <h2 class="pub-group__title"><span>{{ i18n (printf "x.%s" $c.k) }}</span><span class="pub-group__count">{{ i18n "x.pub_count" (dict "count" (len .)) }}</span></h2>
-          {{ if eq $c.v "Domestic" }}<p class="pub-group__note">{{ i18n "x.domestic_note" }}</p>{{ end }}
           <div class="pub-grid">{{ range . }}{{ partial "publication-card.html" . }}{{ end }}</div>
         </section>
       {{ end }}

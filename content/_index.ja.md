@@ -27,7 +27,7 @@ education:
     year: "2011.4 – 2015.3"
 ---
 
-## 代表論文
+## 主要論文
 
 {{< selected-publications >}}
 
