@@ -90,6 +90,12 @@
    still zeroes the final entry. */
 .home-intro__content .blog-post { margin-bottom:0.6rem; }
 
+/* On research-theme pages, a heading sitting directly over a bulleted list (e.g.
+   "Key questions") should hug the list, so it reads tighter than the prose default
+   24px gap. Card-grid sections (Related Publications) keep the wider gap to give the
+   cards room — same as Selected Publications on the homepage. */
+.research-prose h2:has(+ ul), .research-prose h2:has(+ ol) { margin-bottom: 1rem; }
+
 /* Selected Publications on the homepage are the showcase set — hide the per-card
    research-theme chip there (it repeats across cards); keep it on the publications
    list and related-publications, which share this card partial. */
