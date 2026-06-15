@@ -18,3 +18,5 @@ x:
   cat_preprints: "プレプリント"
   cat_domestic: "国内発表"
   domestic_note: "日本語での発表。多くは上記の国際版と重複します。"
+  abstract: "Abstract"
+  more_in_theme: "同じ研究テーマの論文"

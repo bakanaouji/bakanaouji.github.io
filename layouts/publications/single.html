@@ -1,0 +1,72 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
+
+  {{ $authors := .Params.authors | default slice }}
+  {{ $venue := .Params.venue | default "" }}
+  {{ $status := .Params.status | default "" }}
+  {{ $type := .Params.type | default "" }}
+  {{ $year := .Params.year | default "" }}
+  {{ $abstract := .Params.abstract | default "" }}
+  {{ $links := .Params.links | default slice }}
+  {{ $projects := .Params.projects | default slice }}
+
+  <header>
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="mt-5 mb-3 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+
+    <div class="pub-detail__meta">
+      {{ with $venue }}<span class="pub-detail__venue">{{ . }}</span>{{ end }}
+      {{ with $status }}<span class="pub-badge pub-badge--{{ . | lower }}">{{ . }}</span>{{ end }}
+      {{ if and $type (ne (lower $type) (lower $status)) }}<span class="pub-type">{{ $type }}</span>{{ end }}
+      {{ with $year }}<span class="pub-detail__year">{{ . }}</span>{{ end }}
+    </div>
+
+    {{ with $authors }}<p class="pub-detail__authors">{{ delimit . ", " }}</p>{{ end }}
+  </header>
+
+  {{ with $links }}
+    <div class="pub-detail__links pub-links">
+      {{ range . }}<a class="pub-link" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ end }}
+    </div>
+  {{ end }}
+
+  {{ with $abstract }}
+    <section class="pub-detail__section">
+      <h2 class="pub-detail__h2">{{ i18n "x.abstract" }}</h2>
+      <p class="pub-detail__abstract">{{ . }}</p>
+    </section>
+  {{ end }}
+
+  {{ with .Content }}
+    <article class="prose dark:prose-invert max-w-full mt-6">{{ . }}</article>
+  {{ end }}
+
+  {{ with $projects }}
+    <section class="pub-detail__section">
+      <h2 class="pub-detail__h2">{{ i18n "x.research_theme" }}</h2>
+      <div class="pub-detail__themes">
+        {{ range . }}
+          {{ $slug := . }}{{ $nm := . }}
+          {{ with site.GetPage (printf "/research/%s" $slug) }}{{ $nm = .Title }}{{ end }}
+          <a class="pub-project" href="/research/{{ $slug }}/">{{ $nm }}</a>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{/* Other papers under the same research theme */}}
+  {{ if $projects }}
+    {{ $self := . }}
+    {{ $related := where (where site.RegularPages "Section" "publications") "Params.projects" "intersect" $projects }}
+    {{ $others := slice }}
+    {{ range $related }}{{ if ne .RelPermalink $self.RelPermalink }}{{ $others = $others | append . }}{{ end }}{{ end }}
+    {{ with $others }}
+      <section class="pub-detail__related mt-12">
+        <h2 class="pub-detail__h2">{{ i18n "x.more_in_theme" }}</h2>
+        <div class="pub-grid">
+          {{ range (sort . "Params.date" "desc") }}{{ partial "publication-card.html" . }}{{ end }}
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+{{ end }}
