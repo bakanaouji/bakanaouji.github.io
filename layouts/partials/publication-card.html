@@ -1,5 +1,7 @@
 {{- $p := . -}}
 {{- $venue := .Params.venue | default "" -}}
+{{- $venueUrl := .Params.venue_url | default "" -}}
+{{- $award := .Params.award | default "" -}}
 {{- $type := .Params.type | default "" -}}
 {{- $year := .Params.year | default "" -}}
 {{- $authors := .Params.authors | default slice -}}
@@ -18,7 +20,8 @@
   data-project="{{ if $projects }}{{ index $projects 0 }}{{ end }}"
   data-search="{{ $search }}">
   <div class="pub-card__head">
-    {{ with $venue }}<span class="pub-venue">{{ . }}</span>{{ end }}
+    {{ with $venue }}{{ if $venueUrl }}<a class="pub-venue" href="{{ $venueUrl }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}<span class="pub-venue">{{ . }}</span>{{ end }}{{ end }}
+    {{ with $award }}<span class="pub-award">{{ . }}</span>{{ end }}
   </div>
   <h3 class="pub-title">
     <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>

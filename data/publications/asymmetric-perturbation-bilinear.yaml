@@ -13,6 +13,7 @@ venues:
   abstract: ''
   venue: 第28回情報論的学習理論ワークショップ (IBIS 2025)
   venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2025/
   year: 2025
   date: 2025-11-12
   type: Domestic

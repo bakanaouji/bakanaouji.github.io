@@ -19,6 +19,8 @@
       {{ $params := dict
           "authors"         (or $v.authors slice)
           "venue"           (or $v.venue "")
+          "venue_url"       (or $v.venue_url "")
+          "award"           (or $v.award "")
           "year"            $year
           "date"            $date
           "type"            (or $v.type "")

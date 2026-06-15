@@ -13,6 +13,7 @@ venues:
   abstract: ''
   venue: 第20回情報科学技術フォーラム (FIT 2021)
   venue_short: FIT
+  venue_url: https://www.ipsj.or.jp/event/fit/fit2021/FIT2021_program/data/html/program/f.html
   year: 2021
   date: 2021-08-25
   type: Domestic

@@ -14,6 +14,7 @@ venues:
   abstract: ''
   venue: 言語処理学会 第31回年次大会 (NLP 2025)
   venue_short: NLP
+  venue_url: https://www.anlp.jp/nlp2025/
   year: 2025
   date: 2025-03-10
   type: Domestic
@@ -31,6 +32,7 @@ venues:
   abstract: ''
   venue: 第39回人工知能学会全国大会 (JSAI 2025)
   venue_short: JSAI
+  venue_url: https://www.ai-gakkai.or.jp/jsai2025/
   year: 2025
   date: 2025-05-27
   type: Domestic

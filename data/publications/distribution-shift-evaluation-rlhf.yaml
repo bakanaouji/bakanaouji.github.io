@@ -13,6 +13,7 @@ venues:
   abstract: ''
   venue: 第38回人工知能学会全国大会 (JSAI 2024)
   venue_short: JSAI
+  venue_url: https://www.ai-gakkai.or.jp/jsai2024/
   year: 2024
   date: 2024-05-28
   type: Domestic

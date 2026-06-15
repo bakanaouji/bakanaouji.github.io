@@ -12,6 +12,7 @@ venues:
   abstract: ''
   venue: 言語処理学会 第29回年次大会 (NLP 2023)
   venue_short: NLP
+  venue_url: https://www.anlp.jp/nlp2023/
   year: 2023
   date: 2023-03-13
   type: Domestic

@@ -27,6 +27,7 @@ venues:
   abstract: ''
   venue: 第26回情報論的学習理論ワークショップ (IBIS 2023)
   venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2023/
   year: 2023
   date: 2023-10-29
   type: Domestic
