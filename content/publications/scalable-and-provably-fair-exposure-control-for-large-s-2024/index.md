@@ -9,7 +9,6 @@ status: "Accepted"
 type: "Conference"
 paper_lang: "en"
 projects: ["fairness-recsys-allocation"]
-project_names: ["Fairness in Recommender Systems and Allocation"]
 topics: ["Fairness","Recommender Systems","Resource Allocation"]
 showDate: false
 showReadingTime: false

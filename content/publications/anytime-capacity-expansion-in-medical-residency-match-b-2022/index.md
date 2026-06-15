@@ -9,7 +9,6 @@ status: "Accepted"
 type: "Conference"
 paper_lang: "en"
 projects: ["fairness-recsys-allocation"]
-project_names: ["Fairness in Recommender Systems and Allocation"]
 topics: ["Reinforcement Learning","Sequential Decision Making","Markov Games","Policy Evaluation"]
 showDate: false
 showReadingTime: false

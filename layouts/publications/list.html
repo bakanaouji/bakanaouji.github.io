@@ -18,7 +18,7 @@
       {{ with .Params.type }}{{ $types = $types | append . }}{{ end }}
       {{ with .Params.year }}{{ $years = $years | append . }}{{ end }}
       {{ with .Params.venue_short }}{{ $venues = $venues | append . }}{{ end }}
-      {{ if .Params.projects }}{{ $themes = merge $themes (dict (index .Params.projects 0) (cond (gt (len (.Params.project_names | default slice)) 0) (index .Params.project_names 0) (index .Params.projects 0))) }}{{ end }}
+      {{ if .Params.projects }}{{ $slug := index .Params.projects 0 }}{{ $nm := $slug }}{{ with site.GetPage (printf "/research/%s" $slug) }}{{ $nm = .Title }}{{ end }}{{ $themes = merge $themes (dict $slug $nm) }}{{ end }}
     {{ end }}
     {{ $statuses = $statuses | uniq }}
     {{ $years = collections.Reverse ($years | uniq | sort) }}

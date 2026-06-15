@@ -7,7 +7,6 @@ status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"
 projects: ["fairness-recsys-allocation"]
-project_names: ["Fairness in Recommender Systems and Allocation"]
 topics: ["Fairness","Recommender Systems","Resource Allocation"]
 showDate: false
 showReadingTime: false

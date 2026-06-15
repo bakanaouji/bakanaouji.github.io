@@ -9,7 +9,6 @@ status: "Accepted"
 type: "Conference"
 paper_lang: "en"
 projects: ["bandits-online-learning"]
-project_names: ["Bandits and Online Learning"]
 topics: ["Fairness","Recommender Systems","Resource Allocation"]
 showDate: false
 showReadingTime: false

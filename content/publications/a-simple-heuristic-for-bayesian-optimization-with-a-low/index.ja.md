@@ -8,7 +8,6 @@ status: "Preprint"
 type: "Preprint"
 paper_lang: "en"
 projects: ["bandits-online-learning"]
-project_names: ["Bandits and Online Learning"]
 topics: ["Bandits","Online Learning","Bayesian Optimization"]
 showDate: false
 showReadingTime: false

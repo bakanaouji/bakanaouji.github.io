@@ -8,7 +8,6 @@ status: "Preprint"
 type: "Preprint"
 paper_lang: "en"
 projects: ["language-model-alignment"]
-project_names: ["Language Model Alignment and Preference Optimization"]
 topics: ["LLM Alignment","Preference Optimization","Decoding"]
 showDate: false
 showReadingTime: false
