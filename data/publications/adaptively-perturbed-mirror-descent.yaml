@@ -1,0 +1,36 @@
+# Research project: adaptively-perturbed-mirror-descent
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+venues:
+- lang: ja
+  title: A Slingshot Approach to Learning in Monotone Games
+  authors:
+  - 阿部 拳之
+  - 蟻生 開人
+  - 坂本 充生
+  - 岩崎 敦
+  abstract: ''
+  venue: 第26回情報論的学習理論ワークショップ (IBIS 2023)
+  venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2023/
+  year: 2023
+  date: 2023-10-29
+  type: Domestic
+- lang: en
+  featured: true
+  title: Adaptively Perturbed Mirror Descent for Learning in Games
+  authors:
+  - Kenshi Abe
+  - Kaito Ariu
+  - Mitsuki Sakamoto
+  - Atsushi Iwasaki
+  abstract: This paper proposes a payoff perturbation technique for the Mirror Descent (MD) algorithm in games where the gradient of the payoff functions is monotone in the strategy profile space, potentially containing additive noise. The optimistic family of learning algorithms, exemplified by optimistic MD, successfully achieves {\it last-iterate} convergence in scenarios devoid of noise, leading the dynamics to a Nash equilibrium. A recent re-emerging trend underscores the promise of the perturbation approach, where payoff functions are perturbed based on the distance from an anchoring, or {\it slingshot}, strategy. In response, we propose {\it Adaptively Perturbed MD} (APMD), which adjusts the magnitude of the perturbation by repeatedly updating the slingshot strategy at a predefined interval. This innovation empowers us to find a Nash equilibrium of the underlying game with guaranteed rates. Empirical demonstrations affirm that our algorithm exhibits significantly accelerated convergence.
+  venue: ICML 2024
+  venue_short: ICML
+  year: 2024
+  date: 2024-07-23
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2305.16610

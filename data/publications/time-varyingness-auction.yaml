@@ -1,0 +1,33 @@
+# Research project: time-varyingness-auction
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- bandits-online-learning
+venues:
+- lang: ja
+  title: オークション環境の時間変動による収入同値の破れ
+  authors:
+  - 藤本 悠雅
+  - 蟻生 開人
+  - 阿部 拳之
+  abstract: ''
+  venue: 第28回情報論的学習理論ワークショップ (IBIS 2025)
+  venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2025/
+  year: 2025
+  date: 2025-11-12
+  type: Domestic
+- lang: en
+  title: Time-Varyingness in Auction Breaks Revenue Equivalence
+  authors:
+  - Yuma Fujimoto
+  - Kaito Ariu
+  - Kenshi Abe
+  abstract: 'Auction is applied for trade with various mechanisms. A simple but practical question is which mechanism, typically first-price or second-price auctions, is preferred from the perspective of bidders or sellers. A celebrated answer is revenue equivalence, where each bidder''s equilibrium payoff is proven to be independent of auction mechanisms (and a seller''s revenue, too). In reality, however, auction environments like the value distribution of items would vary over time, and such equilibrium bidding cannot always be achieved. Indeed, bidders must continue to track their equilibrium bidding by learning in first-price auctions, but they can keep their equilibrium bidding in second-price auctions. This study discusses whether and how revenue equivalence is violated in the long run by comparing the time series of non-equilibrium bidding in first-price auctions with those of equilibrium bidding in second-price auctions. We characterize the value distribution by two parameters: its basis value, which means the lowest price to bid, and its value interval, which means the width of possible values. Surprisingly, our theorems and experiments find that revenue equivalence is broken by the correlation between the basis value and the value interval, uncovering a novel phenomenon that could occur in the real world.'
+  venue: AAMAS 2026 (Extended abstract)
+  venue_short: AAMAS
+  year: 2026
+  date: 2026-05-27
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2410.12306

@@ -1,0 +1,43 @@
+{{/*
+  Generate one page per venue appearance from data/publications/<project>.yaml
+  (one file per research project; the single source of truth). Runs per language.
+
+  Each project groups its venue appearances under venues[]; every venue keeps
+  its own language-specific title/authors. This expands them back into one page
+  per venue. The page path is derived as <project>-<venue_short>-<year>
+  (e.g. alignment-evaluation-llm-nlp-2025); year falls back to the date's year.
+
+  venue.lang: "en" -> shown on both EN and JA sites
+              "ja" -> shown on the JA site only
+*/}}
+{{ $lang := site.Language.Lang }}
+{{ range $pid, $proj := hugo.Data.publications }}
+  {{ range $v := $proj.venues }}
+    {{ if or (eq $lang "ja") (eq $v.lang "en") }}
+      {{ $date := time.AsTime $v.date }}
+      {{ $year := or $v.year $date.Year }}
+      {{ $params := dict
+          "authors"         (or $v.authors slice)
+          "venue"           (or $v.venue "")
+          "venue_url"       (or $v.venue_url "")
+          "award"           (or $v.award "")
+          "year"            $year
+          "date"            $date
+          "type"            (or $v.type "")
+          "lang"            (or $v.lang "en")
+          "projects"        (or $proj.projects slice)
+          "links"           (or $v.links slice)
+          "abstract"        (or $v.abstract "")
+          "showDate"        false
+          "showReadingTime" false
+      }}
+      {{ $.AddPage (dict
+          "kind"   "page"
+          "path"   (urlize (printf "%s-%s-%v" $pid $v.venue_short $year))
+          "title"  $v.title
+          "dates"  (dict "date" $date)
+          "params" $params
+      ) }}
+    {{ end }}
+  {{ end }}
+{{ end }}

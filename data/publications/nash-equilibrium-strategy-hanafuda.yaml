@@ -1,0 +1,16 @@
+# Research project: nash-equilibrium-strategy-hanafuda
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+venues:
+- lang: ja
+  title: 花札におけるナッシュ均衡戦略の計算
+  authors:
+  - 阿部 拳之
+  abstract: ''
+  venue: 第22回情報論的学習理論ワークショップ (IBIS 2019)
+  venue_short: IBIS
+  venue_url: http://ibisml.org/ibis2019/
+  year: 2019
+  date: 2019-11-20
+  type: Domestic

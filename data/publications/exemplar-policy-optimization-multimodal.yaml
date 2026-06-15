@@ -1,0 +1,17 @@
+# Research project: exemplar-policy-optimization-multimodal
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+venues:
+- lang: ja
+  title: 多峰性景観下での自然進化戦略による事例ベース政策最適化
+  authors:
+  - 阿部 拳之
+  - 小野 功
+  abstract: ''
+  venue: 計測自動制御学会システム・情報部門学術講演会 (SSI 2016)
+  venue_short: SSI
+  venue_url: https://www.sice.or.jp/org/SSI2016/
+  year: 2016
+  date: 2016-12-06
+  type: Domestic

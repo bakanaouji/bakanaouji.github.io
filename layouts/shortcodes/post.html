@@ -1,0 +1,18 @@
+{{- /* One blog-post entry for the homepage. Shares the compact-entry styling with
+       the talk shortcode (.talk / .talk-title / .talk-meta) so talks and posts read
+       as one unified list.
+       title : post title (line 1, prominent; links to url)
+       url   : post URL
+       source: optional source label, e.g. Qiita / CyberAgent (muted)
+       date  : optional date (faintest tier)
+       The meta line is omitted entirely when neither source nor date is set. */ -}}
+{{- $title := .Get "title" -}}
+{{- $url := .Get "url" -}}
+{{- $source := .Get "source" -}}
+{{- $date := .Get "date" -}}
+<div class="talk blog-post">
+  <p class="talk-title">{{ with $url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $title }}</a>{{ else }}{{ $title }}{{ end }}</p>
+  {{- if or $source $date }}
+  <p class="talk-meta">{{ with $source }}<span class="talk-venue">{{ . }}</span>{{ end }}{{ with $date }} · <span class="talk-date">{{ . }}</span>{{ end }}</p>
+  {{- end }}
+</div>

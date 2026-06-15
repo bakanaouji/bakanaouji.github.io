@@ -1,0 +1,21 @@
+# Research project: return-aligned-decision-transformer
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+venues:
+- lang: en
+  title: Return-Aligned Decision Transformer
+  authors:
+  - Tsunehiko Tanaka
+  - Kenshi Abe
+  - Kaito Ariu
+  - Tetsuro Morimura
+  - Edgar Simo-Serra
+  abstract: Traditional approaches in offline reinforcement learning aim to learn the optimal policy that maximizes the cumulative reward, also known as return. It is increasingly important to adjust the performance of AI agents to meet human requirements, for example, in applications like video games and education tools. Decision Transformer (DT) optimizes a policy that generates actions conditioned on the target return through supervised learning and includes a mechanism to control the agent's performance using the target return. However, the action generation is hardly influenced by the target return because DT's self-attention allocates scarce attention scores to the return tokens. In this paper, we propose Return-Aligned Decision Transformer (RADT), designed to more effectively align the actual return with the target return. RADT leverages features extracted by paying attention solely to the return, enabling action generation to consistently depend on the target return. Extensive experiments show that RADT significantly reduces the discrepancies between the actual return and the target return compared to DT-based methods. Our code is available at https://github.com/CyberAgentAILab/radt
+  venue: Transactions on Machine Learning Research
+  venue_short: TMLR
+  date: 2025-06-08
+  type: Journal
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2402.03923

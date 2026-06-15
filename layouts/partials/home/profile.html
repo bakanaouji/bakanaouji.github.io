@@ -1,0 +1,93 @@
+{{/* Project override of Blowfish's profile homepage partial.
+     The homepage is a two-column Biography landing page: a left identity column
+     (photo, name, role, social links) and a right column with a short biography
+     plus small Interests / Education blocks and a call to action. Selected
+     Publications then flows full-width below. Biography, interests and education
+     come from the page front matter so EN/JA stay in sync. */}}
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+{{ $isJa := eq .Site.Language.Lang "ja" }}
+{{ $bioLabel := cond $isJa "プロフィール" "Biography" }}
+{{ $interestsLabel := cond $isJa "研究領域" "Interests" }}
+{{ $eduLabel := cond $isJa "学歴" "Education" }}
+{{ $themesText := cond $isJa "研究テーマを見る" "View research themes" }}
+<article class="home-intro">
+  <div class="home-intro__grid">
+    <aside class="home-intro__identity">
+      {{ with .Site.Params.Author.image }}
+        {{ $authorImage := "" }}
+        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+          {{ $authorImage = resources.GetRemote . }}
+        {{ else }}
+          {{ $authorImage = resources.Get . }}
+        {{ end }}
+        {{ if $authorImage }}
+          {{ $final := $authorImage }}
+          {{ $squareImage := $authorImage }}
+          {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
+            {{ $final = $authorImage.Fill (print "352x352 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+            {{ $shortSide := int (math.Min $authorImage.Width $authorImage.Height) }}
+            {{ $squareImage = $authorImage.Crop (printf "%dx%d" $shortSide $shortSide ) }}
+          {{ end }}
+          <img
+            class="home-intro__avatar"
+            width="176"
+            height="176"
+            alt="{{ $.Site.Params.Author.name | default `Author` }}"
+            src="{{ $final.RelPermalink }}"
+            data-zoom-src="{{ $squareImage.RelPermalink }}">
+        {{ end }}
+      {{ end }}
+      <h1 class="home-intro__name text-3xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Site.Params.Author.name | default .Site.Title }}
+      </h1>
+      {{ with .Site.Params.Author.headline }}
+        <p class="home-intro__role">{{ . | markdownify }}</p>
+      {{ end }}
+      <div class="home-intro__links">
+        {{ partialCached "author-links.html" . }}
+      </div>
+    </aside>
+    <div class="home-intro__bio">
+      {{ with .Params.biography }}
+        <p class="home-intro__eyebrow">{{ $bioLabel }}</p>
+        {{ range . }}
+          <p class="home-intro__bio-text">{{ . | markdownify }}</p>
+        {{ end }}
+      {{ end }}
+      {{ if or .Params.interests .Params.education }}
+        <div class="home-intro__facts">
+          {{ with .Params.interests }}
+            <div class="home-intro__fact">
+              <p class="home-intro__eyebrow">{{ $interestsLabel }}</p>
+              <ul class="home-intro__list home-intro__list--interests">
+                {{ range . }}
+                  <li><a href="{{ (printf "research/%s/" .theme) | relLangURL }}">{{ .label }}</a></li>
+                {{ end }}
+              </ul>
+              <p class="home-intro__themes-link">
+                <a href="{{ "research/" | relLangURL }}">{{ $themesText }}</a>
+              </p>
+            </div>
+          {{ end }}
+          {{ with .Params.education }}
+            <div class="home-intro__fact">
+              <p class="home-intro__eyebrow">{{ $eduLabel }}</p>
+              <ul class="home-intro__list home-intro__list--edu">
+                {{ range . }}
+                  <li>
+                    <span class="home-intro__edu-degree">{{ .degree }}</span>
+                    <span class="home-intro__edu-meta">{{ .place }} · {{ .year }}</span>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+      <section class="prose max-w-full dark:prose-invert home-intro__content">{{ .Content }}</section>
+    </div>
+  </div>
+</article>
+<section>
+  {{ partial "recent-articles/main.html" . }}
+</section>

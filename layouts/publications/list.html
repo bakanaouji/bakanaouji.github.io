@@ -1,0 +1,59 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  <header class="mb-8">
+    <h1 class="mt-2 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+
+  {{ with .Content }}
+    <section class="mt-1 mb-8 prose flex max-w-full flex-col dark:prose-invert">
+      <div class="min-w-0 min-h-0 max-w-prose w-full">{{ . }}</div>
+    </section>
+  {{ end }}
+
+  {{ if gt (len .Pages) 0 }}
+    {{ $pages := .Pages }}
+    {{ $slugs := slice }}
+    {{ range $pages }}{{ with .Params.projects }}{{ $slugs = $slugs | append (index . 0) }}{{ end }}{{ end }}
+    {{ $themes := slice }}
+    {{ range (uniq $slugs) }}
+      {{ $slug := . }}{{ $name := . }}{{ $order := 999 }}
+      {{ with site.GetPage (printf "/research/%s" $slug) }}{{ $name = (.Params.short | default .Title) }}{{ $order = (.Params.order | default 999) }}{{ end }}
+      {{ $themes = $themes | append (dict "slug" $slug "name" $name "order" $order) }}
+    {{ end }}
+    {{ $themes = sort $themes "order" }}
+
+    <div class="pub-controls mb-8 print:hidden" data-pub-controls>
+      <div class="pub-facet" role="group" aria-label="{{ i18n "x.facet_theme" }}">
+        <span class="pub-facet__label">{{ i18n "x.facet_theme" }}</span>
+        <button type="button" class="pub-btn pub-btn--theme is-active" data-facet="project" data-value="all" aria-pressed="true">{{ i18n "x.filter_all" }}</button>
+        {{ range $themes }}<button type="button" class="pub-btn pub-btn--theme" data-facet="project" data-value="{{ .slug }}" aria-pressed="false">{{ .name }}</button>{{ end }}
+      </div>
+      {{/* Search box intentionally not rendered: the theme filter and venue sections are enough at the current paper count. publications-filter.js still supports a [data-pub-search] input (.pub-search styles and the pub_search_placeholder string are kept) — re-add the label/input here to restore it once the list grows. */}}
+    </div>
+
+    {{ $cats := slice
+        (dict "v" "Conference" "k" "cat_intl_conference")
+        (dict "v" "Journal" "k" "cat_journal")
+        (dict "v" "Workshop" "k" "cat_intl_workshop")
+        (dict "v" "Preprint" "k" "cat_preprints")
+        (dict "v" "Domestic" "k" "cat_domestic") }}
+    {{ range $cats }}
+      {{ $c := . }}
+      {{ $items := sort (where $pages "Params.type" $c.v) "Params.date" "desc" }}
+      {{ with $items }}
+        <section class="pub-group" data-pub-group data-type="{{ lower $c.v }}">
+          <h2 class="pub-group__title"><span>{{ i18n (printf "x.%s" $c.k) }}</span><span class="pub-group__count">{{ i18n "x.pub_count" (dict "count" (len .)) }}</span></h2>
+          <div class="pub-grid">{{ range . }}{{ partial "publication-card.html" . }}{{ end }}</div>
+        </section>
+      {{ end }}
+    {{ end }}
+
+    <p class="pub-empty mt-8 text-neutral-500 dark:text-neutral-400" data-pub-empty hidden><em>{{ i18n "x.pub_empty" }}</em></p>
+  {{ end }}
+
+  {{ with resources.Get "js/publications-filter.js" }}
+    {{ $js := . | fingerprint }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{ end }}
+{{ end }}

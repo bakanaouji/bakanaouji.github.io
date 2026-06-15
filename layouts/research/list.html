@@ -1,0 +1,44 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  <header class="mb-8">
+    <h1 class="mt-2 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+
+  {{ with .Content }}
+    <section class="mt-1 mb-8 prose flex max-w-full flex-col dark:prose-invert">
+      <div class="min-w-0 min-h-0 max-w-full w-full">{{ . }}</div>
+    </section>
+  {{ end }}
+
+  {{ if gt (len .Pages) 0 }}
+    <section class="research-grid">
+      {{ range $i, $p := .Pages.ByParam "order" }}
+        {{ $id := path.Base $p.File.Dir }}
+        {{ $count := len (where (where (where site.RegularPages "Section" "publications") "Params.projects" "intersect" (slice $id)) "Params.lang" "en") }}
+        {{ $img := ($p.Resources.ByType "image").GetMatch "*featured*" }}
+        {{ $hue := mod (mul $i 53) 360 }}
+        <div class="research-item">
+          <article class="research-card">
+            <a class="research-card__cover" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true" style="--card-hue: {{ $hue }}">
+              {{ with $img }}
+                <img src="{{ (.Resize "600x").RelPermalink }}" alt="" loading="lazy" decoding="async">
+              {{ else }}
+                <span class="research-card__placeholder"></span>
+              {{ end }}
+            </a>
+            <div class="research-card__body">
+              <span class="research-card__eyebrow">{{ i18n "x.research_theme" }}</span>
+              <h2 class="research-card__title"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h2>
+              {{ with $p.Summary }}<p class="research-card__summary">{{ . | plainify }}</p>{{ end }}
+              {{ if gt $count 0 }}<p class="research-card__meta">{{ i18n "x.related_papers_count" (dict "count" $count) }}</p>{{ end }}
+              <div class="research-card__links">
+                <a href="{{ $p.RelPermalink }}">{{ i18n "x.view_theme" }} →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
+{{ end }}

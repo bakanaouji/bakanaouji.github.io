@@ -1,0 +1,82 @@
+# Research project: learning-fair-division
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- fairness-recsys-allocation
+venues:
+- lang: ja
+  title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
+  authors:
+  - 山田 博瑛
+  - 小宮山 純平
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 情報処理学会 第85回全国大会
+  venue_short: IPSJ
+  venue_url: https://www.ipsj.or.jp/event/taikai/85/
+  date: 2023-03-02
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=230043&item_no=1&page_id=13&block_id=8
+- lang: ja
+  title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
+  authors:
+  - 山田 博瑛
+  - 小宮山 純平
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 第37回人工知能学会全国大会 (JSAI 2023)
+  venue_short: JSAI
+  venue_url: https://www.ai-gakkai.or.jp/jsai2023/
+  year: 2023
+  date: 2023-06-06
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2T4GS503/_article/-char/ja/
+- lang: ja
+  title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
+  authors:
+  - 山田 博瑛
+  - 小宮山 純平
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 第22回情報科学技術フォーラム (FIT 2023)
+  venue_short: FIT
+  venue_url: https://www.ipsj.or.jp/event/fit/fit2023/abstract/data/html/program/f.html
+  year: 2023
+  date: 2023-09-06
+  type: Domestic
+- lang: ja
+  title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
+  authors:
+  - 山田 博瑛
+  - 小宮山 純平
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 第26回情報論的学習理論ワークショップ (IBIS 2023)
+  venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2023/
+  year: 2023
+  date: 2023-10-29
+  type: Domestic
+- lang: en
+  title: Learning Fair Division from Bandit Feedback
+  authors:
+  - Hakuei Yamada
+  - Junpei Komiyama
+  - Kenshi Abe
+  - Atsushi Iwasaki
+  abstract: This work addresses learning online fair division under uncertainty, where a central planner sequentially allocates items without precise knowledge of agents' values or utilities. Departing from conventional online algorithm, the planner here relies on noisy, estimated values obtained after allocating items. We introduce wrapper algorithms utilizing \textit{dual averaging}, enabling gradual learning of both the type distribution of arriving items and agents' values through bandit feedback. This approach enables the algorithms to asymptotically achieve optimal Nash social welfare in linear Fisher markets with agents having additive utilities. We establish regret bounds in Nash social welfare and empirically validate the superior performance of our proposed algorithms across synthetic and empirical datasets.
+  venue: AISTATS 2024
+  venue_short: AISTATS
+  year: 2024
+  date: 2024-05-02
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2311.09068

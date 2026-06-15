@@ -1,0 +1,40 @@
+{{- $p := . -}}
+{{- $venue := .Params.venue | default "" -}}
+{{- $venueUrl := .Params.venue_url | default "" -}}
+{{- $award := .Params.award | default "" -}}
+{{- $type := .Params.type | default "" -}}
+{{- $year := .Params.year | default "" -}}
+{{- $authors := .Params.authors | default slice -}}
+{{- $projects := .Params.projects | default slice -}}
+{{- $projectNames := slice -}}
+{{- $projectShorts := slice -}}
+{{- range $projects -}}
+  {{- $nm := . -}}{{- $sh := . -}}
+  {{- with site.GetPage (printf "/research/%s" .) -}}{{- $nm = .Title -}}{{- $sh = (.Params.short | default .Title) -}}{{- end -}}
+  {{- $projectNames = $projectNames | append $nm -}}
+  {{- $projectShorts = $projectShorts | append $sh -}}
+{{- end -}}
+{{- $links := .Params.links | default slice -}}
+{{- $search := lower (print $p.Title " " (delimit $authors " ") " " $venue " " $year " " (delimit $projectNames " ") " " (delimit $projectShorts " ") " " $type) -}}
+<article class="pub-card"
+  data-project="{{ if $projects }}{{ index $projects 0 }}{{ end }}"
+  data-search="{{ $search }}">
+  <div class="pub-card__head">
+    {{ with $venue }}{{ if $venueUrl }}<a class="pub-venue" href="{{ $venueUrl }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}<span class="pub-venue">{{ . }}</span>{{ end }}{{ end }}
+    {{ with $award }}<span class="pub-award">{{ . }}</span>{{ end }}
+  </div>
+  <h3 class="pub-title">
+    <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+  </h3>
+  {{ with $authors }}<p class="pub-authors">
+    {{- $selfNames := site.Params.selfNames | default slice -}}
+    {{- range $i, $a := . -}}
+      {{- if $i }}, {{ end -}}
+      {{- if in $selfNames $a }}<span class="pub-author--self">{{ $a }}</span>{{ else }}{{ $a }}{{ end -}}
+    {{- end -}}
+  </p>{{ end }}
+  {{ if $projects }}
+    <a class="pub-project" href="/research/{{ index $projects 0 }}/"><span class="pub-project__label">{{ i18n "x.theme_prefix" }}</span>{{ index $projectShorts 0 }}</a>
+  {{ end }}
+  {{ with $links }}<div class="pub-links">{{ range . }}<a class="pub-link" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ end }}</div>{{ end }}
+</article>

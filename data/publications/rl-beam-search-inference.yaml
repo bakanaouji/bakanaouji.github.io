@@ -1,0 +1,19 @@
+# Research project: rl-beam-search-inference
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- language-model-alignment
+venues:
+- lang: ja
+  title: ビームサーチ推論のための強化学習
+  authors:
+  - 森村 哲郎
+  - 大田 和寛
+  - 阿部 拳之
+  - 張 培楠
+  abstract: ''
+  venue: 第25回情報論的学習理論ワークショップ (IBIS 2022)
+  venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2022/
+  year: 2022
+  date: 2022-11-20
+  type: Domestic

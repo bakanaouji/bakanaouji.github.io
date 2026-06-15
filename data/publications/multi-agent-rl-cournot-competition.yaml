@@ -1,0 +1,18 @@
+# Research project: multi-agent-rl-cournot-competition
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+venues:
+- lang: ja
+  title: クールノー競争におけるマルチエージェント強化学習に関する研究
+  authors:
+  - 豊島 健太郎
+  - 坂本 充生
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 情報処理学会 第84回全国大会
+  venue_short: IPSJ
+  venue_url: https://www.ipsj.or.jp/event/taikai/84/index.html
+  date: 2022-03-03
+  type: Domestic

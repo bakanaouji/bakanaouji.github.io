@@ -1,0 +1,51 @@
+# Research project: misperception-repeated-games
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+venues:
+- lang: ja
+  title: 見間違えのある繰り返し囚人のジレンマにおける方策勾配法に関する研究
+  authors:
+  - 坂本 充生
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 第20回情報科学技術フォーラム (FIT 2021)
+  venue_short: FIT
+  venue_url: https://www.ipsj.or.jp/event/fit/fit2021/FIT2021_program/data/html/program/f.html
+  year: 2021
+  date: 2021-08-25
+  type: Domestic
+  award: FIT船井ベストペーパー賞
+  links:
+  - name: Paper
+    url: https://www.ipsj.or.jp/award/9faeag0000004eyo-att/CF-002.pdf
+- lang: ja
+  title: 見間違えのある繰り返しゲームのためのActor-Critic型強化学習
+  authors:
+  - 坂本 充生
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 日本オペレーションズ・リサーチ学会 2021年 秋季研究発表会
+  venue_short: ORSJ
+  venue_url: https://orsj.org/nc2021f/
+  year: 2021
+  date: 2021-09-16
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://orsj.org/nc2021f/wp-content/uploads/sites/2/2021/08/2021f-2-C-11.pdf
+- lang: ja
+  title: 見間違えのある繰り返しゲームのためのActor-Critic型強化学習
+  authors:
+  - 坂本 充生
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 第24回情報論的学習理論ワークショップ (IBIS 2021)
+  venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2021/
+  year: 2021
+  date: 2021-11-10
+  type: Domestic

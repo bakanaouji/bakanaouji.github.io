@@ -1,0 +1,26 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Kenshi Abe"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Kenshi Abe — Research Scientist working on learning in games, reinforcement learning, and imperfect-information games."
+
+[params.author]
+  name = "Kenshi Abe"
+  headline = "Research Scientist at [CyberAgent AI Lab](https://cyberagent.ai/ailab/)"
+  image = "img/profile.png"
+  imageQuality = 96
+  bio = "Research Scientist at CyberAgent AI Lab. I work on reinforcement learning, imperfect-information games, and multi-agent learning."
+  links = [
+    { github = "https://github.com/bakanaouji/" },
+    { google-scholar = "https://scholar.google.com/citations?user=rImmohoAAAAJ" },
+    { linkedin = "https://www.linkedin.com/in/kenshi-abe/" },
+    { x-twitter = "https://twitter.com/bakanaouji/" },
+    { email = "mailto:abekenshi1224@gmail.com" },
+  ]

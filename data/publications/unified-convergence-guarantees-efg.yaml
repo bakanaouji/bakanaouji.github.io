@@ -1,0 +1,20 @@
+# Research project: unified-convergence-guarantees-efg
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+venues:
+- lang: ja
+  title: Unified Convergence Guarantees for Learning with General Payoff Perturbations in Extensive-Form Games
+  authors:
+  - 阿部 拳之
+  - 坂本 充生
+  - 眞坂 航宙
+  - 蟻生 開人
+  - 岩崎 敦
+  abstract: ''
+  venue: 第28回情報論的学習理論ワークショップ (IBIS 2025)
+  venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2025/
+  year: 2025
+  date: 2025-11-12
+  type: Domestic

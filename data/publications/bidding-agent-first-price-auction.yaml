@@ -1,0 +1,21 @@
+# Research project: bidding-agent-first-price-auction
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- bandits-online-learning
+venues:
+- lang: en
+  title: Online Learning for Bidding Agent in First Price Auction
+  authors:
+  - Gota Morishita
+  - Kenshi Abe
+  - Kazuhisa Ogawa
+  - Yusuke Kaneko
+  abstract: ''
+  venue: AAAI 2020 Workshop on Reinforcement Learning in Games
+  venue_short: AAAI
+  year: 2020
+  date: 2020-02-08
+  type: Workshop
+  links:
+  - name: Paper
+    url: http://aaai-rlg.mlanctot.info/papers/AAAI20-RLG_paper_9.pdf

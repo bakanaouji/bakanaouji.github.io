@@ -1,0 +1,49 @@
+# Research project: state-abstraction-markov-games
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+venues:
+- lang: ja
+  title: 二人零和マルコフゲームにおける状態抽象化法に関する研究
+  authors:
+  - 石橋 宙希
+  - 島野 雄貴
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 情報処理学会 第86回全国大会
+  venue_short: IPSJ
+  venue_url: https://www.ipsj.or.jp/event/taikai/86/
+  date: 2024-03-15
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=235852&item_no=1&page_id=13&block_id=8
+- lang: ja
+  title: 二人零和マルコフゲームにおける状態抽象化に関する研究
+  authors:
+  - 石橋 宙希
+  - 阿部 拳之
+  - 岩崎 敦
+  abstract: ''
+  venue: 第23回情報科学技術フォーラム (FIT 2024)
+  venue_short: FIT
+  venue_url: https://www.ipsj.or.jp/event/fit/fit2024/abstract/data/html/program/f.html
+  year: 2024
+  date: 2024-09-04
+  type: Domestic
+- lang: en
+  title: Approximate State Abstraction for Markov Games
+  authors:
+  - Hiroki Ishibashi
+  - Kenshi Abe
+  - Atsushi Iwasaki
+  abstract: This paper introduces state abstraction for two-player zero-sum Markov games (TZMGs), where the payoffs for the two players are determined by the state representing the environment and their respective actions, with state transitions following Markov decision processes. For example, in games like soccer, the value of actions changes according to the state of play, and thus such games should be described as Markov games. In TZMGs, as the number of states increases, computing equilibria becomes more difficult. Therefore, we consider state abstraction, which reduces the number of states by treating multiple different states as a single state. There is a substantial body of research on finding optimal policies for Markov decision processes using state abstraction. However, in the multi-player setting, the game with state abstraction may yield different equilibrium solutions from those of the ground game. To evaluate the equilibrium solutions of the game with state abstraction, we derived bounds on the duality gap, which represents the distance from the equilibrium solutions of the ground game. Finally, we demonstrate our state abstraction with Markov Soccer, compute equilibrium policies, and examine the results.
+  venue: AAAI 2025
+  venue_short: AAAI
+  year: 2025
+  date: 2025-02-27
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2412.15877

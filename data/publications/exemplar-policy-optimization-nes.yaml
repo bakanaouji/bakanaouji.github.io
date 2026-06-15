@@ -1,0 +1,17 @@
+# Research project: exemplar-policy-optimization-nes
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+venues:
+- lang: ja
+  title: 自然進化戦略を用いた事例ベース政策最適化
+  authors:
+  - 阿部 拳之
+  - 小野 功
+  abstract: ''
+  venue: 第54回システム工学部会研究会 (2016年)
+  venue_short: SICE-SE
+  venue_url: https://www.sice.or.jp/system/system_ken54.html
+  year: 2016
+  date: 2016-03-07
+  type: Domestic
