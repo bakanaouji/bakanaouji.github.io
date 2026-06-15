@@ -11,7 +11,7 @@
 
   {{ if gt (len .Pages) 0 }}
     <section class="research-grid">
-      {{ range $i, $p := .Pages.ByDate.Reverse }}
+      {{ range $i, $p := .Pages.ByParam "order" }}
         {{ $id := path.Base $p.File.Dir }}
         {{ $count := len (where (where site.RegularPages "Section" "publications") "Params.projects" "intersect" (slice $id)) }}
         {{ $img := ($p.Resources.ByType "image").GetMatch "*featured*" }}

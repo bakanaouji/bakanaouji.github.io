@@ -1,7 +1,7 @@
 ---
 title: "Fairness in Recommender Systems and Allocation"
 summary: "How can learning systems allocate resources and exposure fairly?"
-date: 2026-01-01
+order: 5
 keywords: ["Fairness", "Recommender Systems", "Resource Allocation"]
 showReadingTime: false
 showDate: false

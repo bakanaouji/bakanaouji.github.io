@@ -1,7 +1,7 @@
 ---
 title: "Fairness in Recommender Systems and Allocation"
 summary: "推薦システムと資源配分における公平性。バンディットフィードバックからの公平分配や、大規模推薦システムにおける公平な露出制御を扱う。"
-date: 2026-01-01
+order: 5
 keywords: ["Fairness","Recommender Systems","Resource Allocation"]
 showReadingTime: false
 showDate: false

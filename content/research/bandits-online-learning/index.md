@@ -1,7 +1,7 @@
 ---
 title: "Bandits and Online Learning"
 summary: "How should an agent balance exploration and exploitation under uncertainty?"
-date: 2026-02-01
+order: 2
 keywords: ["Bandits", "Online Learning", "Bayesian Optimization"]
 showReadingTime: false
 showDate: false

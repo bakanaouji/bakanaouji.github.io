@@ -1,7 +1,7 @@
 ---
 title: "Learning Dynamics and Equilibrium Computation in Games"
 summary: "When do learning dynamics converge to Nash equilibrium?"
-date: 2026-05-01
+order: 1
 keywords: ["Learning in Games", "Learning Dynamics", "Equilibrium Computation", "Last-Iterate Convergence", "Game Theory"]
 showReadingTime: false
 showDate: false
