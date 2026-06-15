@@ -15,11 +15,11 @@ hugo server
 
 ## 新しい論文を追加する
 
-論文ページは `data/publications/<project>.yaml` から**自動生成**されるため、Markdownファイルを手動で作る・編集する必要はない。
+論文の情報は `data/publications/<project>.yaml` に書く。ページ（HTML）はここから自動生成されるので、`content/` 以下に Markdown を手で作る必要はない。
 
-1. その論文が属する研究プロジェクトを決める。`projects` には `content/research/` 直下のディレクトリ名を指定する（例: `learning-dynamics-equilibrium-games`）。
-2. 既存プロジェクトなら該当ファイルの `venues:` に追記。新規プロジェクトなら `data/publications/<project>.yaml` を新規作成する。
-3. venue のフィールドを埋める:
+1. その論文をどの研究テーマに紐づけるか決める。テーマは `content/research/` 直下のディレクトリ名で表す（例: `learning-dynamics-equilibrium-games`）。
+2. 同じテーマの YAML が既にあれば、その `venues:` に1件追記する。なければ `data/publications/<project>.yaml` を新しく作り、先頭の `projects:` に紐づけるテーマ名を書く。
+3. 発表1回分の情報（タイトル・著者・会議名・日付・リンクなど）を、`venues:` の1項目として埋める:
 
 ```yaml
 projects:                  # この論文が紐づく研究テーマ（content/research/ 配下のディレクトリ名）
@@ -42,19 +42,19 @@ venues:
     url: https://arxiv.org/abs/XXXX.XXXXX
 ```
 
-4. `hugo server` で確認する。`publications` 一覧と、`projects` で紐づけた研究テーマページの「関連論文」に出ることをチェック。
-   - 研究テーマページの関連論文は `lang: en` の venue のみ表示する（国内発表など `ja` は除外される）。
+4. `hugo server` でプレビューし、論文一覧ページと、紐づけたテーマページの「関連論文」に表示されることを確認する。
+   - テーマページの「関連論文」に出るのは `lang: en` の発表のみ（`lang: ja` の国内発表などは除外される）。
 
 ## 研究テーマを追加・修正する
 
-1. 1テーマ = `content/research/<theme>/index.md`（EN）+ `index.ja.md`（JA）の対。
-2. フロントマターは EN / JA で対応させる:
-   - `title` / `short`（チップ用の短縮ラベル）
-   - `summary`（カードに出る一文。問いの形）
-   - `order`（カードの並び順。EN / JA で揃える）
+1. `content/research/<theme>/` に、英語版 `index.md` と日本語版 `index.ja.md` の2ファイルを置く。
+2. フロントマターは英語版・日本語版で内容を対応させる:
+   - `title` / `short`（チップに出る短いラベル）
+   - `summary`（カードに出る一文。問いかけの形で書く）
+   - `order`（カードの並び順。英語版・日本語版で同じ値に揃える）
    - `keywords`
-3. 本文は導入1段落 + 見出し（EN は `## Key questions` / JA は `## 研究の焦点`）。
-4. `<theme>`（ディレクトリ名）が、論文YAMLの `projects:` から参照されるIDになる。
+3. 本文は、導入の段落1つ + 見出し（英語版は `## Key questions`、日本語版は `## 研究の焦点`）。
+4. ディレクトリ名 `<theme>` が、論文 YAML の `projects:` から参照するテーマ ID になる。
 
 ## 公開（デプロイ）
 
