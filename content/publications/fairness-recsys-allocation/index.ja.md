@@ -5,6 +5,7 @@ venue: "情報処理学会 第85回全国大会"
 date: 2016-01-01
 status: "Accepted"
 type: "Domestic"
+paper_lang: "ja"
 projects: ["fairness-recsys-allocation"]
 project_names: ["Fairness in Recommender Systems and Allocation"]
 topics: ["Fairness","Recommender Systems","Resource Allocation"]

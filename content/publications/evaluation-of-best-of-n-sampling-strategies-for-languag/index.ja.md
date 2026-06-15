@@ -6,6 +6,7 @@ venue_short: "TMLR"
 date: 2016-01-01
 status: "Accepted"
 type: "Journal"
+paper_lang: "en"
 projects: ["language-model-alignment"]
 project_names: ["Language Model Alignment and Preference Optimization"]
 topics: ["LLM Alignment","Preference Optimization","Decoding"]

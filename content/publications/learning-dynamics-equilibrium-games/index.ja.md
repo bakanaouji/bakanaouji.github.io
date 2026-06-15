@@ -5,6 +5,7 @@ venue: "情報処理学会論文誌"
 date: 2016-01-01
 status: "Accepted"
 type: "Journal"
+paper_lang: "ja"
 projects: ["learning-dynamics-equilibrium-games"]
 project_names: ["Learning Dynamics and Equilibrium Computation in Games"]
 topics: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]

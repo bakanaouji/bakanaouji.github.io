@@ -7,6 +7,7 @@ year: 2021
 date: 2021-01-01
 status: "Accepted"
 type: "Workshop"
+paper_lang: "en"
 projects: ["reinforcement-learning-sequential-decision"]
 project_names: ["Reinforcement Learning and Sequential Decision Making"]
 topics: ["Reinforcement Learning","Sequential Decision Making","Markov Games","Policy Evaluation"]

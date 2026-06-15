@@ -1,15 +1,16 @@
 ---
 title: "Learning Dynamics and Equilibrium Computation in Games"
-summary: "Learning dynamics and equilibrium computation in games: last-iterate convergence with payoff perturbation, CFR-style solving of imperfect-information extensive-form games, and the global behavior of multi-agent learning, mechanisms, and auctions."
+summary: "When do learning dynamics converge to Nash equilibrium?"
 date: 2026-05-01
-keywords: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]
+keywords: ["Learning in Games", "Learning Dynamics", "Equilibrium Computation", "Last-Iterate Convergence", "Game Theory"]
 showReadingTime: false
 showDate: false
 ---
 
-I study the convergence of learning and the computation of equilibria in games. This spans **last-iterate convergence** in zero-sum and monotone games (payoff perturbation, mirror descent, FTRL), **CFR-style solving** of imperfect-information extensive-form games, and the global behavior of multi-agent learning (periodic games, memory asymmetry, mean-field), as well as mechanisms and auctions.
+Learning dynamics provide a lens for studying how agents adapt through repeated strategic interactions. This theme studies when such dynamics converge, when they diverge or cycle, and how these phenomena connect to equilibrium computation in games.
 
 ## Key questions
-- Under what conditions does learning converge to equilibrium in its last iterate?
-- How can we efficiently compute approximate Nash equilibria in imperfect-information games?
-- When does multi-agent learning diverge from — or synchronize around — equilibrium?
+
+- Under what conditions do learning dynamics converge to Nash equilibrium in a last-iterate sense?
+- How can we compute approximate Nash equilibria in large or imperfect-information games?
+- When do multi-agent learning dynamics fail to converge?

@@ -6,4 +6,4 @@ showReadingTime: false
 showTableOfContents: false
 ---
 
-An overview of my research themes. Click a card to see the theme's overview and its related publications.
+Explore my research themes and their related publications.

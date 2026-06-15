@@ -7,6 +7,7 @@ year: 2022
 date: 2022-01-01
 status: "Accepted"
 type: "Workshop"
+paper_lang: "en"
 projects: ["fairness-recsys-allocation"]
 project_names: ["Fairness in Recommender Systems and Allocation"]
 topics: ["Fairness","Recommender Systems","Resource Allocation"]

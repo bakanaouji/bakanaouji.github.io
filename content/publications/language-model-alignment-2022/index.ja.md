@@ -6,6 +6,7 @@ year: 2022
 date: 2022-01-01
 status: "Accepted"
 type: "Domestic"
+paper_lang: "ja"
 projects: ["language-model-alignment"]
 project_names: ["Language Model Alignment and Preference Optimization"]
 topics: ["LLM Alignment","Preference Optimization","Decoding"]

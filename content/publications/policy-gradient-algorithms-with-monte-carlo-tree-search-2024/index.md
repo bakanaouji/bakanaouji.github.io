@@ -7,6 +7,7 @@ year: 2024
 date: 2024-01-01
 status: "Accepted"
 type: "Conference"
+paper_lang: "en"
 projects: ["reinforcement-learning-sequential-decision"]
 project_names: ["Reinforcement Learning and Sequential Decision Making"]
 topics: ["Reinforcement Learning","Sequential Decision Making","Markov Games","Policy Evaluation"]

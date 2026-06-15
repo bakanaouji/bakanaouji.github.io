@@ -6,6 +6,7 @@ year: 2022
 date: 2022-01-01
 status: "Accepted"
 type: "Domestic"
+paper_lang: "ja"
 projects: ["learning-dynamics-equilibrium-games"]
 project_names: ["Learning Dynamics and Equilibrium Computation in Games"]
 topics: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]

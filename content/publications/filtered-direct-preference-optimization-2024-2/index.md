@@ -7,6 +7,7 @@ year: 2024
 date: 2024-01-01
 status: "Accepted"
 type: "Workshop"
+paper_lang: "en"
 projects: ["language-model-alignment"]
 project_names: ["Language Model Alignment and Preference Optimization"]
 topics: ["LLM Alignment","Preference Optimization","Decoding"]
