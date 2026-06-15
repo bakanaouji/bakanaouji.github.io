@@ -2,10 +2,10 @@
 title: "Kenshi Abe"
 description: "Research Scientist working on learning in games, reinforcement learning, and imperfect-information games."
 biography:
-  - "I am a Research Scientist at CyberAgent AI Lab. My research centers on learning dynamics in games and sequential decision making."
-  - "I study when learning dynamics converge to Nash equilibrium, how agents make decisions under limited feedback, and how learning systems can be aligned with human preferences."
+  - "I am a Research Scientist at CyberAgent AI Lab. My research focuses on learning algorithms for computing equilibria in games."
+  - "I am especially interested in learning algorithms that achieve last-iterate convergence to Nash equilibrium, including perturbation-based methods for stabilizing learning dynamics."
 interests:
-  - label: "Learning Dynamics"
+  - label: "Learning Dynamics in Games"
     theme: "learning-dynamics-equilibrium-games"
   - label: "Sequential Decision Making"
     theme: "reinforcement-learning-sequential-decision"
@@ -18,13 +18,13 @@ interests:
 education:
   - degree: "Ph.D. in Engineering"
     place: "The University of Electro-Communications"
-    year: "2025"
+    year: "2023.4 – 2025.12"
   - degree: "M.S. in Engineering"
     place: "Tokyo Institute of Technology"
-    year: "2017"
+    year: "2015.4 – 2017.3"
   - degree: "B.S. in Engineering"
     place: "Tokyo Institute of Technology"
-    year: "2015"
+    year: "2011.4 – 2015.3"
 ---
 
 ## Selected Publications

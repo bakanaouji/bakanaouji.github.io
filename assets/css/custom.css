@@ -2,8 +2,8 @@
    Left identity column (photo, name, role, social links) sits beside a right
    column holding the biography and small Interests / Education blocks. Selected
    Publications flows full width below. Stacks to one column on narrow screens. */
-.home-intro__grid { display:grid; grid-template-columns:minmax(0,15rem) minmax(0,1fr);
-  gap:2.75rem; align-items:start; margin:0.5rem 0 2.5rem; }
+.home-intro__grid { display:grid; grid-template-columns:minmax(0,14rem) minmax(0,1fr);
+  gap:2.5rem; align-items:start; margin:0.5rem 0 2.5rem; }
 .home-intro__identity { min-width:0; }
 .home-intro__avatar { height:11rem; width:11rem; border-radius:9999px; object-fit:cover; }
 .home-intro__name { margin:1.1rem 0 0; line-height:1.15; }
@@ -51,7 +51,10 @@
 .home-intro__themes-link a { font-size:0.85rem; font-weight:600; color:rgb(37 99 235); text-decoration:none; }
 .home-intro__themes-link a:hover { text-decoration:underline; }
 .dark .home-intro__themes-link a { color:#60a5fa; }
-.home-intro__content { margin-top:0.5rem; }
+/* Selected Publications now lives inside the biography column, so it shares the
+   bio's left edge and width — the page reads as one column, not two widths.
+   A clear top margin separates it from the Interests / Education blocks above. */
+.home-intro__content { margin-top:2rem; }
 
 /* Selected Publications on the homepage are the showcase set — hide the per-card
    research-theme chip there (it repeats across cards); keep it on the publications
@@ -121,8 +124,9 @@
 .pub-grid { display:grid; gap:1rem; grid-template-columns:1fr; }
 @media (min-width:640px){ .pub-grid{ grid-template-columns:repeat(2,1fr);} }
 @media (min-width:1024px){ .pub-grid{ grid-template-columns:repeat(3,1fr);} }
-/* Homepage selected publications share the publications-page grid (1/2/3 cols) so
-   the cards look identical across both pages. */
+/* The homepage Selected set is four papers sitting in the biography column, so cap
+   it at two columns (2×2) — calmer and aligned, instead of three thin cards. */
+@media (min-width:1024px){ .pub-grid--home{ grid-template-columns:repeat(2,minmax(0,1fr));} }
 .pub-card { display:flex; flex-direction:column; gap:0.5rem; padding:1rem 1.1rem; height:100%;
   border:1px solid rgb(229 229 229); border-radius:0.75rem; background:rgb(255 255 255);
   transition:transform .2s,box-shadow .2s; }
