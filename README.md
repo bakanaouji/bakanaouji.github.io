@@ -96,12 +96,14 @@ venues:
 | `featured` | `true` にするとトップページの Selected Publications / 主要論文に表示 |
 | `title` | 論文タイトル |
 | `authors` | 著者リスト |
-| `abstract` | |
+| `abstract` | 論文概要 |
 | `venue` | 会議・論文誌名。例: `ICML 2026` |
 | `venue_short` | 短縮名。スラッグ生成などに使用。例: `ICML` |
+| `venue_url` | 開催元（会議サイト）の URL。設定すると会議名がリンクになる。任意（主に国内発表で使用） |
 | `year` | 年。通常は `date` から補完される |
 | `date` | 並び替えに使う日付。形式は `YYYY-MM-DD` |
 | `type` | `Conference`, `Workshop`, `Journal`, `Preprint` など |
+| `award` | 受賞した賞があれば設定する。設定すると受賞バッジを表示。任意。例: `ベストポスター発表賞` |
 | `links` | arXiv, Paper, Code などのリンク |
 
 ### 4. 表示を確認する
