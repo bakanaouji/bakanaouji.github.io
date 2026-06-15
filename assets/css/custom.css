@@ -216,13 +216,8 @@
   margin:2rem 0 0.5rem; font-size:1.5rem; font-weight:700; color:rgb(38 38 38);
   border-bottom:1px solid rgb(229 229 229); padding-bottom:0.35rem; }
 .pub-group__count { flex:none; font-size:0.85rem; font-weight:600; color:rgb(115 115 115); }
-.pub-group__note { margin:0 0 0.9rem; font-size:0.82rem; color:rgb(140 140 140); }
-.pub-group--domestic .pub-group__title { font-size:1.2rem; color:rgb(115 115 115); border-bottom-style:dashed; }
-.pub-group--domestic .pub-card { background:rgb(250 250 250); }
 .dark .pub-group__title { color:rgb(229 229 229); border-bottom-color:rgb(64 64 64); }
 .dark .pub-group__count { color:rgb(150 150 150); }
-.dark .pub-group--domestic .pub-group__title { color:rgb(163 163 163); }
-.dark .pub-group--domestic .pub-card { background:rgb(20 20 20); }
 
 /* ===== Research card eyebrow + related-count (5-theme portfolio) ===== */
 .research-card__eyebrow { font-size:0.66rem; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:#2563eb; }
