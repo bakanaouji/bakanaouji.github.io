@@ -5,7 +5,7 @@
      generated publication page (slug == <project>-<venue_short>-<year>). */}}
 {{- $lang := site.Language.Lang -}}
 {{- $pages := slice -}}
-{{- range $pid, $proj := site.Data.publications -}}
+{{- range $pid, $proj := hugo.Data.publications -}}
   {{- range $v := $proj.venues -}}
     {{- if and $v.featured (or (eq $lang "ja") (eq $v.lang "en")) -}}
       {{- $date := time.AsTime $v.date -}}
