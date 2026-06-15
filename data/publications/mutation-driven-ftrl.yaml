@@ -1,0 +1,56 @@
+# Research project: mutation-driven-ftrl
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+abstract: ''
+venues:
+- slug: mutation-driven-follow-the-regularized-leader-for-last-2022
+  lang: en
+  title: Mutation-Driven Follow the Regularized Leader for Last-Iterate Convergence in Zero-Sum Games
+  authors:
+  - Kenshi Abe
+  - Mitsuki Sakamoto
+  - Atsushi Iwasaki
+  venue: UAI 2022
+  venue_short: UAI
+  year: 2022
+  date: 2022-08-02
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2206.09254
+- slug: follow-the-regularized-leader-2022
+  lang: ja
+  title: 二人零和ゲームにおける突然変異駆動型Follow-The-Regularized-Leaderの終極反復収束
+  authors:
+  - 豊島 健太郎
+  - 坂本 充生
+  - 阿部 拳之
+  - 岩崎 敦
+  venue: 第21回情報科学技術フォーラム (FIT 2022)
+  year: 2022
+  date: 2022-09-13
+  status: Accepted
+  type: Domestic
+- slug: learning-dynamics-equilibrium-games
+  lang: ja
+  title: 二人零和ゲームにおける突然変異駆動型正則化先導者追従法の終極反復収束
+  authors:
+  - 阿部 拳之
+  - 豊島 健太郎
+  - 坂本 充生
+  - 岩崎 敦
+  venue: 情報処理学会論文誌
+  date: 2024-05-15
+  status: Accepted
+  type: Journal
+  links:
+  - name: Paper
+    url: https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=234275&item_no=1

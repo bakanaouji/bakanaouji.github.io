@@ -1,0 +1,24 @@
+# Research project: a-simple-heuristic-for-bayesian-optimization-with-a-low
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- bandits-online-learning
+topics:
+- Bandits
+- Online Learning
+- Bayesian Optimization
+abstract: ''
+venues:
+- slug: a-simple-heuristic-for-bayesian-optimization-with-a-low
+  lang: en
+  title: A Simple Heuristic for Bayesian Optimization with A Low Budget
+  authors:
+  - Masahiro Nomura
+  - Kenshi Abe
+  venue: arXiv
+  venue_short: arXiv
+  date: 2019-11-18
+  status: Preprint
+  type: Preprint
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/1911.07790

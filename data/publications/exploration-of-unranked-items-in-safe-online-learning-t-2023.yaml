@@ -1,0 +1,27 @@
+# Research project: exploration-of-unranked-items-in-safe-online-learning-t-2023
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- bandits-online-learning
+topics:
+- Fairness
+- Recommender Systems
+- Resource Allocation
+abstract: ''
+venues:
+- slug: exploration-of-unranked-items-in-safe-online-learning-t-2023
+  lang: en
+  title: Exploration of Unranked Items in Safe Online Learning to Re-Rank
+  authors:
+  - Hiroaki Shiino
+  - Kaito Ariu
+  - Kenshi Abe
+  - Togashi Riku
+  venue: SIGIR 2023 (Short Paper)
+  venue_short: SIGIR
+  year: 2023
+  date: 2023-07-24
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2305.01202

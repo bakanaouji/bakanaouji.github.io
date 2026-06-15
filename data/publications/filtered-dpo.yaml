@@ -1,0 +1,60 @@
+# Research project: filtered-dpo
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- language-model-alignment
+topics:
+- LLM Alignment
+- Preference Optimization
+- Decoding
+abstract: ''
+venues:
+- slug: filtered-direct-preference-optimization-2024-2
+  lang: en
+  title: Filtered Direct Preference Optimization
+  authors:
+  - Tetsuro Morimura
+  - Mitsuki Sakamoto
+  - Yuu Jinnai
+  - Kenshi Abe
+  - Kaito Ariu
+  venue: ICML 2024 Workshop on Models of Human Feedback for AI Alignment
+  venue_short: ICML
+  year: 2024
+  date: 2024-07-26
+  status: Accepted
+  type: Workshop
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2404.13846
+- slug: filtered-direct-preference-optimization-2024-3
+  lang: ja
+  title: 'Filtered Direct Preference Optimization: 選好データセットの質に基づくフィルタリング手法の提案'
+  authors:
+  - 坂本 充生
+  - 森村 哲郎
+  - 陣内 佑
+  - 阿部 拳之
+  - 蟻生 開人
+  venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  year: 2024
+  date: 2024-11-04
+  status: Accepted
+  type: Domestic
+- slug: filtered-direct-preference-optimization-2024
+  lang: en
+  title: Filtered Direct Preference Optimization
+  authors:
+  - Tetsuro Morimura
+  - Mitsuki Sakamoto
+  - Yuu Jinnai
+  - Kenshi Abe
+  - Kaito Ariu
+  venue: EMNLP 2024
+  venue_short: EMNLP
+  year: 2024
+  date: 2024-11-12
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2404.13846

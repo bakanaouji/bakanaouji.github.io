@@ -1,0 +1,44 @@
+# Research project: last-iterate-full-noisy-feedback
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+abstract: ''
+venues:
+- slug: last-iterate-convergence-with-full-and-noisy-informatio-2022
+  lang: ja
+  title: Last-Iterate Convergence with Full- and Noisy-Information Feedback in Two-Player Zero-Sum Games
+  authors:
+  - 阿部 拳之
+  - 蟻生 開人
+  - 坂本 充生
+  - 豊島 健太郎
+  - 岩崎 敦
+  venue: 第25回情報論的学習理論ワークショップ (IBIS 2022)
+  year: 2022
+  date: 2022-11-20
+  status: Accepted
+  type: Domestic
+- slug: last-iterate-convergence-with-full-and-noisy-feedback-i-2023
+  lang: en
+  title: Last-Iterate Convergence with Full and Noisy Feedback in Two-Player Zero-Sum Games
+  authors:
+  - Kenshi Abe
+  - Kaito Ariu
+  - Mitsuki Sakamoto
+  - Kentaro Toyoshima
+  - Atsushi Iwasaki
+  venue: AISTATS 2023
+  venue_short: AISTATS
+  year: 2023
+  date: 2023-04-25
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2208.09855

@@ -1,0 +1,40 @@
+# Research project: multi-memory-games
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+abstract: ''
+venues:
+- slug: learning-in-multi-memory-games-triggers-complex-dynamic-2023
+  lang: en
+  title: Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium
+  authors:
+  - Yuma Fujimoto
+  - Kaito Ariu
+  - Kenshi Abe
+  venue: IJCAI 2023
+  venue_short: IJCAI
+  year: 2023
+  date: 2023-08-22
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2302.01073
+- slug: learning-in-multi-memory-games-triggers-complex-dynamic-2023-2
+  lang: ja
+  title: Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium
+  authors:
+  - 藤本 悠雅
+  - 蟻生 開人
+  - 阿部 拳之
+  venue: 第26回情報論的学習理論ワークショップ (IBIS 2023)
+  year: 2023
+  date: 2023-10-29
+  status: Accepted
+  type: Domestic

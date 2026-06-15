@@ -1,0 +1,54 @@
+# Research project: state-abstraction-markov-games
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Reinforcement Learning
+- Sequential Decision Making
+- Markov Games
+- Policy Evaluation
+abstract: ''
+venues:
+- slug: reinforcement-learning-sequential-decision
+  lang: ja
+  title: 二人零和マルコフゲームにおける状態抽象化法に関する研究
+  authors:
+  - 石橋 宙希
+  - 島野 雄貴
+  - 阿部 拳之
+  - 岩崎 敦
+  venue: 情報処理学会 第86回全国大会
+  date: 2024-03-15
+  status: Accepted
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=235852&item_no=1&page_id=13&block_id=8
+- slug: reinforcement-learning-sequential-decision-2024-2
+  lang: ja
+  title: 二人零和マルコフゲームにおける状態抽象化に関する研究
+  authors:
+  - 石橋 宙希
+  - 阿部 拳之
+  - 岩崎 敦
+  venue: 第23回情報科学技術フォーラム (FIT 2024)
+  year: 2024
+  date: 2024-09-04
+  status: Accepted
+  type: Domestic
+- slug: approximate-state-abstraction-for-markov-games-2025
+  lang: en
+  title: Approximate State Abstraction for Markov Games
+  authors:
+  - Hiroki Ishibashi
+  - Kenshi Abe
+  - Atsushi Iwasaki
+  venue: AAAI 2025
+  venue_short: AAAI
+  year: 2025
+  date: 2025-02-27
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2412.15877

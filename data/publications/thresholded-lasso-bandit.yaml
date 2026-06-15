@@ -1,0 +1,38 @@
+# Research project: thresholded-lasso-bandit
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- bandits-online-learning
+topics:
+- Bandits
+- Online Learning
+- Bayesian Optimization
+abstract: ''
+venues:
+- slug: thresholded-lasso-bandit-2022
+  lang: en
+  title: Thresholded LASSO Bandit
+  authors:
+  - Kaito Ariu
+  - Kenshi Abe
+  - Alexandre Proutière
+  venue: ICML 2022
+  venue_short: ICML
+  year: 2022
+  date: 2022-07-19
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2010.11994
+- slug: thresholded-lasso-bandit-2022-2
+  lang: ja
+  title: Thresholded Lasso Bandit
+  authors:
+  - 蟻生 開人
+  - 阿部 拳之
+  - Alexandre Proutiere
+  venue: 第25回情報論的学習理論ワークショップ (IBIS 2022)
+  year: 2022
+  date: 2022-11-20
+  status: Accepted
+  type: Domestic

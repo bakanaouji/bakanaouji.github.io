@@ -1,0 +1,84 @@
+# Research project: learning-fair-division
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- fairness-recsys-allocation
+topics:
+- Fairness
+- Recommender Systems
+- Resource Allocation
+abstract: ''
+venues:
+- slug: fairness-recsys-allocation
+  lang: ja
+  title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
+  authors:
+  - 山田 博瑛
+  - 小宮山 純平
+  - 阿部 拳之
+  - 岩崎 敦
+  venue: 情報処理学会 第85回全国大会
+  date: 2023-03-02
+  status: Accepted
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=230043&item_no=1&page_id=13&block_id=8
+- slug: fairness-recsys-allocation-2023-3
+  lang: ja
+  title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
+  authors:
+  - 山田 博瑛
+  - 小宮山 純平
+  - 阿部 拳之
+  - 岩崎 敦
+  venue: 第37回人工知能学会全国大会 (JSAI 2023)
+  year: 2023
+  date: 2023-06-06
+  status: Accepted
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2T4GS503/_article/-char/ja/
+- slug: fairness-recsys-allocation-2023-2
+  lang: ja
+  title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
+  authors:
+  - 山田 博瑛
+  - 小宮山 純平
+  - 阿部 拳之
+  - 岩崎 敦
+  venue: 第22回情報科学技術フォーラム (FIT 2023)
+  year: 2023
+  date: 2023-09-06
+  status: Accepted
+  type: Domestic
+- slug: fairness-recsys-allocation-2023
+  lang: ja
+  title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
+  authors:
+  - 山田 博瑛
+  - 小宮山 純平
+  - 阿部 拳之
+  - 岩崎 敦
+  venue: 第26回情報論的学習理論ワークショップ (IBIS 2023)
+  year: 2023
+  date: 2023-10-29
+  status: Accepted
+  type: Domestic
+- slug: learning-fair-division-from-bandit-feedback-2024
+  lang: en
+  title: Learning Fair Division from Bandit Feedback
+  authors:
+  - Hakuei Yamada
+  - Junpei Komiyama
+  - Kenshi Abe
+  - Atsushi Iwasaki
+  venue: AISTATS 2024
+  venue_short: AISTATS
+  year: 2024
+  date: 2024-05-02
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2311.09068

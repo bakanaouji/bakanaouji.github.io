@@ -1,0 +1,29 @@
+# Research project: adaptively-perturbed-mirror-descent-for-learning-in-gam-2024
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+abstract: ''
+venues:
+- slug: adaptively-perturbed-mirror-descent-for-learning-in-gam-2024
+  lang: en
+  title: Adaptively Perturbed Mirror Descent for Learning in Games
+  authors:
+  - Kenshi Abe
+  - Kaito Ariu
+  - Mitsuki Sakamoto
+  - Atsushi Iwasaki
+  venue: ICML 2024
+  venue_short: ICML
+  year: 2024
+  date: 2024-07-23
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2305.16610

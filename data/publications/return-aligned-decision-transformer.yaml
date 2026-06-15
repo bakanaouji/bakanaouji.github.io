@@ -1,0 +1,27 @@
+# Research project: return-aligned-decision-transformer
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+topics:
+- LLM Alignment
+- Preference Optimization
+- Decoding
+abstract: ''
+venues:
+- slug: return-aligned-decision-transformer
+  lang: en
+  title: Return-Aligned Decision Transformer
+  authors:
+  - Tsunehiko Tanaka
+  - Kenshi Abe
+  - Kaito Ariu
+  - Tetsuro Morimura
+  - Edgar Simo-Serra
+  venue: Transactions on Machine Learning Research
+  venue_short: TMLR
+  date: 2025-06-08
+  status: Accepted
+  type: Journal
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2402.03923

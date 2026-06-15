@@ -1,0 +1,42 @@
+{{/*
+  Generate one page per venue appearance from data/publications/<project>.yaml
+  (one file per research project; the single source of truth). Runs per language.
+
+  Each project groups its venue appearances under venues[]; every venue keeps
+  its own language-specific title/authors. This expands them back into one page
+  per venue, preserving existing URLs.
+
+  venue.lang: "en" -> shown on both EN and JA sites
+              "ja" -> shown on the JA site only
+*/}}
+{{ $lang := site.Language.Lang }}
+{{ range $pid, $proj := hugo.Data.publications }}
+  {{ range $v := $proj.venues }}
+    {{ if or (eq $lang "ja") (eq $v.lang "en") }}
+      {{ $date := time.AsTime $v.date }}
+      {{ $params := dict
+          "authors"         (or $v.authors slice)
+          "venue"           (or $v.venue "")
+          "venue_short"     (or $v.venue_short "")
+          "year"            $v.year
+          "date"            $date
+          "status"          (or $v.status "")
+          "type"            (or $v.type "")
+          "paper_lang"      $v.lang
+          "projects"        (or $proj.projects slice)
+          "topics"          (or $proj.topics slice)
+          "links"           (or $v.links slice)
+          "abstract"        (or $proj.abstract "")
+          "showDate"        false
+          "showReadingTime" false
+      }}
+      {{ $.AddPage (dict
+          "kind"   "page"
+          "path"   $v.slug
+          "title"  $v.title
+          "dates"  (dict "date" $date)
+          "params" $params
+      ) }}
+    {{ end }}
+  {{ end }}
+{{ end }}

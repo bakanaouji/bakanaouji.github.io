@@ -1,0 +1,25 @@
+# Research project: decision-transformer-2023
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- language-model-alignment
+topics:
+- LLM Alignment
+- Preference Optimization
+- Decoding
+abstract: ''
+venues:
+- slug: decision-transformer-2023
+  lang: ja
+  title: タスク指向対話システムの方策学習への Decision Transformerの適用
+  authors:
+  - 戸田 隆道
+  - 森村 哲郎
+  - 阿部 拳之
+  venue: 言語処理学会 第29回年次大会 (NLP 2023)
+  year: 2023
+  date: 2023-03-13
+  status: Accepted
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q12-6.pdf

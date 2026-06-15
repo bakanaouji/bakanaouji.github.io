@@ -1,0 +1,28 @@
+# Research project: direct-expected-quadratic-utility-maximization-for-mean-2021
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+topics:
+- Reinforcement Learning
+- Sequential Decision Making
+- Markov Games
+- Policy Evaluation
+abstract: ''
+venues:
+- slug: direct-expected-quadratic-utility-maximization-for-mean-2021
+  lang: en
+  title: Direct Expected Quadratic Utility Maximization for Mean-Variance Controlled Reinforcement Learning
+  authors:
+  - Masahiro Kato
+  - Kei Nakagawa
+  - Kenshi Abe
+  - Tetsuro Morimura
+  venue: NeurIPS 2021 Workshop on Deep Reinforcement Learning
+  venue_short: NeurIPS
+  year: 2021
+  date: 2021-12-13
+  status: Accepted
+  type: Workshop
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2010.01404

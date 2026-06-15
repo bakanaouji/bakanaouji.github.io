@@ -1,0 +1,28 @@
+# Research project: policy-gradient-algorithms-with-monte-carlo-tree-search-2024
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+topics:
+- Reinforcement Learning
+- Sequential Decision Making
+- Markov Games
+- Policy Evaluation
+abstract: ''
+venues:
+- slug: policy-gradient-algorithms-with-monte-carlo-tree-search-2024
+  lang: en
+  title: Policy Gradient Algorithms with Monte-Carlo Tree Search for Non-Markov Decision Processes
+  authors:
+  - Tetsuro Morimura
+  - Kazuhiro Ota
+  - Kenshi Abe
+  - Peinan Zhang
+  venue: Reinforcement Learning Conference (RLC) 2024
+  venue_short: RLC
+  year: 2024
+  date: 2024-08-10
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2206.01011

@@ -1,0 +1,28 @@
+# Research project: model-based-minimum-bayes-risk-decoding-2024
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- language-model-alignment
+topics:
+- LLM Alignment
+- Preference Optimization
+- Decoding
+abstract: ''
+venues:
+- slug: model-based-minimum-bayes-risk-decoding-2024
+  lang: en
+  title: Model-Based Minimum Bayes Risk Decoding
+  authors:
+  - Yuu Jinnai
+  - Tetsuro Morimura
+  - Ukyo Honda
+  - Kaito Ariu
+  - Kenshi Abe
+  venue: ICML 2024
+  venue_short: ICML
+  year: 2024
+  date: 2024-07-23
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2311.05263

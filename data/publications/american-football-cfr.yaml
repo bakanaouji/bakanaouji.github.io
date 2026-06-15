@@ -1,0 +1,42 @@
+# Research project: american-football-cfr
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+abstract: ''
+venues:
+- slug: learning-dynamics-equilibrium-games-2021-2
+  lang: ja
+  title: 反実仮想後悔最小化によるアメリカンフットボールにおけるオフェンス戦略の均衡推定
+  authors:
+  - 島野 雄貴
+  - 阿部 拳之
+  - 岩崎 敦
+  - 大河原 一憲
+  venue: 第20回情報科学技術フォーラム (FIT 2021)
+  year: 2021
+  date: 2021-08-25
+  status: Accepted
+  type: Domestic
+- slug: computing-strategies-of-american-football-via-counterfa-2022
+  lang: en
+  title: Computing Strategies of American Football via Counterfactual Regret Minimization
+  authors:
+  - Yuki Shimano
+  - Kenshi Abe
+  - Atsushi Iwasaki
+  - Kazunori Ohkawara
+  venue: AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation)
+  venue_short: AAAI
+  year: 2022
+  date: 2022-02-28
+  status: Accepted
+  type: Workshop
+  links:
+  - name: Paper
+    url: http://aaai-rlg.mlanctot.info/papers/AAAI22-RLG_paper_23.pdf

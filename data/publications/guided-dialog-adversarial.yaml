@@ -1,0 +1,46 @@
+# Research project: guided-dialog-adversarial
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- language-model-alignment
+topics:
+- LLM Alignment
+- Preference Optimization
+- Decoding
+abstract: ''
+venues:
+- slug: language-model-alignment-2023
+  lang: ja
+  title: タスク指向対話における強化学習を用いた対話方策学習への敵対的学習の役割の解明
+  authors:
+  - 下山 翔
+  - 森村 哲郎
+  - 阿部 拳之
+  venue: 言語処理学会 第29回年次大会 (NLP 2023)
+  year: 2023
+  date: 2023-03-13
+  status: Accepted
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q12-5.pdf
+- slug: why-guided-dialog-policy-learning-performs-well-underst
+  lang: en
+  title: Why Guided Dialog Policy Learning performs well? Understanding the role of adversarial learning and its alternative
+  authors:
+  - Sho Shimoyama
+  - Tetsuro Morimura
+  - Kenshi Abe
+  - Toda Takamichi
+  - Yuta Tomomatsu
+  - Masakazu Sugiyama
+  - Asahi Hentona
+  - Yuuki Azuma
+  - Hirotaka Ninomiya
+  venue: arXiv
+  venue_short: arXiv
+  date: 2023-07-13
+  status: Preprint
+  type: Preprint
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2307.06721

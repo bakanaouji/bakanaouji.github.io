@@ -1,0 +1,44 @@
+# Research project: regularized-best-of-n
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- language-model-alignment
+topics:
+- LLM Alignment
+- Preference Optimization
+- Decoding
+abstract: ''
+venues:
+- slug: regularized-best-of-n-sampling-to-mitigate-reward-hacki-2024
+  lang: en
+  title: Regularized Best-of-N Sampling to Mitigate Reward Hacking for Language Model Alignment
+  authors:
+  - Yuu Jinnai
+  - Tetsuro Morimura
+  - Kaito Ariu
+  - Kenshi Abe
+  venue: ICML 2024 Workshop on Models of Human Feedback for AI Alignment
+  venue_short: ICML
+  year: 2024
+  date: 2024-07-26
+  status: Accepted
+  type: Workshop
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2404.01054
+- slug: regularized-best-of-n-sampling-with-minimum-bayes-risk-2025
+  lang: en
+  title: Regularized Best-of-N Sampling with Minimum Bayes Risk Objective for Language Model Alignment
+  authors:
+  - Yuu Jinnai
+  - Tetsuro Morimura
+  - Kaito Ariu
+  - Kenshi Abe
+  venue: NAACL 2025
+  venue_short: NAACL
+  year: 2025
+  date: 2025-04-30
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2404.01054
