@@ -2,18 +2,6 @@
 
 阿部拳之の個人サイト。Hugo + [Blowfish](https://github.com/nunocoracao/blowfish) テーマで構築。
 
-## ディレクトリ構成
-
-| パス | 役割 |
-|---|---|
-| `content/` | ページ本体。`research/`（研究テーマ）、`publications/`（論文一覧）、`_index.*`（トップ） |
-| `data/publications/` | **論文データの単一の真実**。研究プロジェクト1件 = YAML 1ファイル |
-| `config/_default/` | Hugo設定（`hugo.toml`）、メニュー（`menus.*.toml`）、パラメータ（`params.toml`）、言語（`languages.*.toml`） |
-| `layouts/` | カスタムページレイアウト |
-| `i18n/` | UI文言の翻訳（`en.yaml` / `ja.yaml`） |
-| `themes/blowfish/` | テーマ本体（git submodule） |
-| `docs/` | Hugoのビルド出力。`.gitignore` 済み（コミットしない） |
-
 ## ローカルプレビュー
 
 submodule（テーマ）を初回だけ取得する。
@@ -27,13 +15,7 @@ hugo server
 
 ## 新しい論文を追加する
 
-論文ページは `data/publications/<project>.yaml` から**自動生成**される。ページ用Markdownを手で作る必要はない。
-
-仕組み:
-
-- ファイル1つ = 研究プロジェクト1件。ファイル名（拡張子を除いた `<project>`）がURLスラッグに使われる。
-- 1本の論文が複数の発表場所（プレプリント→ワークショップ→本会議など）を持つ場合は、その分だけ `venues[]` に列挙する。各 venue が1ページずつ生成される。
-- 生成されるページのスラッグは `<project>-<venue_short>-<year>`（小文字化）。
+論文ページは `data/publications/<project>.yaml` から**自動生成**されるため、Markdownファイルを手動で作る・編集する必要はない。
 
 ### 手順
 
