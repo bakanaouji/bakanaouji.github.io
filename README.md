@@ -17,8 +17,8 @@ hugo server
 
 論文の情報は `data/publications/<project>.yaml` に書く。ページ（HTML）はここから自動生成されるので、`content/` 以下に Markdown を手で作る必要はない。
 
-1. その論文をどの研究テーマに紐づけるか決める。テーマは `content/research/` 直下のディレクトリ名で表す（例: `learning-dynamics-equilibrium-games`）。
-2. 同じテーマの YAML が既にあれば、その `venues:` に1件追記する。なければ `data/publications/<project>.yaml` を新しく作り、先頭の `projects:` に紐づけるテーマ名を書く。
+1. 追加する論文をどの研究テーマに紐づけるか決める。各テーマは `content/research/` 直下のディレクトリに対応する（例: `learning-dynamics-equilibrium-games`）。
+2. そのテーマに紐づく YAML が `data/publications/` にあれば、その `venues:` に1件追記する。なければ新しく `data/publications/<project>.yaml` を作り、先頭の `projects:` にそのディレクトリ名を書く。
 3. 発表1回分の情報（タイトル・著者・会議名・日付・リンクなど）を、`venues:` の1項目として埋める:
 
 ```yaml
