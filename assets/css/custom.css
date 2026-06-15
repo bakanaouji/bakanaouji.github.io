@@ -121,9 +121,16 @@
 .pub-detail__h2 { font-size:1.25rem; font-weight:700; color:rgb(38 38 38); margin:0 0 0.65rem; }
 .pub-detail__abstract { font-size:0.98rem; line-height:1.85; color:rgb(64 64 64); margin:0; white-space:pre-line; }
 .pub-detail__themes { display:flex; flex-wrap:wrap; gap:0.6rem; }
+.pub-detail__theme-chip { display:inline-block; padding:0.25rem 0.75rem; border:1px solid rgb(212 212 212); border-radius:9999px; font-size:0.85rem; color:rgb(64 64 64); background:rgb(250 250 250); text-decoration:none; transition:border-color 150ms ease, color 150ms ease; }
+.pub-detail__theme-chip:hover { border-color:rgb(37 99 235); color:rgb(37 99 235); }
+.pub-detail__viewall { display:inline-block; margin-top:1.25rem; padding:0.4rem 0.9rem; border:1px solid rgb(191 219 254); border-radius:0.4rem; font-size:0.9rem; font-weight:600; color:rgb(37 99 235); text-decoration:none; transition:background 150ms ease; }
+.pub-detail__viewall:hover { background:rgb(239 246 255); }
 .dark .pub-detail__venue { color:#60a5fa; }
 .dark .pub-detail__authors, .dark .pub-detail__abstract { color:rgb(200 200 200); }
 .dark .pub-detail__h2 { color:rgb(229 229 229); }
+.dark .pub-detail__theme-chip { border-color:rgb(64 64 64); background:rgb(38 38 38); color:rgb(212 212 212); }
+.dark .pub-detail__theme-chip:hover { border-color:#60a5fa; color:#60a5fa; }
+.dark .pub-detail__viewall { border-color:rgb(30 58 138); color:#60a5fa; }
 
 /* ===== Publications multi-facet filter rows ===== */
 .pub-facet { display:flex; flex-wrap:wrap; align-items:center; gap:0.4rem; margin-bottom:0.5rem; }

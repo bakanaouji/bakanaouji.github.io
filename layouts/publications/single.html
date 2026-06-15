@@ -41,25 +41,28 @@
       <div class="pub-detail__themes">
         {{ range . }}
           {{ $slug := . }}{{ $nm := . }}
-          {{ with site.GetPage (printf "/research/%s" $slug) }}{{ $nm = .Title }}{{ end }}
-          <a class="pub-project" href="/research/{{ $slug }}/">{{ $nm }}</a>
+          {{ with site.GetPage (printf "/research/%s" $slug) }}{{ $nm = (.Params.short | default .Title) }}{{ end }}
+          <a class="pub-detail__theme-chip" href="/research/{{ $slug }}/">{{ $nm }}</a>
         {{ end }}
       </div>
     </section>
   {{ end }}
 
-  {{/* Other papers under the same research theme */}}
+  {{/* Other papers under the same research theme — recommendations only, newest first, capped at 3 */}}
   {{ if $projects }}
     {{ $self := . }}
     {{ $related := where (where site.RegularPages "Section" "publications") "Params.projects" "intersect" $projects }}
     {{ $others := slice }}
-    {{ range $related }}{{ if ne .RelPermalink $self.RelPermalink }}{{ $others = $others | append . }}{{ end }}{{ end }}
+    {{ range (sort $related "Params.date" "desc") }}{{ if ne .RelPermalink $self.RelPermalink }}{{ $others = $others | append . }}{{ end }}{{ end }}
     {{ with $others }}
       <section class="pub-detail__related mt-12">
         <h2 class="pub-detail__h2">{{ i18n "x.more_in_theme" }}</h2>
         <div class="pub-grid">
-          {{ range (sort . "Params.date" "desc") }}{{ partial "publication-card.html" . }}{{ end }}
+          {{ range first 3 . }}{{ partial "publication-card.html" . }}{{ end }}
         </div>
+        {{ if gt (len .) 3 }}
+          <a class="pub-detail__viewall" href="/research/{{ index $projects 0 }}/">{{ i18n "x.view_all_related" }}</a>
+        {{ end }}
       </section>
     {{ end }}
   {{ end }}
