@@ -7,8 +7,8 @@ date: 2025-06-08
 status: "Accepted"
 type: "Journal"
 paper_lang: "en"
-projects: ["language-model-alignment"]
-project_names: ["Language Model Alignment and Preference Optimization"]
+projects: ["reinforcement-learning-sequential-decision"]
+project_names: ["Reinforcement Learning and Sequential Decision Making"]
 topics: ["LLM Alignment","Preference Optimization","Decoding"]
 showDate: false
 showReadingTime: false

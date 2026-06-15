@@ -1,15 +1,15 @@
 ---
 title: "Reinforcement Learning and Sequential Decision Making"
-summary: "Reinforcement learning and sequential decision making — off-policy evaluation and policy testing in Markov games, state abstraction, and matching design via Monte Carlo tree search."
+summary: "How can agents evaluate and improve policies for sequential decisions?"
 date: 2026-03-01
-keywords: ["Reinforcement Learning","Sequential Decision Making","Markov Games","Policy Evaluation"]
+keywords: ["Reinforcement Learning", "Sequential Decision Making", "Policy Evaluation"]
 showReadingTime: false
 showDate: false
 ---
 
-I study the theory and applications of reinforcement learning and sequential decision making, including off-policy evaluation and policy testing in Markov games, state abstraction, and the design of societal matching via Monte Carlo tree search.
+This theme studies how agents can evaluate, test, and improve policies in sequential decision-making problems. I focus on learning from limited data, abstraction for complex environments, and planning methods for long-horizon decisions.
 
 ## Key questions
-- How can we evaluate and test policies from limited data?
-- How can state abstraction make decision making more efficient?
-- How can tree search inform the design of societal matching?
+
+- How can agents evaluate and test policies from limited data?
+- How can abstraction and planning make sequential decision making more efficient?

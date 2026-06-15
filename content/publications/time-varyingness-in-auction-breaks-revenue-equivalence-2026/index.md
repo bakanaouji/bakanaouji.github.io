@@ -8,8 +8,8 @@ date: 2026-05-27
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"
-projects: ["learning-dynamics-equilibrium-games"]
-project_names: ["Learning Dynamics and Equilibrium Computation in Games"]
+projects: ["bandits-online-learning"]
+project_names: ["Bandits and Online Learning"]
 topics: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]
 showDate: false
 showReadingTime: false

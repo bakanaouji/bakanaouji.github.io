@@ -8,8 +8,8 @@ date: 2023-07-24
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"
-projects: ["fairness-recsys-allocation"]
-project_names: ["Fairness in Recommender Systems and Allocation"]
+projects: ["bandits-online-learning"]
+project_names: ["Bandits and Online Learning"]
 topics: ["Fairness","Recommender Systems","Resource Allocation"]
 showDate: false
 showReadingTime: false
