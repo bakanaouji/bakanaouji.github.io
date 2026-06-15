@@ -51,12 +51,7 @@ projects:
 
 すでに対象テーマ用の YAML が `data/publications/<project>.yaml` として存在していた場合は、そのファイルの `venues:` に追記する。
 
-対応する YAML がない場合は、新しく作成する。
-
-```text
-data/publications/<project>.yaml
-```
-
+対応する YAML がない場合は、新しく `data/publications/<project>.yaml` を作成する。
 新しく作る場合は、ファイルの先頭に、そのファイルに含まれる論文が紐づく研究テーマを `projects:` として書く。
 
 ```yaml
@@ -77,18 +72,16 @@ projects:
 venues:
 - lang: en
   featured: true
-  title: Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization
+  title: Paper Title
   authors:
-  - Kenshi Abe
-  - Mitsuki Sakamoto
-  - Kaito Ariu
-  - Atsushi Iwasaki
+  - Author 1
+  - Author 2 
   abstract: |
     Abstract text here.
-  venue: ICML 2026
-  venue_short: ICML
-  year: 2026
-  date: 2026-07-01
+  venue: Venue yyyy
+  venue_short: Venue
+  year: yyyy
+  date: yyyy-mm-dd
   type: Conference
   links:
   - name: arXiv
@@ -103,7 +96,7 @@ venues:
 | `featured` | `true` にするとトップページの Selected Publications / 主要論文に表示 |
 | `title` | 論文タイトル |
 | `authors` | 著者リスト |
-| `abstract` | アブストラクト |
+| `abstract` | 論文概要 |
 | `venue` | 会議・論文誌名。例: `ICML 2026` |
 | `venue_short` | 短縮名。スラッグ生成などに使用。例: `ICML` |
 | `year` | 年。通常は `date` から補完される |
