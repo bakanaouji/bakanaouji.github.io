@@ -2,12 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - learning-dynamics-equilibrium-games
-topics:
-- Learning in Games
-- Learning Dynamics
-- Equilibrium Computation
-- Last-Iterate Convergence
-- Game Theory
 venues:
 - lang: ja
   title: ゲームにおける時間遅れフィードバックからの学習
@@ -20,7 +14,6 @@ venues:
   venue_short: IBIS
   year: 2025
   date: 2025-11-12
-  status: Accepted
   type: Domestic
 - lang: en
   title: Learning from Delayed Feedback in Games via Extra Prediction
@@ -33,7 +26,6 @@ venues:
   venue_short: NeurIPS
   year: 2025
   date: 2025-12-03
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

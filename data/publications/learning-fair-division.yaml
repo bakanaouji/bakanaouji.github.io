@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - fairness-recsys-allocation
-topics:
-- Fairness
-- Recommender Systems
-- Resource Allocation
 venues:
 - lang: ja
   title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
@@ -18,7 +14,6 @@ venues:
   venue: 情報処理学会 第85回全国大会
   venue_short: IPSJ
   date: 2023-03-02
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -35,7 +30,6 @@ venues:
   venue_short: JSAI
   year: 2023
   date: 2023-06-06
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -52,7 +46,6 @@ venues:
   venue_short: FIT
   year: 2023
   date: 2023-09-06
-  status: Accepted
   type: Domestic
 - lang: ja
   title: オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究
@@ -66,7 +59,6 @@ venues:
   venue_short: IBIS
   year: 2023
   date: 2023-10-29
-  status: Accepted
   type: Domestic
 - lang: en
   title: Learning Fair Division from Bandit Feedback
@@ -80,7 +72,6 @@ venues:
   venue_short: AISTATS
   year: 2024
   date: 2024-05-02
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

@@ -2,12 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Learning in Games
-- Learning Dynamics
-- Equilibrium Computation
-- Last-Iterate Convergence
-- Game Theory
 venues:
 - lang: ja
   title: オークション環境の時間変動による収入同値の破れ
@@ -20,7 +14,6 @@ venues:
   venue_short: IBIS
   year: 2025
   date: 2025-11-12
-  status: Accepted
   type: Domestic
 - lang: en
   title: Time-Varyingness in Auction Breaks Revenue Equivalence
@@ -33,7 +26,6 @@ venues:
   venue_short: AAMAS
   year: 2026
   date: 2026-05-27
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

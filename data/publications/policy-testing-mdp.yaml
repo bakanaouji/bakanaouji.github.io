@@ -2,11 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - reinforcement-learning-sequential-decision
-topics:
-- Reinforcement Learning
-- Sequential Decision Making
-- Markov Games
-- Policy Evaluation
 venues:
 - lang: ja
   title: マルコフ決定過程における良方策検定手法の提案
@@ -20,7 +15,6 @@ venues:
   venue_short: IBIS
   year: 2024
   date: 2024-11-04
-  status: Accepted
   type: Domestic
 - lang: ja
   title: Policy Testing in Markov Decision Processes
@@ -34,7 +28,6 @@ venues:
   venue_short: IBIS
   year: 2025
   date: 2025-11-12
-  status: Accepted
   type: Domestic
 - lang: en
   title: Policy Testing in Markov Decision Processes
@@ -48,7 +41,6 @@ venues:
   venue_short: NeurIPS
   year: 2025
   date: 2025-12-06
-  status: Accepted
   type: Workshop
   links:
   - name: arXiv
@@ -65,7 +57,6 @@ venues:
   venue_short: AISTATS
   year: 2026
   date: 2026-05-02
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

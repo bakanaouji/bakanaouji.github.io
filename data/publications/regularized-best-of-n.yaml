@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - language-model-alignment
-topics:
-- LLM Alignment
-- Preference Optimization
-- Decoding
 venues:
 - lang: en
   title: Regularized Best-of-N Sampling to Mitigate Reward Hacking for Language Model Alignment
@@ -19,7 +15,6 @@ venues:
   venue_short: ICML
   year: 2024
   date: 2024-07-26
-  status: Accepted
   type: Workshop
   links:
   - name: arXiv
@@ -36,7 +31,6 @@ venues:
   venue_short: NAACL
   year: 2025
   date: 2025-04-30
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

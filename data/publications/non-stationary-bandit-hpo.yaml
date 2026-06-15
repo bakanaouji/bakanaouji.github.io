@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Bandits
-- Online Learning
-- Bayesian Optimization
 venues:
 - lang: ja
   title: 非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案
@@ -17,5 +13,4 @@ venues:
   venue_short: IBIS
   year: 2018
   date: 2018-11-04
-  status: Accepted
   type: Domestic

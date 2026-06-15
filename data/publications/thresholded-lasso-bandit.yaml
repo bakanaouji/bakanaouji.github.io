@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Bandits
-- Online Learning
-- Bayesian Optimization
 venues:
 - lang: en
   title: Thresholded LASSO Bandit
@@ -18,7 +14,6 @@ venues:
   venue_short: ICML
   year: 2022
   date: 2022-07-19
-  status: Accepted
   type: Conference
   links:
   - name: arXiv
@@ -34,5 +29,4 @@ venues:
   venue_short: IBIS
   year: 2022
   date: 2022-11-20
-  status: Accepted
   type: Domestic

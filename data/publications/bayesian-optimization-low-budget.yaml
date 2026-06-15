@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Bandits
-- Online Learning
-- Bayesian Optimization
 venues:
 - lang: ja
   title: Black-box最適化に対するBudgetを考慮した探索空間の初期化
@@ -17,7 +13,6 @@ venues:
   venue_short: JSAI
   year: 2019
   date: 2019-06-04
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -31,7 +26,6 @@ venues:
   venue: arXiv
   venue_short: arXiv
   date: 2019-11-18
-  status: Preprint
   type: Preprint
   links:
   - name: arXiv

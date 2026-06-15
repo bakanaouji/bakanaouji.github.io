@@ -8,7 +8,7 @@ x:
   filter_all: "すべて"
   facet_theme: "研究テーマで絞り込む"
   theme_prefix: "テーマ:"
-  pub_search_placeholder: "論文を検索（タイトル・著者・トピック…）"
+  pub_search_placeholder: "論文を検索（タイトル・著者・会議名…）"
   pub_empty: "該当する論文が見つかりませんでした。"
   pub_count: "{{ .count }}件"
   cat_intl_conference: "国際会議"

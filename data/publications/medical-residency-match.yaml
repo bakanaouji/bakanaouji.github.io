@@ -2,11 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - fairness-recsys-allocation
-topics:
-- Reinforcement Learning
-- Sequential Decision Making
-- Markov Games
-- Policy Evaluation
 venues:
 - lang: en
   title: Anytime Capacity Expansion in Medical Residency Match by Monte Carlo Tree Search
@@ -19,7 +14,6 @@ venues:
   venue_short: IJCAI
   year: 2022
   date: 2022-07-26
-  status: Accepted
   type: Conference
   links:
   - name: arXiv
@@ -35,7 +29,6 @@ venues:
   venue: 情報処理学会 第85回全国大会
   venue_short: IPSJ
   date: 2023-03-02
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -52,7 +45,6 @@ venues:
   venue_short: FIT
   year: 2023
   date: 2023-09-06
-  status: Accepted
   type: Domestic
 - lang: ja
   title: 研修医配属における地域間格差を調整する制約のモンテカルロ木探索
@@ -65,7 +57,6 @@ venues:
   venue: 情報処理学会 第86回全国大会
   venue_short: IPSJ
   date: 2024-03-15
-  status: Accepted
   type: Domestic
   links:
   - name: Paper

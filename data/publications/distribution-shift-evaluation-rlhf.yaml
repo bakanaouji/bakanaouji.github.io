@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - language-model-alignment
-topics:
-- LLM Alignment
-- Preference Optimization
-- Decoding
 venues:
 - lang: ja
   title: RLHFにおける分布シフトの評価
@@ -19,7 +15,6 @@ venues:
   venue_short: JSAI
   year: 2024
   date: 2024-05-28
-  status: Accepted
   type: Domestic
   links:
   - name: Paper

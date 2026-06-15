@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - reinforcement-learning-sequential-decision
-topics:
-- LLM Alignment
-- Preference Optimization
-- Decoding
 venues:
 - lang: en
   title: Return-Aligned Decision Transformer
@@ -19,7 +15,6 @@ venues:
   venue: Transactions on Machine Learning Research
   venue_short: TMLR
   date: 2025-06-08
-  status: Accepted
   type: Journal
   links:
   - name: arXiv

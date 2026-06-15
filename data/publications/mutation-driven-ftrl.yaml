@@ -2,12 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - learning-dynamics-equilibrium-games
-topics:
-- Learning in Games
-- Learning Dynamics
-- Equilibrium Computation
-- Last-Iterate Convergence
-- Game Theory
 venues:
 - lang: ja
   title: 二人零和ゲームにおける突然変異付きレプリケータダイナミクスを用いた学習アルゴリズムに関する研究
@@ -19,7 +13,6 @@ venues:
   venue: 情報処理学会 第84回全国大会
   venue_short: IPSJ
   date: 2022-03-03
-  status: Accepted
   type: Domestic
 - lang: ja
   title: 二人零和ゲームにおける突然変異付きレプリケータダイナミクスを用いた学習アルゴリズムに関する研究
@@ -33,7 +26,6 @@ venues:
   venue_short: JSAI
   year: 2022
   date: 2022-06-14
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -49,7 +41,6 @@ venues:
   venue_short: UAI
   year: 2022
   date: 2022-08-02
-  status: Accepted
   type: Conference
   links:
   - name: arXiv
@@ -66,7 +57,6 @@ venues:
   venue_short: FIT
   year: 2022
   date: 2022-09-13
-  status: Accepted
   type: Domestic
 - lang: ja
   title: 二人零和ゲームにおける突然変異駆動型正則化先導者追従法の終極反復収束
@@ -79,7 +69,6 @@ venues:
   venue: 情報処理学会論文誌
   venue_short: IPSJ-J
   date: 2024-05-15
-  status: Accepted
   type: Journal
   links:
   - name: Paper

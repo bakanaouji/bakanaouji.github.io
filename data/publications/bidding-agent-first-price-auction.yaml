@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Bandits
-- Online Learning
-- Bayesian Optimization
 venues:
 - lang: en
   title: Online Learning for Bidding Agent in First Price Auction
@@ -19,7 +15,6 @@ venues:
   venue_short: AAAI
   year: 2020
   date: 2020-02-08
-  status: Accepted
   type: Workshop
   links:
   - name: Paper

@@ -1,10 +1,8 @@
 {{- $p := . -}}
 {{- $venue := .Params.venue | default "" -}}
-{{- $status := .Params.status | default "" -}}
 {{- $type := .Params.type | default "" -}}
 {{- $year := .Params.year | default "" -}}
 {{- $authors := .Params.authors | default slice -}}
-{{- $topics := .Params.topics | default slice -}}
 {{- $projects := .Params.projects | default slice -}}
 {{- $projectNames := slice -}}
 {{- $projectShorts := slice -}}
@@ -15,7 +13,7 @@
   {{- $projectShorts = $projectShorts | append $sh -}}
 {{- end -}}
 {{- $links := .Params.links | default slice -}}
-{{- $search := lower (print $p.Title " " (delimit $authors " ") " " $venue " " $year " " (delimit $topics " ") " " (delimit $projectNames " ") " " (delimit $projectShorts " ") " " $status " " $type) -}}
+{{- $search := lower (print $p.Title " " (delimit $authors " ") " " $venue " " $year " " (delimit $projectNames " ") " " (delimit $projectShorts " ") " " $type) -}}
 <article class="pub-card"
   data-project="{{ if $projects }}{{ index $projects 0 }}{{ end }}"
   data-search="{{ $search }}">

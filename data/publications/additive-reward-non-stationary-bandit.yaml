@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Bandits
-- Online Learning
-- Bayesian Optimization
 venues:
 - lang: ja
   title: 共通トレンドを考慮した加法報酬モデルに基づく非定常バンディットアルゴリズム
@@ -18,5 +14,4 @@ venues:
   venue_short: IBIS
   year: 2025
   date: 2025-11-12
-  status: Accepted
   type: Domestic

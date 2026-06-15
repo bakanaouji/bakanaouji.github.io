@@ -2,12 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - learning-dynamics-equilibrium-games
-topics:
-- Learning in Games
-- Learning Dynamics
-- Equilibrium Computation
-- Last-Iterate Convergence
-- Game Theory
 venues:
 - lang: en
   title: Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from Nash Equilibrium
@@ -20,7 +14,6 @@ venues:
   venue_short: IJCAI
   year: 2023
   date: 2023-08-22
-  status: Accepted
   type: Conference
   links:
   - name: arXiv
@@ -36,5 +29,4 @@ venues:
   venue_short: IBIS
   year: 2023
   date: 2023-10-29
-  status: Accepted
   type: Domestic

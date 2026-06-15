@@ -2,11 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - reinforcement-learning-sequential-decision
-topics:
-- Reinforcement Learning
-- Sequential Decision Making
-- Markov Games
-- Policy Evaluation
 venues:
 - lang: ja
   title: 二人零和マルコフゲームにおけるオフ方策評価のためのQ学習
@@ -18,5 +13,4 @@ venues:
   venue_short: GPW
   year: 2020
   date: 2020-11-14
-  status: Accepted
   type: Domestic

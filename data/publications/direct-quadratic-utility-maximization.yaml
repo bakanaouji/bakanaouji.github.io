@@ -2,11 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - reinforcement-learning-sequential-decision
-topics:
-- Reinforcement Learning
-- Sequential Decision Making
-- Markov Games
-- Policy Evaluation
 venues:
 - lang: en
   title: Direct Expected Quadratic Utility Maximization for Mean-Variance Controlled Reinforcement Learning
@@ -20,7 +15,6 @@ venues:
   venue_short: NeurIPS
   year: 2021
   date: 2021-12-13
-  status: Accepted
   type: Workshop
   links:
   - name: arXiv

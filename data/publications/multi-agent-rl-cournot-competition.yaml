@@ -2,11 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - reinforcement-learning-sequential-decision
-topics:
-- Reinforcement Learning
-- Sequential Decision Making
-- Markov Games
-- Policy Evaluation
 venues:
 - lang: ja
   title: クールノー競争におけるマルチエージェント強化学習に関する研究
@@ -19,5 +14,4 @@ venues:
   venue: 情報処理学会 第84回全国大会
   venue_short: IPSJ
   date: 2022-03-03
-  status: Accepted
   type: Domestic

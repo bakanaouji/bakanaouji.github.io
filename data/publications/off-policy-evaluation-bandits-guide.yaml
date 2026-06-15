@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Bandits
-- Online Learning
-- Bayesian Optimization
 venues:
 - lang: en
   title: A Practical Guide of Off-Policy Evaluation for Bandit Problems
@@ -19,7 +15,6 @@ venues:
   venue_short: arXiv
   year: 2010
   date: 2020-10-23
-  status: Preprint
   type: Preprint
   links:
   - name: arXiv

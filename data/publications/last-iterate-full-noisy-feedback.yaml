@@ -2,12 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - learning-dynamics-equilibrium-games
-topics:
-- Learning in Games
-- Learning Dynamics
-- Equilibrium Computation
-- Last-Iterate Convergence
-- Game Theory
 venues:
 - lang: ja
   title: Last-Iterate Convergence with Full- and Noisy-Information Feedback in Two-Player Zero-Sum Games
@@ -22,7 +16,6 @@ venues:
   venue_short: IBIS
   year: 2022
   date: 2022-11-20
-  status: Accepted
   type: Domestic
 - lang: en
   title: Last-Iterate Convergence with Full and Noisy Feedback in Two-Player Zero-Sum Games
@@ -37,7 +30,6 @@ venues:
   venue_short: AISTATS
   year: 2023
   date: 2023-04-25
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

@@ -19,14 +19,10 @@
       {{ $params := dict
           "authors"         (or $v.authors slice)
           "venue"           (or $v.venue "")
-          "venue_short"     (or $v.venue_short "")
           "year"            $year
           "date"            $date
-          "status"          (or $v.status "")
           "type"            (or $v.type "")
-          "paper_lang"      $v.lang
           "projects"        (or $proj.projects slice)
-          "topics"          (or $proj.topics slice)
           "links"           (or $v.links slice)
           "abstract"        (or $v.abstract "")
           "showDate"        false

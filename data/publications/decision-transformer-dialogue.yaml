@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - language-model-alignment
-topics:
-- LLM Alignment
-- Preference Optimization
-- Decoding
 venues:
 - lang: ja
   title: タスク指向対話システムの方策学習への Decision Transformerの適用
@@ -18,7 +14,6 @@ venues:
   venue_short: NLP
   year: 2023
   date: 2023-03-13
-  status: Accepted
   type: Domestic
   links:
   - name: Paper

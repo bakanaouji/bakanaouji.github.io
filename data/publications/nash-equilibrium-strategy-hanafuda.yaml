@@ -2,12 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - learning-dynamics-equilibrium-games
-topics:
-- Learning in Games
-- Learning Dynamics
-- Equilibrium Computation
-- Last-Iterate Convergence
-- Game Theory
 venues:
 - lang: ja
   title: 花札におけるナッシュ均衡戦略の計算
@@ -18,5 +12,4 @@ venues:
   venue_short: IBIS
   year: 2019
   date: 2019-11-20
-  status: Accepted
   type: Domestic

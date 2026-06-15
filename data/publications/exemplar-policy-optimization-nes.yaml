@@ -2,11 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - reinforcement-learning-sequential-decision
-topics:
-- Reinforcement Learning
-- Sequential Decision Making
-- Markov Games
-- Policy Evaluation
 venues:
 - lang: ja
   title: 自然進化戦略を用いた事例ベース政策最適化
@@ -18,5 +13,4 @@ venues:
   venue_short: SICE-SE
   year: 2016
   date: 2016-03-07
-  status: Accepted
   type: Domestic

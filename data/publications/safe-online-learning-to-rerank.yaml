@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Fairness
-- Recommender Systems
-- Resource Allocation
 venues:
 - lang: en
   title: Exploration of Unranked Items in Safe Online Learning to Re-Rank
@@ -19,7 +15,6 @@ venues:
   venue_short: SIGIR
   year: 2023
   date: 2023-07-24
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

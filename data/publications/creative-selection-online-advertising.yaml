@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - bandits-online-learning
-topics:
-- Bandits
-- Online Learning
-- Bayesian Optimization
 venues:
 - lang: en
   title: Efficient Creative Selection in Online Advertising using Top-Two Thompson Sampling
@@ -19,7 +15,6 @@ venues:
   venue_short: WSDM
   year: 2025
   date: 2025-03-11
-  status: Accepted
   type: Conference
   links:
   - name: Paper

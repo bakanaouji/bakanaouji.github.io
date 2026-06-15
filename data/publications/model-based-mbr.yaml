@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - language-model-alignment
-topics:
-- LLM Alignment
-- Preference Optimization
-- Decoding
 venues:
 - lang: en
   title: Model-Based Minimum Bayes Risk Decoding
@@ -20,7 +16,6 @@ venues:
   venue_short: ICML
   year: 2024
   date: 2024-07-23
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

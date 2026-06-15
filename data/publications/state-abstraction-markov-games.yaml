@@ -2,11 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - learning-dynamics-equilibrium-games
-topics:
-- Reinforcement Learning
-- Sequential Decision Making
-- Markov Games
-- Policy Evaluation
 venues:
 - lang: ja
   title: 二人零和マルコフゲームにおける状態抽象化法に関する研究
@@ -19,7 +14,6 @@ venues:
   venue: 情報処理学会 第86回全国大会
   venue_short: IPSJ
   date: 2024-03-15
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -35,7 +29,6 @@ venues:
   venue_short: FIT
   year: 2024
   date: 2024-09-04
-  status: Accepted
   type: Domestic
 - lang: en
   title: Approximate State Abstraction for Markov Games
@@ -48,7 +41,6 @@ venues:
   venue_short: AAAI
   year: 2025
   date: 2025-02-27
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

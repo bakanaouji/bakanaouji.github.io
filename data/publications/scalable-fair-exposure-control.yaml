@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - fairness-recsys-allocation
-topics:
-- Fairness
-- Recommender Systems
-- Resource Allocation
 venues:
 - lang: en
   title: Fair Matrix Factorisation for Large-Scale Recommender Systems
@@ -17,7 +13,6 @@ venues:
   venue_short: RecSys
   year: 2022
   date: 2022-09-23
-  status: Accepted
   type: Workshop
   links:
   - name: arXiv
@@ -32,7 +27,6 @@ venues:
   venue_short: IBIS
   year: 2022
   date: 2022-11-20
-  status: Accepted
   type: Domestic
 - lang: en
   title: Scalable and Provably Fair Exposure Control for Large-Scale Recommender Systems
@@ -45,7 +39,6 @@ venues:
   venue_short: WWW
   year: 2024
   date: 2024-05-14
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

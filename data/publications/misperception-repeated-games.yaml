@@ -2,11 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - reinforcement-learning-sequential-decision
-topics:
-- Reinforcement Learning
-- Sequential Decision Making
-- Markov Games
-- Policy Evaluation
 venues:
 - lang: ja
   title: 見間違えのある繰り返し囚人のジレンマにおける方策勾配法に関する研究
@@ -19,7 +14,6 @@ venues:
   venue_short: FIT
   year: 2021
   date: 2021-08-25
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -35,7 +29,6 @@ venues:
   venue_short: ORSJ
   year: 2021
   date: 2021-09-16
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -51,5 +44,4 @@ venues:
   venue_short: IBIS
   year: 2021
   date: 2021-11-10
-  status: Accepted
   type: Domestic

@@ -2,12 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - learning-dynamics-equilibrium-games
-topics:
-- Learning in Games
-- Learning Dynamics
-- Equilibrium Computation
-- Last-Iterate Convergence
-- Game Theory
 venues:
 - lang: ja
   title: Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization
@@ -21,7 +15,6 @@ venues:
   venue_short: IBIS
   year: 2025
   date: 2025-11-12
-  status: Accepted
   type: Domestic
 - lang: en
   title: Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization
@@ -35,7 +28,6 @@ venues:
   venue_short: ICML
   year: 2026
   date: 2026-07-07
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

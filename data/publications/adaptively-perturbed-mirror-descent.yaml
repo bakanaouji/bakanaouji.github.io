@@ -2,12 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - learning-dynamics-equilibrium-games
-topics:
-- Learning in Games
-- Learning Dynamics
-- Equilibrium Computation
-- Last-Iterate Convergence
-- Game Theory
 venues:
 - lang: ja
   title: A Slingshot Approach to Learning in Monotone Games
@@ -21,7 +15,6 @@ venues:
   venue_short: IBIS
   year: 2023
   date: 2023-10-29
-  status: Accepted
   type: Domestic
 - lang: en
   title: Adaptively Perturbed Mirror Descent for Learning in Games
@@ -35,7 +28,6 @@ venues:
   venue_short: ICML
   year: 2024
   date: 2024-07-23
-  status: Accepted
   type: Conference
   links:
   - name: arXiv

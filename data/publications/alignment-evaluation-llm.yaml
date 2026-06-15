@@ -2,10 +2,6 @@
 # venues[] lists every appearance (each kept in its own language).
 projects:
 - language-model-alignment
-topics:
-- LLM Alignment
-- Preference Optimization
-- Decoding
 venues:
 - lang: ja
   title: 大規模言語モデルのためのアライメントデータ合成手法の実験的評価
@@ -20,7 +16,6 @@ venues:
   venue_short: NLP
   year: 2025
   date: 2025-03-10
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
@@ -38,7 +33,6 @@ venues:
   venue_short: JSAI
   year: 2025
   date: 2025-05-27
-  status: Accepted
   type: Domestic
   links:
   - name: Paper
