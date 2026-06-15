@@ -6,4 +6,4 @@ showReadingTime: false
 showTableOfContents: false
 ---
 
-Explore my research themes and their related publications.
+Research themes across learning in games and sequential decision making, with related publications.

@@ -1,5 +1,5 @@
-// Publications: multi-facet filtering (status / type / year / venue / project) +
-// live search, hide empty groups, shareable URL query params.
+// Publications: facet filtering (project) + live search,
+// hide empty groups, shareable URL query params.
 (function () {
   function init() {
     var root = document.querySelector("[data-pub-controls]");

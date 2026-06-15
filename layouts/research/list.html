@@ -2,7 +2,7 @@
   {{ .Scratch.Set "scope" "list" }}
 
   <header>
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <h1 class="mt-2 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
   </header>
 
   <section class="mt-1 mb-8 prose flex max-w-full flex-col dark:prose-invert">
@@ -31,8 +31,7 @@
               {{ with $p.Summary }}<p class="research-card__summary">{{ . | plainify }}</p>{{ end }}
               {{ if gt $count 0 }}<p class="research-card__meta">{{ i18n "x.related_papers_count" (dict "count" $count) }}</p>{{ end }}
               <div class="research-card__links">
-                <a href="{{ $p.RelPermalink }}">{{ i18n "x.overview" }}</a>
-                <a href="/publications/?project={{ $id }}">{{ i18n "x.related_papers" }} →</a>
+                <a href="{{ $p.RelPermalink }}">{{ i18n "x.view_theme" }} →</a>
               </div>
             </div>
           </article>

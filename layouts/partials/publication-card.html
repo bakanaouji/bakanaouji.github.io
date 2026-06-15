@@ -1,6 +1,5 @@
 {{- $p := . -}}
 {{- $venue := .Params.venue | default "" -}}
-{{- $vshort := .Params.venue_short | default "" -}}
 {{- $status := .Params.status | default "" -}}
 {{- $type := .Params.type | default "" -}}
 {{- $year := .Params.year | default "" -}}
@@ -16,10 +15,6 @@
 {{- $links := .Params.links | default slice -}}
 {{- $search := lower (print $p.Title " " (delimit $authors " ") " " $venue " " $year " " (delimit $topics " ") " " (delimit $projectNames " ") " " $status " " $type) -}}
 <article class="pub-card"
-  data-status="{{ lower $status }}"
-  data-type="{{ lower $type }}"
-  data-year="{{ $year }}"
-  data-venue="{{ lower $vshort }}"
   data-project="{{ if $projects }}{{ index $projects 0 }}{{ end }}"
   data-search="{{ $search }}">
   <div class="pub-card__head">

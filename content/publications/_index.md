@@ -6,4 +6,4 @@ showReadingTime: false
 showTableOfContents: false
 ---
 
-Conference and journal papers, preprints, workshop papers, and domestic presentations. Filter by status, type, year, venue, and research theme, or search.
+Conference and journal papers, preprints, workshop papers, and domestic presentations. Filter by research theme, or search.
