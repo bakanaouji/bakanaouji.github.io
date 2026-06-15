@@ -4,7 +4,8 @@
 
   Each project groups its venue appearances under venues[]; every venue keeps
   its own language-specific title/authors. This expands them back into one page
-  per venue, preserving existing URLs.
+  per venue. The page path is derived as <project>-<venue_short>-<year>
+  (e.g. alignment-evaluation-llm-nlp-2025); year falls back to the date's year.
 
   venue.lang: "en" -> shown on both EN and JA sites
               "ja" -> shown on the JA site only
@@ -14,11 +15,12 @@
   {{ range $v := $proj.venues }}
     {{ if or (eq $lang "ja") (eq $v.lang "en") }}
       {{ $date := time.AsTime $v.date }}
+      {{ $year := or $v.year $date.Year }}
       {{ $params := dict
           "authors"         (or $v.authors slice)
           "venue"           (or $v.venue "")
           "venue_short"     (or $v.venue_short "")
-          "year"            $v.year
+          "year"            $year
           "date"            $date
           "status"          (or $v.status "")
           "type"            (or $v.type "")
@@ -32,7 +34,7 @@
       }}
       {{ $.AddPage (dict
           "kind"   "page"
-          "path"   $v.slug
+          "path"   (urlize (printf "%s-%s-%v" $pid $v.venue_short $year))
           "title"  $v.title
           "dates"  (dict "date" $date)
           "params" $params

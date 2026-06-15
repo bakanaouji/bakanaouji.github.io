@@ -7,8 +7,7 @@ topics:
 - Preference Optimization
 - Decoding
 venues:
-- slug: decision-transformer-task-oriented-dialogue-2023
-  lang: ja
+- lang: ja
   title: タスク指向対話システムの方策学習への Decision Transformerの適用
   authors:
   - 戸田 隆道
@@ -16,6 +15,7 @@ venues:
   - 阿部 拳之
   abstract: ''
   venue: 言語処理学会 第29回年次大会 (NLP 2023)
+  venue_short: NLP
   year: 2023
   date: 2023-03-13
   status: Accepted

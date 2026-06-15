@@ -9,8 +9,7 @@ topics:
 - Last-Iterate Convergence
 - Game Theory
 venues:
-- slug: nash-equilibrium-and-learning-dynamics-in-three-player-2025
-  lang: en
+- lang: en
   title: Nash Equilibrium and Learning Dynamics in Three-Player Matching m-Action Games
   authors:
   - Yuma Fujimoto

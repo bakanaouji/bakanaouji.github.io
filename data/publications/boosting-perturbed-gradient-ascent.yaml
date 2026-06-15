@@ -9,8 +9,7 @@ topics:
 - Last-Iterate Convergence
 - Game Theory
 venues:
-- slug: boosting-perturbed-gradient-ascent-for-last-iterate-con-2025
-  lang: en
+- lang: en
   title: Boosting Perturbed Gradient Ascent for Last-Iterate Convergence in Games
   authors:
   - Kenshi Abe

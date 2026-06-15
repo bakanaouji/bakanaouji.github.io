@@ -7,8 +7,7 @@ topics:
 - Recommender Systems
 - Resource Allocation
 venues:
-- slug: exploration-of-unranked-items-in-safe-online-learning-t-2023
-  lang: en
+- lang: en
   title: Exploration of Unranked Items in Safe Online Learning to Re-Rank
   authors:
   - Hiroaki Shiino

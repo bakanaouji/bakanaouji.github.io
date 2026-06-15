@@ -9,8 +9,7 @@ topics:
 - Last-Iterate Convergence
 - Game Theory
 venues:
-- slug: global-behavior-of-learning-dynamics-in-zero-sum-games-2025
-  lang: en
+- lang: en
   title: Global Behavior of Learning Dynamics in Zero-Sum Games with Memory Asymmetry
   authors:
   - Yuma Fujimoto

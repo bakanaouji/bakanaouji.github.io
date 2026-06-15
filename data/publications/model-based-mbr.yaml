@@ -7,8 +7,7 @@ topics:
 - Preference Optimization
 - Decoding
 venues:
-- slug: model-based-minimum-bayes-risk-decoding-2024
-  lang: en
+- lang: en
   title: Model-Based Minimum Bayes Risk Decoding
   authors:
   - Yuu Jinnai

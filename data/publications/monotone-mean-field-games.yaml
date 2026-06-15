@@ -9,8 +9,7 @@ topics:
 - Last-Iterate Convergence
 - Game Theory
 venues:
-- slug: last-iterate-convergence-in-monotone-mean-field-games-2024
-  lang: ja
+- lang: ja
   title: Last Iterate Convergence in Monotone Mean Field Games
   authors:
   - 磯部 伸
@@ -18,12 +17,12 @@ venues:
   - 蟻生 開人
   abstract: ''
   venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  venue_short: IBIS
   year: 2024
   date: 2024-11-04
   status: Accepted
   type: Domestic
-- slug: last-iterate-convergence-in-monotone-mean-field-games-2025
-  lang: en
+- lang: en
   title: Last Iterate Convergence in Monotone Mean Field Games
   authors:
   - Noboru Isobe

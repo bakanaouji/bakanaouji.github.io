@@ -7,8 +7,7 @@ topics:
 - Online Learning
 - Bayesian Optimization
 venues:
-- slug: efficient-creative-selection-in-online-advertising-usin-2025
-  lang: en
+- lang: en
   title: Efficient Creative Selection in Online Advertising using Top-Two Thompson Sampling
   authors:
   - Daiki Katsuragawa

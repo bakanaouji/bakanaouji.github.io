@@ -8,8 +8,7 @@ topics:
 - Markov Games
 - Policy Evaluation
 venues:
-- slug: anytime-capacity-expansion-in-medical-residency-match-b-2022
-  lang: en
+- lang: en
   title: Anytime Capacity Expansion in Medical Residency Match by Monte Carlo Tree Search
   authors:
   - Kenshi Abe
@@ -25,8 +24,7 @@ venues:
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2202.06570
-- slug: reinforcement-learning-sequential-decision-3
-  lang: ja
+- lang: ja
   title: 研修医配属における地域間格差を調整するための制約のモンテカルロ木探索
   authors:
   - 板垣 圭知
@@ -35,14 +33,14 @@ venues:
   - 岩崎 敦
   abstract: ''
   venue: 情報処理学会 第85回全国大会
+  venue_short: IPSJ
   date: 2023-03-02
   status: Accepted
   type: Domestic
   links:
   - name: Paper
     url: https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=230050&item_no=1
-- slug: reinforcement-learning-sequential-decision-2023
-  lang: ja
+- lang: ja
   title: 研修医配属における地域間格差を調整するための制約のモンテカルロ木探索
   authors:
   - 板垣 圭知
@@ -51,12 +49,12 @@ venues:
   - 岩崎 敦
   abstract: ''
   venue: 第22回情報科学技術フォーラム (FIT 2023)
+  venue_short: FIT
   year: 2023
   date: 2023-09-06
   status: Accepted
   type: Domestic
-- slug: reinforcement-learning-sequential-decision-2
-  lang: ja
+- lang: ja
   title: 研修医配属における地域間格差を調整する制約のモンテカルロ木探索
   authors:
   - 板垣 圭知
@@ -65,6 +63,7 @@ venues:
   - 岩崎 敦
   abstract: ''
   venue: 情報処理学会 第86回全国大会
+  venue_short: IPSJ
   date: 2024-03-15
   status: Accepted
   type: Domestic

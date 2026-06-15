@@ -8,8 +8,7 @@ topics:
 - Markov Games
 - Policy Evaluation
 venues:
-- slug: reinforcement-learning-sequential-decision-2024
-  lang: ja
+- lang: ja
   title: マルコフ決定過程における良方策検定手法の提案
   authors:
   - 蟻生 開人
@@ -18,12 +17,12 @@ venues:
   - Alexandre Proutiere
   abstract: ''
   venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  venue_short: IBIS
   year: 2024
   date: 2024-11-04
   status: Accepted
   type: Domestic
-- slug: policy-testing-in-markov-decision-processes-2025-2
-  lang: ja
+- lang: ja
   title: Policy Testing in Markov Decision Processes
   authors:
   - Po-An Wang
@@ -32,12 +31,12 @@ venues:
   - Kenshi Abe
   abstract: ''
   venue: 第28回情報論的学習理論ワークショップ (IBIS 2025)
+  venue_short: IBIS
   year: 2025
   date: 2025-11-12
   status: Accepted
   type: Domestic
-- slug: policy-testing-in-markov-decision-processes-2025
-  lang: en
+- lang: en
   title: Policy Testing in Markov Decision Processes
   authors:
   - Kaito Ariu
@@ -54,8 +53,7 @@ venues:
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2505.15342
-- slug: policy-testing-in-markov-decision-processes-2026
-  lang: en
+- lang: en
   title: Policy Testing in Markov Decision Processes
   authors:
   - Kaito Ariu

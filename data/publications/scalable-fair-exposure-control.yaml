@@ -7,8 +7,7 @@ topics:
 - Recommender Systems
 - Resource Allocation
 venues:
-- slug: fair-matrix-factorisation-for-large-scale-recommender-s-2022
-  lang: en
+- lang: en
   title: Fair Matrix Factorisation for Large-Scale Recommender Systems
   authors:
   - Riku Togashi
@@ -23,20 +22,19 @@ venues:
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2209.04394
-- slug: fairness-aware-large-scale-recommender-system-2022
-  lang: ja
+- lang: ja
   title: 公平性を考慮した大規模推薦システム
   authors:
   - 富樫 陸
   - 阿部 拳之
   abstract: ''
   venue: 第25回情報論的学習理論ワークショップ (IBIS 2022)
+  venue_short: IBIS
   year: 2022
   date: 2022-11-20
   status: Accepted
   type: Domestic
-- slug: scalable-and-provably-fair-exposure-control-for-large-s-2024
-  lang: en
+- lang: en
   title: Scalable and Provably Fair Exposure Control for Large-Scale Recommender Systems
   authors:
   - Riku Togashi

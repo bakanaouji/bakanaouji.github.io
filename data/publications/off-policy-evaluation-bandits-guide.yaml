@@ -7,8 +7,7 @@ topics:
 - Online Learning
 - Bayesian Optimization
 venues:
-- slug: a-practical-guide-of-off-policy-evaluation-for-bandit-p-2010
-  lang: en
+- lang: en
   title: A Practical Guide of Off-Policy Evaluation for Bandit Problems
   authors:
   - Masahiro Kato

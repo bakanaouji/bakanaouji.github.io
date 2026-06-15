@@ -8,14 +8,14 @@ topics:
 - Markov Games
 - Policy Evaluation
 venues:
-- slug: off-policy-evaluation-q-learning-markov-games-2020
-  lang: ja
+- lang: ja
   title: 二人零和マルコフゲームにおけるオフ方策評価のためのQ学習
   authors:
   - 阿部 拳之
   - 金子 雄祐
   abstract: ''
   venue: 第25回ゲームプログラミングワークショップ (GPW 2020)
+  venue_short: GPW
   year: 2020
   date: 2020-11-14
   status: Accepted

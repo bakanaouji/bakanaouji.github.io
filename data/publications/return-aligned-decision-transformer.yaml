@@ -7,8 +7,7 @@ topics:
 - Preference Optimization
 - Decoding
 venues:
-- slug: return-aligned-decision-transformer
-  lang: en
+- lang: en
   title: Return-Aligned Decision Transformer
   authors:
   - Tsunehiko Tanaka

@@ -8,8 +8,7 @@ topics:
 - Markov Games
 - Policy Evaluation
 venues:
-- slug: direct-expected-quadratic-utility-maximization-for-mean-2021
-  lang: en
+- lang: en
   title: Direct Expected Quadratic Utility Maximization for Mean-Variance Controlled Reinforcement Learning
   authors:
   - Masahiro Kato

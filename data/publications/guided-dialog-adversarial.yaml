@@ -7,8 +7,7 @@ topics:
 - Preference Optimization
 - Decoding
 venues:
-- slug: language-model-alignment-2023
-  lang: ja
+- lang: ja
   title: タスク指向対話における強化学習を用いた対話方策学習への敵対的学習の役割の解明
   authors:
   - 下山 翔
@@ -16,6 +15,7 @@ venues:
   - 阿部 拳之
   abstract: ''
   venue: 言語処理学会 第29回年次大会 (NLP 2023)
+  venue_short: NLP
   year: 2023
   date: 2023-03-13
   status: Accepted
@@ -23,8 +23,7 @@ venues:
   links:
   - name: Paper
     url: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q12-5.pdf
-- slug: why-guided-dialog-policy-learning-performs-well-underst
-  lang: en
+- lang: en
   title: Why Guided Dialog Policy Learning performs well? Understanding the role of adversarial learning and its alternative
   authors:
   - Sho Shimoyama

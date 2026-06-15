@@ -7,8 +7,7 @@ topics:
 - Preference Optimization
 - Decoding
 venues:
-- slug: evaluation-of-best-of-n-sampling-strategies-for-languag-2024
-  lang: ja
+- lang: ja
   title: Evaluation of Best-of-N Sampling Strategies for Language Model Alignment
   authors:
   - 市原 有生希
@@ -20,12 +19,12 @@ venues:
   - 内部 英治
   abstract: ''
   venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  venue_short: IBIS
   year: 2024
   date: 2024-11-04
   status: Accepted
   type: Domestic
-- slug: evaluation-of-best-of-n-sampling-strategies-for-languag
-  lang: en
+- lang: en
   title: Evaluation of Best-of-N Sampling Strategies for Language Model Alignment
   authors:
   - Yuki Ichihara

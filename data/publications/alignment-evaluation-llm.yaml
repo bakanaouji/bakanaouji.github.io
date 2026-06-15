@@ -7,8 +7,7 @@ topics:
 - Preference Optimization
 - Decoding
 venues:
-- slug: alignment-data-synthesis-llm-2025
-  lang: ja
+- lang: ja
   title: 大規模言語モデルのためのアライメントデータ合成手法の実験的評価
   authors:
   - 坂本 充生
@@ -18,6 +17,7 @@ venues:
   - 蟻生 開人
   abstract: ''
   venue: 言語処理学会 第31回年次大会 (NLP 2025)
+  venue_short: NLP
   year: 2025
   date: 2025-03-10
   status: Accepted
@@ -25,8 +25,7 @@ venues:
   links:
   - name: Paper
     url: https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q4-11.pdf
-- slug: self-training-alignment-japanese-llm-2025
-  lang: ja
+- lang: ja
   title: 日本語大規模言語モデルの自己学習によるアライメントの実験評価
   authors:
   - 坂本 充生
@@ -36,6 +35,7 @@ venues:
   - 蟻生 開人
   abstract: ''
   venue: 第39回人工知能学会全国大会 (JSAI 2025)
+  venue_short: JSAI
   year: 2025
   date: 2025-05-27
   status: Accepted

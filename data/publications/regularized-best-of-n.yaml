@@ -7,8 +7,7 @@ topics:
 - Preference Optimization
 - Decoding
 venues:
-- slug: regularized-best-of-n-sampling-to-mitigate-reward-hacki-2024
-  lang: en
+- lang: en
   title: Regularized Best-of-N Sampling to Mitigate Reward Hacking for Language Model Alignment
   authors:
   - Yuu Jinnai
@@ -25,8 +24,7 @@ venues:
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2404.01054
-- slug: regularized-best-of-n-sampling-with-minimum-bayes-risk-2025
-  lang: en
+- lang: en
   title: Regularized Best-of-N Sampling with Minimum Bayes Risk Objective for Language Model Alignment
   authors:
   - Yuu Jinnai

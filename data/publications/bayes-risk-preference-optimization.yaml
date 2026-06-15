@@ -7,8 +7,7 @@ topics:
 - Preference Optimization
 - Decoding
 venues:
-- slug: bayes-risk-preference-optimization-2024
-  lang: ja
+- lang: ja
   title: ベイズリスク選好最適化：報酬モデル不要のオンライン選好最適化手法
   authors:
   - 森村 哲郎
@@ -18,6 +17,7 @@ venues:
   - 蟻生 開人
   abstract: ''
   venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  venue_short: IBIS
   year: 2024
   date: 2024-11-04
   status: Accepted

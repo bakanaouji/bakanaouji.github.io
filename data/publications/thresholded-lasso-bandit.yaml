@@ -7,8 +7,7 @@ topics:
 - Online Learning
 - Bayesian Optimization
 venues:
-- slug: thresholded-lasso-bandit-2022
-  lang: en
+- lang: en
   title: Thresholded LASSO Bandit
   authors:
   - Kaito Ariu
@@ -24,8 +23,7 @@ venues:
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2010.11994
-- slug: thresholded-lasso-bandit-2022-2
-  lang: ja
+- lang: ja
   title: Thresholded Lasso Bandit
   authors:
   - 蟻生 開人
@@ -33,6 +31,7 @@ venues:
   - Alexandre Proutiere
   abstract: ''
   venue: 第25回情報論的学習理論ワークショップ (IBIS 2022)
+  venue_short: IBIS
   year: 2022
   date: 2022-11-20
   status: Accepted

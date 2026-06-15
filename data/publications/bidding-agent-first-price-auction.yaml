@@ -7,8 +7,7 @@ topics:
 - Online Learning
 - Bayesian Optimization
 venues:
-- slug: online-learning-for-bidding-agent-in-first-price-auctio-2020
-  lang: en
+- lang: en
   title: Online Learning for Bidding Agent in First Price Auction
   authors:
   - Gota Morishita
