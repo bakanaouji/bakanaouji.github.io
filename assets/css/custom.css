@@ -10,7 +10,7 @@
 .home-intro__role { margin:0.3rem 0 0; font-size:1.05rem; line-height:1.5; color:rgb(115 115 115); }
 .home-intro__role a { color:inherit; text-decoration:none; text-underline-offset:2px; }
 .home-intro__role a:hover { color:rgb(37 99 235); text-decoration:underline; }
-.home-intro__links { margin-top:0.7rem; font-size:1.35rem; }
+.home-intro__links { margin-top:0.7rem; font-size:1.2rem; }
 .dark .home-intro__role { color:rgb(163 163 163); }
 .dark .home-intro__role a:hover { color:rgb(96 165 250); }
 
@@ -55,6 +55,40 @@
    bio's left edge and width — the page reads as one column, not two widths.
    A clear top margin separates it from the Interests / Education blocks above. */
 .home-intro__content { margin-top:2rem; }
+/* The "View all publications" link below the cards matches the "View research
+   themes" link under Interests — same size, weight, colour, no arrow. */
+.home-intro__content > p > a { font-size:0.85rem; font-weight:600; color:rgb(37 99 235); text-decoration:none; }
+.home-intro__content > p > a:hover { text-decoration:underline; }
+.dark .home-intro__content > p > a { color:#60a5fa; }
+
+/* Talks list: a light, bullet-free vertical list. Each entry is a prominent
+   title line over a muted "venue · session · date" meta line, so the talk title
+   and where/when it was given read as two clear tiers. Only the venue is a link
+   (blue); the title links to slides when available but stays in the title colour. */
+.home-intro__content .talk { margin:0 0 1.15rem; }
+.home-intro__content .talk:last-child { margin-bottom:0; }
+.talk-title { margin:0; font-weight:700; line-height:1.55; color:rgb(23 23 23); }
+.dark .talk-title { color:rgb(245 245 245); }
+.talk-title a { color:inherit; text-decoration:none; }
+/* Talks keep white titles so the title vs. the blue venue link stay distinct;
+   blog posts are pure link lists, so their titles take a faint resting tint. */
+.blog-post .talk-title a { color:rgb(55 75 145); font-size:0.95em; font-weight:600; }
+.dark .blog-post .talk-title a { color:rgb(150 180 230); }
+.talk-title a:hover { color:rgb(37 99 235); }
+.dark .talk-title a:hover { color:#60a5fa; }
+.talk-meta { margin:0.25rem 0 0; font-size:0.9rem; line-height:1.6; color:rgb(115 115 115); }
+.dark .talk-meta { color:rgb(160 160 160); }
+.talk-meta a { color:rgb(37 99 235); text-decoration:none; }
+.talk-meta a:hover { text-decoration:underline; }
+.dark .talk-meta a { color:#60a5fa; }
+/* Three meta tiers: venue keeps the base meta grey, the session is the blue link,
+   the date sits one shade fainter so the line reads venue → session → date. */
+.talk-date { color:rgb(148 148 148); }
+.dark .talk-date { color:rgb(130 130 130); }
+/* Blog posts are supplementary, so they sit a little tighter than talks. Placed
+   after the .talk rules so it overrides the entry margin, while .talk:last-child
+   still zeroes the final entry. */
+.home-intro__content .blog-post { margin-bottom:0.6rem; }
 
 /* Selected Publications on the homepage are the showcase set — hide the per-card
    research-theme chip there (it repeats across cards); keep it on the publications

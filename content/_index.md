@@ -31,4 +31,4 @@ education:
 
 {{< selected-publications >}}
 
-[View all publications →](/publications/)
+[View all publications](/publications/)

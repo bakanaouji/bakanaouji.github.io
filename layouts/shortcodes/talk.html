@@ -1,0 +1,19 @@
+{{- /* One talk entry for the homepage talks list.
+       title  : talk / paper title (line 1, prominent)
+       slides : optional URL — wraps the title when present (slides/deck)
+       venue  : conference or event name (muted; blue link only when there is no session)
+       venueurl: optional event URL — attaches to the session when one is given, else to the venue
+       session: optional session / track name (the blue link when venueurl is set)
+       date   : presentation date (faintest tier)
+       Layout: title on top, "venue · session · date" below in three tiers
+       (venue grey · session blue link · date fainter grey). */ -}}
+{{- $title := .Get "title" -}}
+{{- $slides := .Get "slides" -}}
+{{- $venue := .Get "venue" -}}
+{{- $venueurl := .Get "venueurl" -}}
+{{- $session := .Get "session" -}}
+{{- $date := .Get "date" -}}
+<div class="talk">
+  <p class="talk-title">{{ with $slides }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $title }}</a>{{ else }}{{ $title }}{{ end }}</p>
+  <p class="talk-meta">{{ if $session }}<span class="talk-venue">{{ $venue }}</span> · {{ with $venueurl }}<a class="talk-session" href="{{ . }}" target="_blank" rel="noopener">{{ $session }}</a>{{ else }}<span class="talk-session">{{ $session }}</span>{{ end }}{{ else }}{{ with $venueurl }}<a class="talk-venue" href="{{ . }}" target="_blank" rel="noopener">{{ $venue }}</a>{{ else }}<span class="talk-venue">{{ $venue }}</span>{{ end }}{{ end }}{{ with $date }} · <span class="talk-date">{{ . }}</span>{{ end }}</p>
+</div>
