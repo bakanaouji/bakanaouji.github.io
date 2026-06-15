@@ -1,16 +1,71 @@
-/* ===== Homepage intro header (compact author block) =====
-   Photo sits to the left of the name/headline/social links; the rest of the page
-   (Selected Publications, Research Interests) flows left-aligned and full width,
-   matching the Publications and Research pages. */
-.home-intro__header { display:flex; align-items:center; gap:1.25rem; margin:0.5rem 0 1.75rem; }
-.home-intro__avatar { flex:none; height:6rem; width:6rem; border-radius:9999px; object-fit:cover; }
-.home-intro__heading { min-width:0; }
-.home-intro__heading h1 { margin:0; line-height:1.1; }
-.home-intro__headline { margin:0.2rem 0 0; font-size:1.125rem; color:rgb(115 115 115); }
-.dark .home-intro__headline { color:rgb(163 163 163); }
-.home-intro__links { margin-top:0.45rem; font-size:1.35rem; }
+/* ===== Homepage Biography intro (two-column) =====
+   Left identity column (photo, name, role, social links) sits beside a right
+   column holding the biography and small Interests / Education blocks. Selected
+   Publications flows full width below. Stacks to one column on narrow screens. */
+.home-intro__grid { display:grid; grid-template-columns:minmax(0,15rem) minmax(0,1fr);
+  gap:2.75rem; align-items:start; margin:0.5rem 0 2.5rem; }
+.home-intro__identity { min-width:0; }
+.home-intro__avatar { height:11rem; width:11rem; border-radius:9999px; object-fit:cover; }
+.home-intro__name { margin:1.1rem 0 0; line-height:1.15; }
+.home-intro__role { margin:0.3rem 0 0; font-size:1.05rem; line-height:1.5; color:rgb(115 115 115); }
+.home-intro__role a { color:inherit; text-decoration:none; text-underline-offset:2px; }
+.home-intro__role a:hover { color:rgb(37 99 235); text-decoration:underline; }
+.home-intro__links { margin-top:0.7rem; font-size:1.35rem; }
+.dark .home-intro__role { color:rgb(163 163 163); }
+.dark .home-intro__role a:hover { color:rgb(96 165 250); }
+
+.home-intro__bio { min-width:0; }
+.home-intro__eyebrow { margin:0 0 0.45rem; font-size:0.7rem; font-weight:700; letter-spacing:.1em;
+  text-transform:uppercase; color:#2563eb; }
+.home-intro__bio-text { margin:0 0 0.9rem; font-size:1.02rem; line-height:1.85; color:rgb(64 64 64); }
+.home-intro__bio-text:last-of-type { margin-bottom:0; }
+.dark .home-intro__bio-text { color:rgb(200 200 200); }
+
+.home-intro__facts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1.25rem 2rem; margin-top:1.5rem; }
+.home-intro__fact .home-intro__eyebrow { margin-bottom:0.4rem; }
+.home-intro__list { margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:0.4rem; }
+.home-intro__list li { font-size:0.92rem; line-height:1.5; color:rgb(64 64 64); }
+.dark .home-intro__list li { color:rgb(200 200 200); }
+.home-intro__list--edu { gap:0.55rem; }
+.home-intro__list--edu li { display:flex; flex-direction:column; }
+.home-intro__edu-degree { font-weight:600; color:rgb(38 38 38); }
+.home-intro__edu-meta { font-size:0.82rem; color:rgb(130 130 130); }
+.dark .home-intro__edu-degree { color:rgb(229 229 229); }
+.dark .home-intro__edu-meta { color:rgb(150 150 150); }
+
+/* Interests read as a link list into the matching research-theme pages: plain text,
+   a touch brighter than the Education body, turning accent on hover. A single
+   "View research themes" link sits directly beneath, pointing at the themes hub. */
+.home-intro__list--interests { gap:0.45rem; }
+.home-intro__list--interests li { position:relative; padding-left:1.05rem; }
+.home-intro__list--interests li::before { content:""; position:absolute; left:0; top:0.58em;
+  width:0.34rem; height:0.34rem; border-radius:9999px; background:#2563eb; opacity:.85; }
+.home-intro__list--interests a { color:rgb(82 82 82); text-decoration:none;
+  transition:color .15s; }
+.home-intro__list--interests a:hover { color:rgb(37 99 235); }
+.dark .home-intro__list--interests li::before { background:#60a5fa; }
+.dark .home-intro__list--interests a { color:rgb(190 190 190); }
+.dark .home-intro__list--interests a:hover { color:#60a5fa; }
+.home-intro__themes-link { margin:0.65rem 0 0; }
+.home-intro__themes-link a { font-size:0.85rem; font-weight:600; color:rgb(37 99 235); text-decoration:none; }
+.home-intro__themes-link a:hover { text-decoration:underline; }
+.dark .home-intro__themes-link a { color:#60a5fa; }
+.home-intro__content { margin-top:0.5rem; }
+
+/* Selected Publications on the homepage are the showcase set — hide the per-card
+   research-theme chip there (it repeats across cards); keep it on the publications
+   list and related-publications, which share this card partial. */
+.pub-grid--home .pub-project { display:none; }
+
+.dark .home-intro__eyebrow { color:#60a5fa; }
+
+@media (max-width:768px){
+  .home-intro__grid { grid-template-columns:1fr; gap:1.75rem; }
+  .home-intro__avatar { height:9rem; width:9rem; }
+}
 @media (max-width:480px){
-  .home-intro__header { flex-direction:column; align-items:flex-start; gap:0.85rem; }
+  .home-intro__facts { grid-template-columns:1fr; gap:1.5rem; }
 }
 
 /* ===== Shared filter buttons ===== */
