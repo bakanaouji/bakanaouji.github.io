@@ -79,9 +79,9 @@ venues:
   abstract: |
     Abstract text here.
   venue: Venue yyyy
-  venue_short: Venue
-  year: yyyy
-  date: yyyy-mm-dd
+  venue_short: ICML
+  year: YYYY
+  date: YYYY-MM-DD
   type: Conference
   links:
   - name: arXiv
@@ -96,7 +96,7 @@ venues:
 | `featured` | `true` にするとトップページの Selected Publications / 主要論文に表示 |
 | `title` | 論文タイトル |
 | `authors` | 著者リスト |
-| `abstract` | 論文概要 |
+| `abstract` | |
 | `venue` | 会議・論文誌名。例: `ICML 2026` |
 | `venue_short` | 短縮名。スラッグ生成などに使用。例: `ICML` |
 | `year` | 年。通常は `date` から補完される |
