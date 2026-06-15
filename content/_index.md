@@ -3,7 +3,7 @@ title: "Kenshi Abe"
 description: "Research Scientist working on learning in games, reinforcement learning, and imperfect-information games."
 biography:
   - "I am a Research Scientist at CyberAgent AI Lab. My research focuses on learning algorithms for computing equilibria in games."
-  - "I am especially interested in learning algorithms that achieve last-iterate convergence to Nash equilibrium, including perturbation-based methods for stabilizing learning dynamics."
+  - "I am especially interested in algorithms that converge to Nash equilibria in a last-iterate sense, including perturbation-based methods for stabilizing learning dynamics."
 interests:
   - label: "Learning Dynamics in Games"
     theme: "learning-dynamics-equilibrium-games"
