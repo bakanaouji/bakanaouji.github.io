@@ -1,16 +1,17 @@
 ---
 title: "Learning Dynamics and Equilibrium Computation in Games"
 short: "Learning Dynamics"
-summary: "ゲームにおける学習ダイナミクスと均衡計算を扱う。最終反復収束・利得摂動、不完全情報展開型ゲームの CFR 系求解、マルチエージェントの大域挙動やメカニズム・オークションを研究する。"
+summary: "学習ダイナミクスはいつナッシュ均衡へ収束するか？"
 order: 1
-keywords: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]
+keywords: ["Learning in Games", "Learning Dynamics", "Equilibrium Computation", "Last-Iterate Convergence", "Game Theory"]
 showReadingTime: false
 showDate: false
 ---
 
-ゲームにおける学習の収束と均衡計算を中心に研究している。ゼロ和・単調ゲームでの**最終反復収束**(利得摂動・ミラー降下・FTRL)、不完全情報展開型ゲームの **CFR 系求解**、そしてマルチエージェント学習の大域挙動(周期・記憶非対称・平均場)やメカニズム・オークションの性質までを対象とする。
+学習ダイナミクスは、繰り返される戦略的相互作用を通じてエージェントがどう適応するかを捉える視点を与える。本テーマでは、そうしたダイナミクスがいつ収束し、いつ収束しないのか、そしてこれらの現象がゲームにおける均衡計算とどう結びつくかを研究している。
 
 ## Key questions
-- どのような条件で学習が均衡へ最終反復収束するか
-- 不完全情報ゲームの近似ナッシュ均衡をどう効率的に計算するか
-- マルチエージェント学習はいつ均衡から乖離・同期するか
+
+- どのような条件で学習ダイナミクスは最終反復の意味でナッシュ均衡へ収束するか
+- 大規模・不完全情報ゲームで近似ナッシュ均衡をどう計算できるか
+- マルチエージェントの学習ダイナミクスはいつ収束しないのか

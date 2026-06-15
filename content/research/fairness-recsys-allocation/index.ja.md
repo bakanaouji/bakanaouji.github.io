@@ -1,16 +1,16 @@
 ---
 title: "Fairness in Recommender Systems and Allocation"
 short: "Fairness & Allocation"
-summary: "推薦システムと資源配分における公平性。バンディットフィードバックからの公平分配や、大規模推薦システムにおける公平な露出制御を扱う。"
+summary: "システムは限られた機会をどう公平に配分できるか？"
 order: 5
-keywords: ["Fairness","Recommender Systems","Resource Allocation"]
+keywords: ["Fairness", "Recommender Systems", "Matching"]
 showReadingTime: false
 showDate: false
 ---
 
-学習システムにおける公平性を研究している。限られたフィードバックのもとでの公平な資源配分や、大規模推薦システムにおけるアイテムの公平な露出制御を対象とする。
+公平性を考慮しながらシステムが限られた機会をどう配分するかを研究している。現実の意思決定環境において、公平で効果的かつスケールする配分メカニズムの設計に着目する。
 
 ## Key questions
-- 限られたフィードバックから公平な配分をどう学習するか
-- 大規模推薦で公平な露出をどう効率的に保証するか
-- 効用と公平性のトレードオフをどう扱うか
+
+- システムは限られた機会をどう公平に配分できるか
+- 公平性を考慮した配分は大規模でもどう効果的でいられるか
