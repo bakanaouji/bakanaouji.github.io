@@ -1,0 +1,22 @@
+# Research project: off-policy-q-learning-markov-games
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+topics:
+- Reinforcement Learning
+- Sequential Decision Making
+- Markov Games
+- Policy Evaluation
+venues:
+- slug: off-policy-evaluation-q-learning-markov-games-2020
+  lang: ja
+  title: 二人零和マルコフゲームにおけるオフ方策評価のためのQ学習
+  authors:
+  - 阿部 拳之
+  - 金子 雄祐
+  abstract: ''
+  venue: 第25回ゲームプログラミングワークショップ (GPW 2020)
+  year: 2020
+  date: 2020-11-14
+  status: Accepted
+  type: Domestic

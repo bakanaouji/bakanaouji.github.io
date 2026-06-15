@@ -1,0 +1,26 @@
+# Research project: zero-variance-payoff-perturbation
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+venues:
+- slug: zero-variance-payoff-perturbation-extensive-form-2024
+  lang: ja
+  title: （不完全情報）展開型ゲームにおける零分散の利得摂動手法
+  authors:
+  - 眞坂 航宙
+  - 坂本 充生
+  - 阿部 拳之
+  - 蟻生 開人
+  - 岩崎 敦
+  abstract: ''
+  venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  year: 2024
+  date: 2024-11-04
+  status: Accepted
+  type: Domestic

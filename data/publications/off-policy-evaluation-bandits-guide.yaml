@@ -1,0 +1,27 @@
+# Research project: off-policy-evaluation-bandits-guide
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- bandits-online-learning
+topics:
+- Bandits
+- Online Learning
+- Bayesian Optimization
+venues:
+- slug: a-practical-guide-of-off-policy-evaluation-for-bandit-p-2010
+  lang: en
+  title: A Practical Guide of Off-Policy Evaluation for Bandit Problems
+  authors:
+  - Masahiro Kato
+  - Kenshi Abe
+  - Kaito Ariu
+  - Shota Yasui
+  abstract: Off-policy evaluation (OPE) is the problem of estimating the value of a target policy from samples obtained via different policies. Recently, applying OPE methods for bandit problems has garnered attention. For the theoretical guarantees of an estimator of the policy value, the OPE methods require various conditions on the target policy and policy used for generating the samples. However, existing studies did not carefully discuss the practical situation where such conditions hold, and the gap between them remains. This paper aims to show new results for bridging the gap. Based on the properties of the evaluation policy, we categorize OPE situations. Then, among practical applications, we mainly discuss the best policy selection. For the situation, we propose a meta-algorithm based on existing OPE estimators. We investigate the proposed concepts using synthetic and open real-world datasets in experiments.
+  venue: arXiv
+  venue_short: arXiv
+  year: 2010
+  date: 2020-10-23
+  status: Preprint
+  type: Preprint
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2010.12470

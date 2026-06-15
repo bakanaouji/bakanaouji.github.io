@@ -1,0 +1,21 @@
+# Research project: non-stationary-bandit-hpo
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- bandits-online-learning
+topics:
+- Bandits
+- Online Learning
+- Bayesian Optimization
+venues:
+- slug: non-stationary-bandit-hyperparameter-optimization-2018
+  lang: ja
+  title: 非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案
+  authors:
+  - 阿部 拳之
+  - 野村 将寛
+  abstract: ''
+  venue: 第21回情報論的学習理論ワークショップ (IBIS 2018)
+  year: 2018
+  date: 2018-11-04
+  status: Accepted
+  type: Domestic

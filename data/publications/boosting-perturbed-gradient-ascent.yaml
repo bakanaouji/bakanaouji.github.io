@@ -1,0 +1,29 @@
+# Research project: boosting-perturbed-gradient-ascent
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+venues:
+- slug: boosting-perturbed-gradient-ascent-for-last-iterate-con-2025
+  lang: en
+  title: Boosting Perturbed Gradient Ascent for Last-Iterate Convergence in Games
+  authors:
+  - Kenshi Abe
+  - Mitsuki Sakamoto
+  - Kaito Ariu
+  - Atsushi Iwasaki
+  abstract: This paper presents a payoff perturbation technique, introducing a strong convexity to players' payoff functions in games. This technique is specifically designed for first-order methods to achieve last-iterate convergence in games where the gradient of the payoff functions is monotone in the strategy profile space, potentially containing additive noise. Although perturbation is known to facilitate the convergence of learning algorithms, the magnitude of perturbation requires careful adjustment to ensure last-iterate convergence. Previous studies have proposed a scheme in which the magnitude is determined by the distance from a periodically re-initialized anchoring or reference strategy. Building upon this, we propose Gradient Ascent with Boosting Payoff Perturbation, which incorporates a novel perturbation into the underlying payoff function, maintaining the periodically re-initializing anchoring strategy scheme. This innovation empowers us to provide faster last-iterate convergence rates against the existing payoff perturbed algorithms, even in the presence of additive noise.
+  venue: ICLR 2025
+  venue_short: ICLR
+  year: 2025
+  date: 2025-04-24
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2410.02388

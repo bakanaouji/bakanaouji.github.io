@@ -1,0 +1,27 @@
+# Research project: creative-selection-online-advertising
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- bandits-online-learning
+topics:
+- Bandits
+- Online Learning
+- Bayesian Optimization
+venues:
+- slug: efficient-creative-selection-in-online-advertising-usin-2025
+  lang: en
+  title: Efficient Creative Selection in Online Advertising using Top-Two Thompson Sampling
+  authors:
+  - Daiki Katsuragawa
+  - Yusuke Kaneko
+  - Kaito Ariu
+  - Kenshi Abe
+  abstract: ''
+  venue: WSDM 2025 (Industry day talks)
+  venue_short: WSDM
+  year: 2025
+  date: 2025-03-11
+  status: Accepted
+  type: Conference
+  links:
+  - name: Paper
+    url: https://www.researchgate.net/publication/388836603_Efficient_Creative_Selection_in_Online_Advertising_using_Top-Two_Thompson_Sampling

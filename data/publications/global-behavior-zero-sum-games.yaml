@@ -1,0 +1,28 @@
+# Research project: global-behavior-zero-sum-games
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+venues:
+- slug: global-behavior-of-learning-dynamics-in-zero-sum-games-2025
+  lang: en
+  title: Global Behavior of Learning Dynamics in Zero-Sum Games with Memory Asymmetry
+  authors:
+  - Yuma Fujimoto
+  - Kaito Ariu
+  - Kenshi Abe
+  abstract: 'This study examines the global behavior of dynamics in learning in games between two players, X and Y. We consider the simplest situation for memory asymmetry between two players: X memorizes the other Y''s previous action and uses reactive strategies, while Y has no memory. Although this memory complicates their learning dynamics, we characterize the global behavior of such complex dynamics by discovering and analyzing two novel quantities. One is an extended Kullback-Leibler divergence from the Nash equilibrium, a well-known conserved quantity from previous studies. The other is a family of Lyapunov functions of X''s reactive strategy. One of the global behaviors we capture is that if X exploits Y, then their strategies converge to the Nash equilibrium. Another is that if Y''s strategy is out of equilibrium, then X becomes more exploitative with time. Consequently, we suggest global convergence to the Nash equilibrium from both aspects of theory and experiment. This study provides a novel characterization of the global behavior in learning in games through a couple of indicators.'
+  venue: AAMAS 2025 (Full paper)
+  venue_short: AAMAS
+  year: 2025
+  date: 2025-05-21
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2405.14546
