@@ -15,7 +15,13 @@
       {{ with $venue }}<span class="pub-detail__venue">{{ . }}</span>{{ end }}
     </div>
 
-    {{ with $authors }}<p class="pub-detail__authors">{{ delimit . ", " }}</p>{{ end }}
+    {{ with $authors }}<p class="pub-detail__authors">
+      {{- $selfNames := site.Params.selfNames | default slice -}}
+      {{- range $i, $a := . -}}
+        {{- if $i }}, {{ end -}}
+        {{- if in $selfNames $a }}<span class="pub-author--self">{{ $a }}</span>{{ else }}{{ $a }}{{ end -}}
+      {{- end -}}
+    </p>{{ end }}
   </header>
 
   {{ with $links }}

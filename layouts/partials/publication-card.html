@@ -23,7 +23,13 @@
   <h3 class="pub-title">
     <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
   </h3>
-  {{ with $authors }}<p class="pub-authors">{{ delimit . ", " }}</p>{{ end }}
+  {{ with $authors }}<p class="pub-authors">
+    {{- $selfNames := site.Params.selfNames | default slice -}}
+    {{- range $i, $a := . -}}
+      {{- if $i }}, {{ end -}}
+      {{- if in $selfNames $a }}<span class="pub-author--self">{{ $a }}</span>{{ else }}{{ $a }}{{ end -}}
+    {{- end -}}
+  </p>{{ end }}
   {{ if $projects }}
     <a class="pub-project" href="/research/{{ index $projects 0 }}/"><span class="pub-project__label">{{ i18n "x.theme_prefix" }}</span>{{ index $projectShorts 0 }}</a>
   {{ end }}

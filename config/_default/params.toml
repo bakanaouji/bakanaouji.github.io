@@ -14,6 +14,11 @@ replyByEmail = false
 # Sections that count as "main content" (used by recent lists, search, etc.)
 mainSections = ["research"]
 
+# Site owner's name in every spelling it appears as in publication author lists.
+# Used to bold the owner among co-authors. JA pages mix EN and JA papers, so both
+# spellings must be listed (language-independent on purpose).
+selfNames = ["Kenshi Abe", "阿部 拳之"]
+
 disableImageOptimization = false
 hotlinkFeatureImage = false
 

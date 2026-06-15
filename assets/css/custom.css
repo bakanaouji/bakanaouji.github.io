@@ -60,7 +60,16 @@
 .pub-title { font-size:1.0rem; font-weight:700; line-height:1.4; margin:0; color:rgb(23 23 23); }
 .pub-title a { color:inherit; text-decoration:none; }
 .pub-title a:hover { text-decoration:underline; }
-.pub-authors { font-size:0.82rem; color:rgb(115 115 115); margin:0; }
+.pub-authors { font-size:0.82rem; color:rgb(150 150 150); line-height:1.65; margin:0; }
+.dark .pub-authors { color:rgb(120 120 120); }
+/* The owner's name is wrapped in .pub-author--self and lifted by a small brightness step only
+   (no bold) — on cards and the detail page alike — enough to find at a glance without competing
+   with the title or standing out when a long author line wraps. */
+.pub-author--self { font-weight:400; color:inherit; }
+.pub-authors .pub-author--self { color:rgb(105 105 105); }
+.dark .pub-authors .pub-author--self { color:rgb(173 173 173); }
+.pub-detail__authors .pub-author--self { color:rgb(30 30 30); }
+.dark .pub-detail__authors .pub-author--self { color:rgb(240 240 240); }
 .pub-tags { display:flex; flex-wrap:wrap; gap:0.3rem; }
 .pub-project { display:inline-flex; align-items:baseline; gap:0.3rem; font-size:0.72rem; color:rgb(130 130 130); text-decoration:none; }
 .pub-project__label { color:rgb(180 180 180); font-weight:400; }
