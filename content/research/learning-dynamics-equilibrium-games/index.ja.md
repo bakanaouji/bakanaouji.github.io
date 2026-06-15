@@ -1,17 +1,17 @@
 ---
 title: "Learning Dynamics and Equilibrium Computation in Games"
 short: "Learning Dynamics"
-summary: "学習ダイナミクスはいつナッシュ均衡へ収束するか？"
+summary: "ナッシュ均衡へ高速に収束する学習アルゴリズムとは？"
 order: 1
 keywords: ["Learning in Games", "Learning Dynamics", "Equilibrium Computation", "Last-Iterate Convergence", "Game Theory"]
 showReadingTime: false
 showDate: false
 ---
 
-学習ダイナミクスは、繰り返される戦略的相互作用を通じてエージェントがどう適応するかを捉える視点を与える。本テーマでは、そうしたダイナミクスがいつ収束し、いつ収束しないのか、そしてこれらの現象がゲームにおける均衡計算とどう結びつくかを研究している。
+本テーマでは、ゲームの均衡を計算する学習アルゴリズムを研究する。特に、更新される戦略そのものがナッシュ均衡へ収束するようなアルゴリズムの構築を目指す。その一環として、利得摂動を用いて学習ダイナミクスを安定化する方法を扱う。
 
-## Key questions
+## 研究の焦点
 
-- どのような条件で学習ダイナミクスは最終反復の意味でナッシュ均衡へ収束するか
-- 大規模・不完全情報ゲームで近似ナッシュ均衡をどう計算できるか
+- 学習アルゴリズムはどのようにしてナッシュ均衡へ高速に収束できるか
+- 利得摂動を用いて学習ダイナミクスをどのように安定化できるか
 - マルチエージェントの学習ダイナミクスはいつ収束しないのか

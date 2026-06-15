@@ -1,17 +1,17 @@
 ---
 title: "Learning Dynamics and Equilibrium Computation in Games"
 short: "Learning Dynamics"
-summary: "When do learning dynamics converge to Nash equilibrium?"
+summary: "How can learning algorithms converge quickly to Nash equilibrium?"
 order: 1
 keywords: ["Learning in Games", "Learning Dynamics", "Equilibrium Computation", "Last-Iterate Convergence", "Game Theory"]
 showReadingTime: false
 showDate: false
 ---
 
-Learning dynamics provide a lens for studying how agents adapt through repeated strategic interactions. This theme studies when such dynamics converge, when they fail to converge, and how these phenomena connect to equilibrium computation in games.
+This theme studies learning algorithms for computing equilibria in games. I focus on algorithms whose strategies converge to Nash equilibrium in a last-iterate sense, including perturbation-based methods for stabilizing learning dynamics.
 
 ## Key questions
 
-- Under what conditions do learning dynamics converge to Nash equilibrium in a last-iterate sense?
-- How can we compute approximate Nash equilibria in large or imperfect-information games?
+- How can learning algorithms converge quickly to Nash equilibrium?
+- How can perturbation-based methods stabilize learning dynamics?
 - When do multi-agent learning dynamics fail to converge?

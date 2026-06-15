@@ -12,5 +12,5 @@ This theme studies how agents improve and evaluate policies in sequential decisi
 
 ## Key questions
 
-- How can agents improve policies to achieve desired outcomes over time?
+- How can agents improve policies to obtain higher or target returns?
 - How can we evaluate whether a policy achieves a desired level of performance?
