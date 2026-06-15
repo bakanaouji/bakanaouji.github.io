@@ -1,16 +1,16 @@
 ---
 title: "Bandits and Online Learning"
 short: "Bandits"
-summary: "How can online systems learn while making decisions?"
+summary: "How can agents learn efficiently while making decisions online?"
 order: 2
 keywords: ["Bandits", "Online Learning", "Non-Stationarity"]
 showReadingTime: false
 showDate: false
 ---
 
-This theme studies how decision-making systems learn from feedback while acting online. I focus on reliable learning under partial feedback, including settings where the environment changes over time.
+This theme studies algorithms that learn from feedback obtained through online decision making. I focus on achieving stable learning under partial feedback and in environments that change over time.
 
 ## Key questions
 
-- How can online systems learn effectively from partial feedback?
-- How can decision-making algorithms remain reliable as environments evolve?
+- How can agents learn efficiently from partial feedback?
+- How can stable learning be achieved in environments that change over time?
