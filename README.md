@@ -24,7 +24,7 @@ hugo server
 
 まず、追加する論文をどの研究テーマに紐づけるかを決める。
 
-研究テーマは `content/research/` 直下のディレクトリに対応する。
+研究テーマは `content/research/` 直下のディレクトリ名に対応する。
 
 例：
 
@@ -49,13 +49,9 @@ projects:
 
 ### 2. YAML ファイルを選ぶ
 
-すでに対象テーマ用のファイルが `data/publications/` にある場合は、そのファイルの `venues:` に追記する。
+すでに対象テーマ用の YAML が `data/publications/<project>.yaml` として存在していた場合は、そのファイルの `venues:` に追記する。
 
-```text
-data/publications/learning-dynamics-equilibrium-games.yaml
-```
-
-対応するファイルがない場合は、新しく作成する。
+対応する YAML がない場合は、新しく作成する。
 
 ```text
 data/publications/<project>.yaml
@@ -137,14 +133,145 @@ hugo server
 
 ## 研究テーマを追加・修正する
 
-1. `content/research/<theme>/` に、英語版 `index.md` と日本語版 `index.ja.md` の2ファイルを置く。
-2. フロントマターは英語版・日本語版で内容を対応させる:
-   - `title` / `short`（チップに出る短いラベル）
-   - `summary`（カードに出る一文。問いかけの形で書く）
-   - `order`（カードの並び順。英語版・日本語版で同じ値に揃える）
-   - `keywords`
-3. 本文は、導入の段落1つ + 見出し（英語版は `## Key questions`、日本語版は `## 研究の焦点`）。
-4. ディレクトリ名 `<theme>` が、論文 YAML の `projects:` から参照するテーマ ID になる。
+研究テーマは `content/research/<theme>/` に作成する。
+`<theme>` は研究テーマの ID として使われ、論文 YAML の `projects:` から参照される。
+
+基本的には、1つの研究テーマにつき次の2ファイルを置けばよい。
+
+```text
+content/research/<theme>/index.md
+content/research/<theme>/index.ja.md
+```
+
+`index.md` が英語版、`index.ja.md` が日本語版に対応する。
+
+### 1. 研究テーマ用のディレクトリを作る
+
+まず、`content/research/` の下に研究テーマ用のディレクトリを作る。
+
+例：
+
+```text
+content/research/learning-dynamics-equilibrium-games/
+```
+
+このディレクトリ名が、論文 YAML で指定するテーマ ID になる。
+
+```yaml
+projects:
+- learning-dynamics-equilibrium-games
+```
+
+### 2. 英語版と日本語版のファイルを置く
+
+研究テーマごとに、英語版 `index.md` と日本語版 `index.ja.md` を置く。
+
+```text
+content/research/learning-dynamics-equilibrium-games/index.md
+content/research/learning-dynamics-equilibrium-games/index.ja.md
+```
+
+英語版と日本語版では、フロントマターの内容を対応させる。
+
+```yaml
+---
+title: "Learning Dynamics and Equilibrium Computation in Games"
+short: "Learning Dynamics"
+summary: "How can learning algorithms converge quickly to Nash equilibrium?"
+order: 1
+keywords: ["Learning in Games", "Learning Dynamics", "Equilibrium Computation"]
+showReadingTime: false
+showDate: false
+---
+```
+
+日本語版では、`summary` や本文を日本語で書く。
+
+```yaml
+---
+title: "Learning Dynamics and Equilibrium Computation in Games"
+short: "Learning Dynamics"
+summary: "ナッシュ均衡へ高速に収束する学習アルゴリズムとは？"
+order: 1
+keywords: ["Learning in Games", "Learning Dynamics", "Equilibrium Computation"]
+showReadingTime: false
+showDate: false
+---
+```
+
+### 主な項目
+
+| 項目 | 内容 |
+|---|---|
+| `title` | 研究テーマの正式名 |
+| `short` | チップや関連論文などに表示する短いラベル |
+| `summary` | 研究テーマ一覧のカードに表示する一文。問いかけの形で書く |
+| `order` | 研究テーマ一覧での並び順。英語版・日本語版で同じ値に揃える |
+| `keywords` | キーワード |
+| `showReadingTime` | 読了時間を表示するか |
+| `showDate` | 日付を表示するか |
+
+### 3. 本文を書く
+
+本文は、導入の段落と焦点のリストで構成する。
+
+英語版では見出しを `## Key questions` とする。
+
+```markdown
+This theme studies learning algorithms for computing equilibria in games. I focus on last-iterate convergence to Nash equilibrium and perturbation-based methods for stabilizing learning dynamics.
+
+## Key questions
+
+- How can learning algorithms converge quickly to Nash equilibrium?
+- How can perturbation-based methods stabilize learning dynamics?
+- When do multi-agent learning dynamics fail to converge?
+```
+
+日本語版では見出しを `## 研究の焦点` とする。
+
+```markdown
+本テーマでは、ゲームの均衡を計算する学習アルゴリズムを扱う。特に、更新される戦略そのものがナッシュ均衡へ収束するようなアルゴリズムの構築や、利得摂動を用いた学習ダイナミクスの安定化に着目する。
+
+## 研究の焦点
+
+- 学習アルゴリズムはどのようにしてナッシュ均衡へ高速に収束できるか
+- 利得摂動を用いて学習ダイナミクスをどのように安定化できるか
+- マルチエージェントの学習ダイナミクスはいつ収束しないのか
+```
+
+### 4. 論文 YAML から参照する
+
+研究テーマに論文を紐づけるには、論文 YAML の `projects:` にテーマ ID を指定する。
+
+```yaml
+projects:
+- learning-dynamics-equilibrium-games
+```
+
+複数の研究テーマに紐づける場合は、複数指定する。
+
+```yaml
+projects:
+- learning-dynamics-equilibrium-games
+- bandits-online-learning
+```
+
+### 5. 表示を確認する
+
+追加後、ローカルでサイトを起動する。
+
+```bash
+hugo server
+```
+
+以下を確認する。
+
+- 研究テーマ一覧ページにカードが表示されるか
+- 英語版・日本語版の両方で表示されるか
+- `order` の順に並んでいるか
+- 論文 YAML の `projects:` から正しく紐づいているか
+- 論文詳細ページの研究テーマチップに表示されるか
+- 研究テーマ詳細ページの「関連論文」に表示されるか
 
 ## 公開（デプロイ）
 
