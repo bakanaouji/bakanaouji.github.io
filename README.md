@@ -60,7 +60,4 @@ venues:
 
 ## 公開（デプロイ）
 
-`master` への push で **GitHub Actions が自動ビルド＆公開**する（`.github/workflows/deploy.yml`）。手動コピーは不要。
-
-- 作業はフィーチャーブランチ → PR → `master` にマージ。マージで公開される。
-- ビルド出力（`docs/`）はコミットしない。Pages へは Actions がアーティファクトとして配信する。
+`master` への push で **GitHub Actions が自動ビルド＆公開**する（`.github/workflows/deploy.yml`）ため、手動コピーは不要。
