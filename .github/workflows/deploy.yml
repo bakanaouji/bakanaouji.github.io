@@ -4,7 +4,7 @@ on:
   # 公開ブランチ（= ソース）への push で自動デプロイ
   push:
     branches:
-      - master
+      - main
   # 手動実行も可能にしておく
   workflow_dispatch:
 
