@@ -61,7 +61,7 @@
           {{ range first 3 . }}{{ partial "publication-card.html" . }}{{ end }}
         </div>
         {{ if gt (len .) 3 }}
-          <a class="pub-detail__viewall" href="/research/{{ index $projects 0 }}/">{{ i18n "x.view_all_related" }}</a>
+          <a class="pub-detail__viewall" href="/research/{{ index $projects 0 }}/">{{ i18n "x.view_all_related" }} <span class="pub-arrow" aria-hidden="true">&rarr;</span></a>
         {{ end }}
       </section>
     {{ end }}
