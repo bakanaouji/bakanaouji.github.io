@@ -8,7 +8,6 @@ status: "Accepted"
 type: "Journal"
 paper_lang: "en"
 projects: ["reinforcement-learning-sequential-decision"]
-project_names: ["Reinforcement Learning and Sequential Decision Making"]
 topics: ["LLM Alignment","Preference Optimization","Decoding"]
 showDate: false
 showReadingTime: false

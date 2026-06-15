@@ -7,7 +7,12 @@
 {{- $authors := .Params.authors | default slice -}}
 {{- $topics := .Params.topics | default slice -}}
 {{- $projects := .Params.projects | default slice -}}
-{{- $projectNames := .Params.project_names | default slice -}}
+{{- $projectNames := slice -}}
+{{- range $projects -}}
+  {{- $nm := . -}}
+  {{- with site.GetPage (printf "/research/%s" .) -}}{{- $nm = .Title -}}{{- end -}}
+  {{- $projectNames = $projectNames | append $nm -}}
+{{- end -}}
 {{- $links := .Params.links | default slice -}}
 {{- $primary := "" -}}
 {{- if $links -}}{{- $primary = (index $links 0).url -}}{{- end -}}
@@ -29,7 +34,7 @@
   </h3>
   {{ with $authors }}<p class="pub-authors">{{ delimit . ", " }}</p>{{ end }}
   {{ if $projects }}
-    <a class="pub-project" href="/research/{{ index $projects 0 }}/">{{ if $projectNames }}{{ index $projectNames 0 }}{{ else }}{{ index $projects 0 }}{{ end }}</a>
+    <a class="pub-project" href="/research/{{ index $projects 0 }}/">{{ index $projectNames 0 }}</a>
   {{ end }}
   {{ with $links }}<div class="pub-links">{{ range . }}<a class="pub-link" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ end }}</div>{{ end }}
 </article>

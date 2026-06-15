@@ -9,7 +9,6 @@ status: "Accepted"
 type: "Conference"
 paper_lang: "en"
 projects: ["bandits-online-learning"]
-project_names: ["Bandits and Online Learning"]
 topics: ["Learning in Games","Learning Dynamics","Equilibrium Computation","Last-Iterate Convergence","Game Theory"]
 showDate: false
 showReadingTime: false

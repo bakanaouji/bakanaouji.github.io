@@ -9,7 +9,6 @@ status: "Accepted"
 type: "Conference"
 paper_lang: "en"
 projects: ["learning-dynamics-equilibrium-games"]
-project_names: ["Learning Dynamics and Equilibrium Computation in Games"]
 topics: ["Reinforcement Learning","Sequential Decision Making","Markov Games","Policy Evaluation"]
 showDate: false
 showReadingTime: false
