@@ -13,5 +13,6 @@ venues:
   abstract: ''
   venue: 情報処理学会 第84回全国大会
   venue_short: IPSJ
+  venue_url: https://www.ipsj.or.jp/event/taikai/84/index.html
   date: 2022-03-03
   type: Domestic

@@ -28,6 +28,7 @@ venues:
   abstract: ''
   venue: 情報処理学会 第85回全国大会
   venue_short: IPSJ
+  venue_url: https://www.ipsj.or.jp/event/taikai/85/
   date: 2023-03-02
   type: Domestic
   links:
@@ -43,6 +44,7 @@ venues:
   abstract: ''
   venue: 第22回情報科学技術フォーラム (FIT 2023)
   venue_short: FIT
+  venue_url: https://www.ipsj.or.jp/event/fit/fit2023/abstract/data/html/program/f.html
   year: 2023
   date: 2023-09-06
   type: Domestic
@@ -56,6 +58,7 @@ venues:
   abstract: ''
   venue: 情報処理学会 第86回全国大会
   venue_short: IPSJ
+  venue_url: https://www.ipsj.or.jp/event/taikai/86/
   date: 2024-03-15
   type: Domestic
   links:

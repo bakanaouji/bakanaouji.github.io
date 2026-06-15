@@ -11,6 +11,10 @@ venues:
   abstract: ''
   venue: 第25回ゲームプログラミングワークショップ (GPW 2020)
   venue_short: GPW
+  venue_url: https://www.logos.ic.i.u-tokyo.ac.jp/~tsuruoka/sig-gi/gpw/2020/index.html
   year: 2020
   date: 2020-11-14
   type: Domestic
+  links:
+  - name: Paper
+    url: https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=207671&item_no=1&page_id=13&block_id=8

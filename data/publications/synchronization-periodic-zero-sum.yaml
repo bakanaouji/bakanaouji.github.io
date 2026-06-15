@@ -12,6 +12,7 @@ venues:
   abstract: ''
   venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
   venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2024/
   year: 2024
   date: 2024-11-04
   type: Domestic
@@ -39,6 +40,7 @@ venues:
   abstract: ''
   venue: 第39回人工知能学会全国大会 (JSAI 2025)
   venue_short: JSAI
+  venue_url: https://www.ai-gakkai.or.jp/jsai2025/
   year: 2025
   date: 2025-05-27
   type: Domestic

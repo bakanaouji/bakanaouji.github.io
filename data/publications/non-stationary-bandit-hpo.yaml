@@ -11,6 +11,7 @@ venues:
   abstract: ''
   venue: 第21回情報論的学習理論ワークショップ (IBIS 2018)
   venue_short: IBIS
+  venue_url: http://ibisml.org/ibis2018/
   year: 2018
   date: 2018-11-04
   type: Domestic

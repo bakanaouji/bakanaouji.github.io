@@ -3,7 +3,7 @@
 
 theme = "blowfish"
 baseURL = "https://bakanaouji.github.io/"
-publishDir = "docs" # deploy.sh builds here, then copies to master root
+publishDir = "docs" # build output; gitignored and uploaded by the Pages workflow
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true

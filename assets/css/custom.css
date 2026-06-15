@@ -173,6 +173,10 @@
 .pub-card:hover { transform:translateY(-3px); box-shadow:0 12px 28px -12px rgba(0,0,0,.25); }
 .pub-card__head { display:flex; flex-wrap:wrap; align-items:center; gap:0.5rem; font-size:0.78rem; }
 .pub-venue { font-weight:600; color:rgb(64 64 64); }
+a.pub-venue { text-decoration:none; }
+a.pub-venue:hover { text-decoration:underline; }
+.pub-award { font-size:0.72rem; font-weight:600; color:rgb(180 83 9); background:rgb(254 243 199); border:1px solid rgb(253 230 138); padding:0.05rem 0.45rem; border-radius:0.35rem; }
+.dark .pub-award { color:rgb(252 211 77); background:rgb(69 26 3); border-color:rgb(120 53 15); }
 .pub-title { font-size:1.0rem; font-weight:700; line-height:1.4; margin:0; color:rgb(23 23 23); }
 .pub-title a { color:inherit; text-decoration:none; }
 .pub-title a:hover { text-decoration:underline; }
@@ -234,6 +238,8 @@
 /* ===== Publication detail page ===== */
 .pub-detail__meta { display:flex; flex-wrap:wrap; align-items:center; gap:0.6rem; margin:0.25rem 0 0.9rem; font-size:0.92rem; }
 .pub-detail__venue { font-weight:700; color:rgb(37 99 235); }
+a.pub-detail__venue { text-decoration:none; }
+a.pub-detail__venue:hover { text-decoration:underline; }
 .pub-detail__authors { font-size:1rem; line-height:1.7; color:rgb(64 64 64); margin:0 0 1.25rem; }
 .pub-detail__links { display:flex; flex-wrap:wrap; gap:0.6rem; margin-bottom:1.75rem; }
 .pub-detail__section { margin-top:2rem; max-width:65ch; }

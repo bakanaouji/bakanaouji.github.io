@@ -1,0 +1,71 @@
+name: Deploy Hugo site to Pages
+
+on:
+  # 公開ブランチ（= ソース）への push で自動デプロイ
+  push:
+    branches:
+      - master
+  # 手動実行も可能にしておく
+  workflow_dispatch:
+
+# GITHUB_TOKEN に Pages へデプロイする権限を付与
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時実行は1つに絞る（進行中のデプロイは中断しない）
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # ローカルのビルドに合わせて固定（Blowfish は extended 版が必要）
+      HUGO_VERSION: 0.163.1
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O "${{ runner.temp }}/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "${{ runner.temp }}/hugo.deb"
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # テーマ themes/blowfish を取得
+          fetch-depth: 0         # .GitInfo / .Lastmod を使う場合に備える
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          TZ: Asia/Tokyo
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # publishDir = "docs"（config/_default/hugo.toml）に合わせる
+          path: ./docs
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -11,6 +11,7 @@ venues:
   abstract: ''
   venue: 計測自動制御学会システム・情報部門学術講演会 (SSI 2016)
   venue_short: SSI
+  venue_url: https://www.sice.or.jp/org/SSI2016/
   year: 2016
   date: 2016-12-06
   type: Domestic

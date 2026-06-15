@@ -4,7 +4,7 @@ projects:
 - learning-dynamics-equilibrium-games
 venues:
 - lang: ja
-  title: Zero-Variance Perturbation Utiity for Extensive-Form Games
+  title: Zero-Variance Perturbation Utility for Extensive-Form Games
   authors:
   - 坂本 充生
   - 阿部 拳之
@@ -13,6 +13,7 @@ venues:
   abstract: ''
   venue: 第26回情報論的学習理論ワークショップ (IBIS 2023)
   venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2023/
   year: 2023
   date: 2023-10-29
   type: Domestic
@@ -27,6 +28,7 @@ venues:
   abstract: ''
   venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
   venue_short: IBIS
+  venue_url: https://ibisml.org/ibis2024/
   year: 2024
   date: 2024-11-04
   type: Domestic
@@ -58,6 +60,7 @@ venues:
   abstract: ''
   venue: 情報処理学会 第87回全国大会
   venue_short: IPSJ
+  venue_url: https://www.ipsj.or.jp/event/taikai/87/index.html
   date: 2025-03-13
   type: Domestic
 - lang: ja
@@ -71,6 +74,7 @@ venues:
   abstract: ''
   venue: 第39回人工知能学会全国大会 (JSAI 2025)
   venue_short: JSAI
+  venue_url: https://www.ai-gakkai.or.jp/jsai2025/
   year: 2025
   date: 2025-05-27
   type: Domestic
@@ -88,6 +92,7 @@ venues:
   abstract: ''
   venue: 第24回情報科学技術フォーラム (FIT 2025)
   venue_short: FIT
+  venue_url: https://www.ipsj.or.jp/event/fit/fit2025/abstract/data/html/program/f.html
   year: 2025
   date: 2025-09-03
   type: Domestic

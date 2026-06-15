@@ -3,6 +3,8 @@
 
   {{ $authors := .Params.authors | default slice }}
   {{ $venue := .Params.venue | default "" }}
+  {{ $venueUrl := .Params.venue_url | default "" }}
+  {{ $award := .Params.award | default "" }}
   {{ $abstract := .Params.abstract | default "" }}
   {{ $links := .Params.links | default slice }}
   {{ $projects := .Params.projects | default slice }}
@@ -12,7 +14,8 @@
     <h1 class="mt-5 mb-3 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
 
     <div class="pub-detail__meta">
-      {{ with $venue }}<span class="pub-detail__venue">{{ . }}</span>{{ end }}
+      {{ with $venue }}{{ if $venueUrl }}<a class="pub-detail__venue" href="{{ $venueUrl }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}<span class="pub-detail__venue">{{ . }}</span>{{ end }}{{ end }}
+      {{ with $award }}<span class="pub-award">{{ . }}</span>{{ end }}
     </div>
 
     {{ with $authors }}<p class="pub-detail__authors">
