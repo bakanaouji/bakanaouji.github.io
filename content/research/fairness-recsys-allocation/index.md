@@ -1,16 +1,15 @@
 ---
 title: "Fairness in Recommender Systems and Allocation"
-summary: "How can learning systems allocate resources and exposure fairly?"
+summary: "How can systems allocate limited opportunities fairly?"
 order: 5
-keywords: ["Fairness", "Recommender Systems", "Resource Allocation"]
+keywords: ["Fairness", "Recommender Systems", "Matching"]
 showReadingTime: false
 showDate: false
 ---
 
-Fairness becomes a learning problem when decisions about who receives resources or exposure must be made from limited, incrementally observed feedback. This theme studies how to learn fair allocations under bandit feedback and how to control item exposure fairly in large-scale recommender systems, while balancing the tension between utility and fairness.
+This theme studies how systems allocate limited opportunities under fairness considerations. I focus on designing allocation mechanisms that remain fair, effective, and scalable in practical decision-making environments.
 
 ## Key questions
 
-- How can we learn fair allocations from limited feedback?
-- How can we efficiently guarantee fair exposure in large-scale recommendation?
-- How should we handle the trade-off between utility and fairness?
+- How can systems allocate limited opportunities fairly?
+- How can fairness-aware allocation remain effective at scale?

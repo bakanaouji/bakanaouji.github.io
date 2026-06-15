@@ -1,16 +1,15 @@
 ---
 title: "Bandits and Online Learning"
-summary: "How should an agent balance exploration and exploitation under uncertainty?"
+summary: "How can online systems learn while making decisions?"
 order: 2
-keywords: ["Bandits", "Online Learning", "Bayesian Optimization"]
+keywords: ["Bandits", "Online Learning", "Non-Stationarity"]
 showReadingTime: false
 showDate: false
 ---
 
-Bandits and online learning formalize the exploration–exploitation trade-off that arises when an agent must act under uncertainty and learn from the outcomes of its own decisions. This theme studies how to explore efficiently in high-dimensional and non-stationary environments, how to optimize black-box objectives under a limited budget, and how these ideas transfer to online advertising and bidding.
+This theme studies how decision-making systems learn from feedback while acting online. I focus on reliable learning under partial feedback, including settings where the environment changes over time.
 
 ## Key questions
 
-- How can we make exploration efficient in high-dimensional, non-stationary settings?
-- How can we improve Bayesian optimization under a limited budget?
-- How can online learning be applied to real-world bidding and delivery?
+- How can online systems learn effectively from partial feedback?
+- How can decision-making algorithms remain reliable as environments evolve?
