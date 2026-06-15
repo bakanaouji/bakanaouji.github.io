@@ -1,6 +1,6 @@
 # bakanaouji.github.io
 
-阿部拳之の個人サイト。Hugo + [Blowfish](https://github.com/nunocoracao/blowfish) テーマで構築。
+bakanaouji の個人サイト。Hugo + [Blowfish](https://github.com/nunocoracao/blowfish) テーマで構築。
 
 ## ローカルプレビュー
 
@@ -29,7 +29,7 @@ projects:                  # この論文が紐づく研究テーマ（content/r
 venues:
 - lang: en                 # "en": EN/JA 両サイトに表示 / "ja": JA サイトのみ
   featured: true           # 任意。true でトップの Selected Publications に掲載
-  title: Boosting Perturbed Gradient Ascent for Last-Iterate Convergence in Games
+  title: 論文タイトル
   authors:
   - Kenshi Abe
   - ...
@@ -41,7 +41,7 @@ venues:
   type: Conference         # Conference / Workshop / Journal / Preprint など
   links:
   - name: arXiv
-    url: https://arxiv.org/abs/2410.02388
+    url: https://arxiv.org/abs/XXXX.XXXXX
 ```
 
 4. `hugo server` で確認する。`publications` 一覧と、`projects` で紐づけた研究テーマページの「関連論文」に出ることをチェック。
@@ -64,6 +64,3 @@ venues:
 
 - 作業はフィーチャーブランチ → PR → `master` にマージ。マージで公開される。
 - ビルド出力（`docs/`）はコミットしない。Pages へは Actions がアーティファクトとして配信する。
-- Pages の公開ソース設定は **GitHub Actions**（Settings → Pages）。
-
-> 旧 `deploy.sh`（develop でビルドして master のルートへ手動コピーする方式）は本ワークフローに置き換えたため廃止した。
