@@ -2,7 +2,7 @@
 title: "二人零和マルコフゲームにおける状態抽象化法に関する研究"
 authors: ["石橋 宙希","島野 雄貴","阿部 拳之","岩崎 敦"]
 venue: "情報処理学会 第86回全国大会"
-date: 2016-01-01
+date: 2024-03-15
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

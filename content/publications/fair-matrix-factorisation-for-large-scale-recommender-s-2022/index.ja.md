@@ -4,7 +4,7 @@ authors: ["Riku Togashi","Kenshi Abe"]
 venue: "RecSys 2022 FAccTRec Workshop"
 venue_short: "RecSys"
 year: 2022
-date: 2022-01-01
+date: 2022-09-23
 status: "Accepted"
 type: "Workshop"
 paper_lang: "en"

@@ -4,7 +4,7 @@ authors: ["Kenshi Abe","Mitsuki Sakamoto","Kaito Ariu","Atsushi Iwasaki"]
 venue: "ICLR 2025"
 venue_short: "ICLR"
 year: 2025
-date: 2025-01-01
+date: 2025-04-24
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

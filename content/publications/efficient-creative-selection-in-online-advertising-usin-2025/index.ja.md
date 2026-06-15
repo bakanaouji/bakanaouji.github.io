@@ -4,7 +4,7 @@ authors: ["Daiki Katsuragawa","Yusuke Kaneko","Kaito Ariu","Kenshi Abe"]
 venue: "WSDM 2025 (Industry day talks)"
 venue_short: "WSDM"
 year: 2025
-date: 2025-01-01
+date: 2025-03-11
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

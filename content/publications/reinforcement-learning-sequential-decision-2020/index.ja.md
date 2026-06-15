@@ -3,7 +3,7 @@ title: "二人零和マルコフゲームにおけるオフ方策評価のため
 authors: ["阿部 拳之","金子 雄祐"]
 venue: "第25回ゲームプログラミングワークショップ (GPW 2020)"
 year: 2020
-date: 2020-01-01
+date: 2020-11-14
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

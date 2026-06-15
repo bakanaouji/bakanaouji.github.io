@@ -4,7 +4,7 @@ authors: ["Yuki Shimano","Kenshi Abe","Atsushi Iwasaki","Kazunori Ohkawara"]
 venue: "AAAI 2022 Workshop on Reinforcement Learning in Games (Oral Presentation)"
 venue_short: "AAAI"
 year: 2022
-date: 2022-01-01
+date: 2022-02-28
 status: "Accepted"
 type: "Workshop"
 paper_lang: "en"

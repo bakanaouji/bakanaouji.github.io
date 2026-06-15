@@ -4,7 +4,7 @@ authors: ["Yuma Fujimoto","Kaito Ariu","Kenshi Abe"]
 venue: "AAMAS 2025 (Extended abstract)"
 venue_short: "AAMAS"
 year: 2025
-date: 2025-01-01
+date: 2025-05-21
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

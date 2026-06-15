@@ -4,7 +4,7 @@ authors: ["Yuu Jinnai","Tetsuro Morimura","Kaito Ariu","Kenshi Abe"]
 venue: "NAACL 2025"
 venue_short: "NAACL"
 year: 2025
-date: 2025-01-01
+date: 2025-04-30
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

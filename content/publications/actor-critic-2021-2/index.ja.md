@@ -3,7 +3,7 @@ title: "見間違えのある繰り返しゲームのためのActor-Critic型強
 authors: ["坂本 充生","阿部 拳之","岩崎 敦"]
 venue: "日本オペレーションズ・リサーチ学会 2021年 秋季研究発表会"
 year: 2021
-date: 2021-01-01
+date: 2021-09-16
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

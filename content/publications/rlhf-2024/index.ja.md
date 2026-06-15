@@ -3,7 +3,7 @@ title: "RLHFにおける分布シフトの評価"
 authors: ["坂本 充生","阿部 拳之","蟻生 開人","岩崎 敦"]
 venue: "第38回人工知能学会全国大会 (JSAI 2024)"
 year: 2024
-date: 2024-01-01
+date: 2024-05-28
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

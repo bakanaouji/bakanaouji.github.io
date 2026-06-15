@@ -2,7 +2,7 @@
 title: "オンライン環境において公平な資源配分を実現するアルゴリズムに関する研究"
 authors: ["山田 博瑛","小宮山 純平","阿部 拳之","岩崎 敦"]
 venue: "情報処理学会 第85回全国大会"
-date: 2016-01-01
+date: 2023-03-02
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

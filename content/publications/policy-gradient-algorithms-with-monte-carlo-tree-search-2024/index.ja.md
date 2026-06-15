@@ -4,7 +4,7 @@ authors: ["Tetsuro Morimura","Kazuhiro Ota","Kenshi Abe","Peinan Zhang"]
 venue: "Reinforcement Learning Conference (RLC) 2024"
 venue_short: "RLC"
 year: 2024
-date: 2024-01-01
+date: 2024-08-10
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

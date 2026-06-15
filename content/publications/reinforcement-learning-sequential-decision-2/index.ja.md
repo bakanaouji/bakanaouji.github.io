@@ -2,7 +2,7 @@
 title: "研修医配属における地域間格差を調整する制約のモンテカルロ木探索"
 authors: ["板垣 圭知","小宮山 純平","阿部 拳之","岩崎 敦"]
 venue: "情報処理学会 第86回全国大会"
-date: 2016-01-01
+date: 2024-03-15
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

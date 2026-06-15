@@ -3,7 +3,7 @@ title: "Last-Iterate Convergence with Full- and Noisy-Information Feedback in Tw
 authors: ["阿部 拳之","蟻生 開人","坂本 充生","豊島 健太郎","岩崎 敦"]
 venue: "第25回情報論的学習理論ワークショップ (IBIS 2022)"
 year: 2022
-date: 2022-01-01
+date: 2022-11-20
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

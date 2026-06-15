@@ -4,7 +4,7 @@ authors: ["Kaito Ariu","Po-An Wang","Alexandre Proutiere","Kenshi Abe"]
 venue: "NeurIPS 2025 Workshop on Aligning Reinforcement Learning Experimentalists and Theorists"
 venue_short: "NeurIPS"
 year: 2025
-date: 2025-01-01
+date: 2025-12-06
 status: "Accepted"
 type: "Workshop"
 paper_lang: "en"

@@ -4,7 +4,7 @@ authors: ["Yuma Fujimoto","Kaito Ariu","Kenshi Abe"]
 venue: "AAAI 2025"
 venue_short: "AAAI"
 year: 2025
-date: 2025-01-01
+date: 2025-02-27
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

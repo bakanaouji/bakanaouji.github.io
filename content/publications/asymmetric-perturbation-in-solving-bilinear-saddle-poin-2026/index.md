@@ -4,7 +4,7 @@ authors: ["Kenshi Abe","Mitsuki Sakamoto","Kaito Ariu","Atsushi Iwasaki"]
 venue: "ICML 2026"
 venue_short: "ICML"
 year: 2026
-date: 2026-01-01
+date: 2026-07-07
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

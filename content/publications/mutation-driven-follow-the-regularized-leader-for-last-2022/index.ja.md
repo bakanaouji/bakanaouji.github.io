@@ -4,7 +4,7 @@ authors: ["Kenshi Abe","Mitsuki Sakamoto","Atsushi Iwasaki"]
 venue: "UAI 2022"
 venue_short: "UAI"
 year: 2022
-date: 2022-01-01
+date: 2022-08-02
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

@@ -3,7 +3,7 @@ title: "二人零和ゲームにおける突然変異駆動型Follow-The-Regular
 authors: ["豊島 健太郎","坂本 充生","阿部 拳之","岩崎 敦"]
 venue: "第21回情報科学技術フォーラム (FIT 2022)"
 year: 2022
-date: 2022-01-01
+date: 2022-09-13
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

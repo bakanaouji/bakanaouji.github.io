@@ -4,7 +4,7 @@ authors: ["Masahiro Kato","Kenshi Abe","Kaito Ariu","Shota Yasui"]
 venue: "arXiv"
 venue_short: "arXiv"
 year: 2010
-date: 2010-01-01
+date: 2020-10-23
 status: "Preprint"
 type: "Preprint"
 paper_lang: "en"

@@ -4,7 +4,7 @@ authors: ["Yuma Fujimoto","Kaito Ariu","Kenshi Abe"]
 venue: "IJCAI 2023"
 venue_short: "IJCAI"
 year: 2023
-date: 2023-01-01
+date: 2023-08-22
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

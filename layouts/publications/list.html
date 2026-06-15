@@ -63,7 +63,7 @@
         (dict "v" "Domestic" "k" "cat_domestic") }}
     {{ range $cats }}
       {{ $c := . }}
-      {{ $items := sort (where $pages "Params.type" $c.v) "Params.year" "desc" }}
+      {{ $items := sort (where $pages "Params.type" $c.v) "Params.date" "desc" }}
       {{ with $items }}
         <section class="pub-group{{ if eq $c.v "Domestic" }} pub-group--domestic{{ end }}" data-pub-group data-type="{{ lower $c.v }}">
           <h2 class="pub-group__title">{{ i18n (printf "x.%s" $c.k) }} <span class="pub-group__count">({{ len . }})</span></h2>

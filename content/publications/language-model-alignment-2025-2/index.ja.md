@@ -3,7 +3,7 @@ title: "大規模言語モデルのためのアライメントデータ合成手
 authors: ["坂本 充生","陣内 佑","森村 哲郎","阿部 拳之","蟻生 開人"]
 venue: "言語処理学会 第31回年次大会 (NLP 2025)"
 year: 2025
-date: 2025-01-01
+date: 2025-03-10
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

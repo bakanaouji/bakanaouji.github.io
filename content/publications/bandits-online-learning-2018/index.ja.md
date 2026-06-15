@@ -3,7 +3,7 @@ title: "非定常多腕バンディットアルゴリズムを用いたハイパ
 authors: ["阿部 拳之","野村 将寛"]
 venue: "第21回情報論的学習理論ワークショップ (IBIS 2018)"
 year: 2018
-date: 2018-01-01
+date: 2018-11-04
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

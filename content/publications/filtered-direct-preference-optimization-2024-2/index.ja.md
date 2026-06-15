@@ -4,7 +4,7 @@ authors: ["Tetsuro Morimura","Mitsuki Sakamoto","Yuu Jinnai","Kenshi Abe","Kaito
 venue: "ICML 2024 Workshop on Models of Human Feedback for AI Alignment"
 venue_short: "ICML"
 year: 2024
-date: 2024-01-01
+date: 2024-07-26
 status: "Accepted"
 type: "Workshop"
 paper_lang: "en"

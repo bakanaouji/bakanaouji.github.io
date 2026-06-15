@@ -4,7 +4,7 @@ authors: ["Yuma Fujimoto","Kaito Ariu","Kenshi Abe"]
 venue: "AAAI 2024"
 venue_short: "AAAI"
 year: 2024
-date: 2024-01-01
+date: 2024-02-22
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

@@ -4,7 +4,7 @@ authors: ["Yuma Fujimoto","Kaito Ariu","Kenshi Abe"]
 venue: "AAMAS 2026 (Extended abstract)"
 venue_short: "AAMAS"
 year: 2026
-date: 2026-01-01
+date: 2026-05-27
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

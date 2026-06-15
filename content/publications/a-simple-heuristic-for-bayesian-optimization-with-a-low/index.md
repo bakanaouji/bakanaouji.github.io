@@ -3,7 +3,7 @@ title: "A Simple Heuristic for Bayesian Optimization with A Low Budget"
 authors: ["Masahiro Nomura","Kenshi Abe"]
 venue: "arXiv"
 venue_short: "arXiv"
-date: 2016-01-01
+date: 2019-11-18
 status: "Preprint"
 type: "Preprint"
 paper_lang: "en"

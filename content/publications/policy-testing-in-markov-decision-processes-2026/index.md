@@ -4,7 +4,7 @@ authors: ["Kaito Ariu","Po-An Wang","Alexandre Proutiere","Kenshi Abe"]
 venue: "AISTATS 2026"
 venue_short: "AISTATS"
 year: 2026
-date: 2026-01-01
+date: 2026-05-02
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

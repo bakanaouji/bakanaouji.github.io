@@ -3,7 +3,7 @@ title: "Why Guided Dialog Policy Learning performs well? Understanding the role 
 authors: ["Sho Shimoyama","Tetsuro Morimura","Kenshi Abe","Toda Takamichi","Yuta Tomomatsu","Masakazu Sugiyama","Asahi Hentona","Yuuki Azuma","Hirotaka Ninomiya"]
 venue: "arXiv"
 venue_short: "arXiv"
-date: 2016-01-01
+date: 2023-07-13
 status: "Preprint"
 type: "Preprint"
 paper_lang: "en"

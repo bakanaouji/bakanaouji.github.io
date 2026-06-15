@@ -3,7 +3,7 @@ title: "Return-Aligned Decision Transformer"
 authors: ["Tsunehiko Tanaka","Kenshi Abe","Kaito Ariu","Tetsuro Morimura","Edgar Simo-Serra"]
 venue: "Transactions on Machine Learning Research"
 venue_short: "TMLR"
-date: 2016-01-01
+date: 2025-06-08
 status: "Accepted"
 type: "Journal"
 paper_lang: "en"

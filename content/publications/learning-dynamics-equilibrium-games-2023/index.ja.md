@@ -3,7 +3,7 @@ title: "二人零和展開型ゲームにおける突然変異付き乗算型重
 authors: ["坂本 充生","阿部 拳之","蟻生 開人","岩崎 敦"]
 venue: "第37回人工知能学会全国大会 (JSAI 2023)"
 year: 2023
-date: 2023-01-01
+date: 2023-06-06
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

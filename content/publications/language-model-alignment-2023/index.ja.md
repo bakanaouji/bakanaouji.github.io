@@ -3,7 +3,7 @@ title: "タスク指向対話における強化学習を用いた対話方策学
 authors: ["下山 翔","森村 哲郎","阿部 拳之"]
 venue: "言語処理学会 第29回年次大会 (NLP 2023)"
 year: 2023
-date: 2023-01-01
+date: 2023-03-13
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

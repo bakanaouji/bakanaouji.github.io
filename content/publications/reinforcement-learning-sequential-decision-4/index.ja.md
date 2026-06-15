@@ -2,7 +2,7 @@
 title: "クールノー競争におけるマルチエージェント強化学習に関する研究"
 authors: ["豊島 健太郎","坂本 充生","阿部 拳之","岩崎 敦"]
 venue: "情報処理学会 第84回全国大会"
-date: 2016-01-01
+date: 2022-03-03
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

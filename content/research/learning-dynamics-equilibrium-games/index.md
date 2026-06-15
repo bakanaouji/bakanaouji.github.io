@@ -7,7 +7,7 @@ showReadingTime: false
 showDate: false
 ---
 
-Learning dynamics provide a lens for studying how agents adapt through repeated strategic interactions. This theme studies when such dynamics converge, when they diverge or cycle, and how these phenomena connect to equilibrium computation in games.
+Learning dynamics provide a lens for studying how agents adapt through repeated strategic interactions. This theme studies when such dynamics converge, when they fail to converge, and how these phenomena connect to equilibrium computation in games.
 
 ## Key questions
 

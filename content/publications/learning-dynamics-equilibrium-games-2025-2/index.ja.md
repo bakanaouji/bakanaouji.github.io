@@ -3,7 +3,7 @@ title: "オークション環境の時間変動による収入同値の破れ"
 authors: ["藤本 悠雅","蟻生 開人","阿部 拳之"]
 venue: "第28回情報論的学習理論ワークショップ (IBIS 2025)"
 year: 2025
-date: 2025-01-01
+date: 2025-11-12
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

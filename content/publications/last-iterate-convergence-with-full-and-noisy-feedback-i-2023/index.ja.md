@@ -4,7 +4,7 @@ authors: ["Kenshi Abe","Kaito Ariu","Mitsuki Sakamoto","Kentaro Toyoshima","Atsu
 venue: "AISTATS 2023"
 venue_short: "AISTATS"
 year: 2023
-date: 2023-01-01
+date: 2023-04-25
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

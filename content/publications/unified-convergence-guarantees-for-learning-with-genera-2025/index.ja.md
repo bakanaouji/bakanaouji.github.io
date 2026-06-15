@@ -3,7 +3,7 @@ title: "Unified Convergence Guarantees for Learning with General Payoff Perturba
 authors: ["阿部 拳之","坂本 充生","眞坂 航宙","蟻生 開人","岩崎 敦"]
 venue: "第28回情報論的学習理論ワークショップ (IBIS 2025)"
 year: 2025
-date: 2025-01-01
+date: 2025-11-12
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

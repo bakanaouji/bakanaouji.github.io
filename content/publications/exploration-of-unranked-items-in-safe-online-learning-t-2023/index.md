@@ -4,7 +4,7 @@ authors: ["Hiroaki Shiino","Kaito Ariu","Kenshi Abe","Togashi Riku"]
 venue: "SIGIR 2023 (Short Paper)"
 venue_short: "SIGIR"
 year: 2023
-date: 2023-01-01
+date: 2023-07-24
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

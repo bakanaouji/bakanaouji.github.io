@@ -4,7 +4,7 @@ authors: ["Yuma Fujimoto","Kaito Ariu","Kenshi Abe"]
 venue: "NeurIPS 2025"
 venue_short: "NeurIPS"
 year: 2025
-date: 2025-01-01
+date: 2025-12-03
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

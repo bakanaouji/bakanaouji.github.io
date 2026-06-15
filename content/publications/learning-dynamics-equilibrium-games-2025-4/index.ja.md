@@ -3,7 +3,7 @@ title: "周期的なゼロ和ゲームにおけるマルチエージェント学
 authors: ["藤本 悠雅","蟻生 開人","阿部 拳之"]
 venue: "第39回人工知能学会全国大会 (JSAI 2025)"
 year: 2025
-date: 2025-01-01
+date: 2025-05-27
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

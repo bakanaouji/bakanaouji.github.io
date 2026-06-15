@@ -2,7 +2,7 @@
 title: "不完全情報展開型ゲームの求解における利得摂動に関する研究"
 authors: ["眞坂 航宙","坂本 充生","阿部 拳之","蟻生 開人","岩崎 敦"]
 venue: "情報処理学会 第87回全国大会"
-date: 2016-01-01
+date: 2025-03-13
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

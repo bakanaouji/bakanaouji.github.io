@@ -3,7 +3,7 @@ title: "Thresholded Lasso Bandit"
 authors: ["蟻生 開人","阿部 拳之","Alexandre Proutiere"]
 venue: "第25回情報論的学習理論ワークショップ (IBIS 2022)"
 year: 2022
-date: 2022-01-01
+date: 2022-11-20
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

@@ -4,7 +4,7 @@ authors: ["Tetsuro Morimura","Mitsuki Sakamoto","Yuu Jinnai","Kenshi Abe","Kaito
 venue: "EMNLP 2024"
 venue_short: "EMNLP"
 year: 2024
-date: 2024-01-01
+date: 2024-11-12
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

@@ -4,7 +4,7 @@ authors: ["Gota Morishita","Kenshi Abe","Kazuhisa Ogawa","Yusuke Kaneko"]
 venue: "AAAI 2020 Workshop on Reinforcement Learning in Games"
 venue_short: "AAAI"
 year: 2020
-date: 2020-01-01
+date: 2020-02-08
 status: "Accepted"
 type: "Workshop"
 paper_lang: "en"

@@ -2,7 +2,7 @@
 title: "二人零和ゲームにおける突然変異駆動型正則化先導者追従法の終極反復収束"
 authors: ["阿部 拳之","豊島 健太郎","坂本 充生","岩崎 敦"]
 venue: "情報処理学会論文誌"
-date: 2016-01-01
+date: 2024-05-15
 status: "Accepted"
 type: "Journal"
 paper_lang: "ja"

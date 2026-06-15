@@ -4,7 +4,7 @@ authors: ["Kenshi Abe","Kaito Ariu","Mitsuki Sakamoto","Atsushi Iwasaki"]
 venue: "ICML 2024"
 venue_short: "ICML"
 year: 2024
-date: 2024-01-01
+date: 2024-07-23
 status: "Accepted"
 type: "Conference"
 paper_lang: "en"

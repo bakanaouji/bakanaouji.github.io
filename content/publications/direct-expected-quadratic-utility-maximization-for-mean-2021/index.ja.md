@@ -4,7 +4,7 @@ authors: ["Masahiro Kato","Kei Nakagawa","Kenshi Abe","Tetsuro Morimura"]
 venue: "NeurIPS 2021 Workshop on Deep Reinforcement Learning"
 venue_short: "NeurIPS"
 year: 2021
-date: 2021-01-01
+date: 2021-12-13
 status: "Accepted"
 type: "Workshop"
 paper_lang: "en"

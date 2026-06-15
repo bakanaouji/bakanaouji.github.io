@@ -3,7 +3,7 @@ title: "オンライン環境において公平な資源配分を実現するア
 authors: ["山田 博瑛","小宮山 純平","阿部 拳之","岩崎 敦"]
 venue: "第26回情報論的学習理論ワークショップ (IBIS 2023)"
 year: 2023
-date: 2023-01-01
+date: 2023-10-29
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"

@@ -3,7 +3,7 @@ title: "Learning in Multi-Memory Games Triggers Complex Dynamics Diverging from 
 authors: ["藤本 悠雅","蟻生 開人","阿部 拳之"]
 venue: "第26回情報論的学習理論ワークショップ (IBIS 2023)"
 year: 2023
-date: 2023-01-01
+date: 2023-10-29
 status: "Accepted"
 type: "Domestic"
 paper_lang: "ja"
