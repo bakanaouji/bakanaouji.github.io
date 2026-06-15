@@ -39,3 +39,19 @@ venues:
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2408.10595
+- slug: multi-agent-learning-periodic-zero-sum-games-2025
+  lang: ja
+  title: 周期的なゼロ和ゲームにおけるマルチエージェント学習
+  authors:
+  - 藤本 悠雅
+  - 蟻生 開人
+  - 阿部 拳之
+  abstract: ''
+  venue: 第39回人工知能学会全国大会 (JSAI 2025)
+  year: 2025
+  date: 2025-05-27
+  status: Accepted
+  type: Domestic
+  links:
+  - name: Paper
+    url: https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_1L3OS3403/_article/-char/ja/
