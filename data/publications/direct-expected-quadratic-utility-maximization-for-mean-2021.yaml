@@ -1,0 +1,28 @@
+# Research project: direct-expected-quadratic-utility-maximization-for-mean-2021
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+topics:
+- Reinforcement Learning
+- Sequential Decision Making
+- Markov Games
+- Policy Evaluation
+venues:
+- slug: direct-expected-quadratic-utility-maximization-for-mean-2021
+  lang: en
+  title: Direct Expected Quadratic Utility Maximization for Mean-Variance Controlled Reinforcement Learning
+  authors:
+  - Masahiro Kato
+  - Kei Nakagawa
+  - Kenshi Abe
+  - Tetsuro Morimura
+  abstract: This study investigates the mean-variance (MV) trade-off in reinforcement learning (RL), an instance of the sequential decision-making under uncertainty. Our objective is to obtain MV-efficient policies whose means and variances are located on the Pareto efficient frontier with respect to the MV trade-off; under the condition, any increase in the expected reward would necessitate a corresponding increase in variance, and vice versa. To this end, we propose a method that trains our policy to maximize the expected quadratic utility, defined as a weighted sum of the first and second moments of the rewards obtained through our policy. We subsequently demonstrate that the maximizer indeed qualifies as an MV-efficient policy. Previous studies that employed constrained optimization to address the MV trade-off have encountered computational challenges. However, our approach is more computationally efficient as it eliminates the need for gradient estimation of variance, a contributing factor to the double sampling issue observed in existing methodologies. Through experimentation, we validate the efficacy of our approach.
+  venue: NeurIPS 2021 Workshop on Deep Reinforcement Learning
+  venue_short: NeurIPS
+  year: 2021
+  date: 2021-12-13
+  status: Accepted
+  type: Workshop
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2010.01404

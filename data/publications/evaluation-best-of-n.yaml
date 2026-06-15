@@ -1,0 +1,46 @@
+# Research project: evaluation-best-of-n
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- language-model-alignment
+topics:
+- LLM Alignment
+- Preference Optimization
+- Decoding
+venues:
+- slug: evaluation-of-best-of-n-sampling-strategies-for-languag-2024
+  lang: ja
+  title: Evaluation of Best-of-N Sampling Strategies for Language Model Alignment
+  authors:
+  - 市原 有生希
+  - 陣内 佑
+  - 森村 哲郎
+  - 阿部 拳之
+  - 蟻生 開人
+  - 坂本 充生
+  - 内部 英治
+  abstract: ''
+  venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  year: 2024
+  date: 2024-11-04
+  status: Accepted
+  type: Domestic
+- slug: evaluation-of-best-of-n-sampling-strategies-for-languag
+  lang: en
+  title: Evaluation of Best-of-N Sampling Strategies for Language Model Alignment
+  authors:
+  - Yuki Ichihara
+  - Yuu Jinnai
+  - Tetsuro Morimura
+  - Kaito Ariu
+  - Kenshi Abe
+  - Mitsuki Sakamoto
+  - Eiji Uchibe
+  abstract: Best-of-N (BoN) sampling with a reward model has been shown to be an effective strategy for aligning Large Language Models (LLMs) with human preferences at the time of decoding. BoN sampling is susceptible to a problem known as reward hacking. Since the reward model is an imperfect proxy for the true objective, an excessive focus on optimizing its value can lead to a compromise of its performance on the true objective. Previous work proposes Regularized BoN sampling (RBoN), a BoN sampling with regularization to the objective, and shows that it outperforms BoN sampling so that it mitigates reward hacking and empirically (Jinnai et al., 2024). However, Jinnai et al. (2024) introduce RBoN based on a heuristic and they lack the analysis of why such regularization strategy improves the performance of BoN sampling. The aim of this study is to analyze the effect of BoN sampling on regularization strategies. Using the regularization strategies corresponds to robust optimization, which maximizes the worst case over a set of possible perturbations in the proxy reward. Although the theoretical guarantees are not directly applicable to RBoN, RBoN corresponds to a practical implementation. This paper proposes an extension of the RBoN framework, called Stochastic RBoN sampling (SRBoN), which is a theoretically guaranteed approach to worst-case RBoN in proxy reward. We then perform an empirical evaluation using the AlpacaFarm and Anthropic's hh-rlhf datasets to evaluate which factors of the regularization strategies contribute to the improvement of the true proxy reward. In addition, we also propose another simple RBoN method, the Sentence Length Regularized BoN, which has a better performance in the experiment as compared to the previous methods.
+  venue: Transactions on Machine Learning Research
+  venue_short: TMLR
+  date: 2025-02-15
+  status: Accepted
+  type: Journal
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2502.12668

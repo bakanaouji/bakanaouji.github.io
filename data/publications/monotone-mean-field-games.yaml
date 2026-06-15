@@ -1,0 +1,41 @@
+# Research project: monotone-mean-field-games
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+venues:
+- slug: last-iterate-convergence-in-monotone-mean-field-games-2024
+  lang: ja
+  title: Last Iterate Convergence in Monotone Mean Field Games
+  authors:
+  - 磯部 伸
+  - 阿部 拳之
+  - 蟻生 開人
+  abstract: ''
+  venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  year: 2024
+  date: 2024-11-04
+  status: Accepted
+  type: Domestic
+- slug: last-iterate-convergence-in-monotone-mean-field-games-2025
+  lang: en
+  title: Last Iterate Convergence in Monotone Mean Field Games
+  authors:
+  - Noboru Isobe
+  - Kenshi Abe
+  - Kaito Ariu
+  abstract: In the Lasry--Lions framework, Mean-Field Games (MFGs) model interactions among an infinite number of agents. However, existing algorithms either require strict monotonicity or only guarantee the convergence of averaged iterates, as in Fictitious Play in continuous time. We address this gap with the following theoretical result. First, we prove that the last-iterated policy of a proximal-point (PP) update with KL regularization converges to an equilibrium of MFG under non-strict monotonicity. Second, we see that each PP update is equivalent to finding the equilibria of a KL-regularized MFG. We then prove that this equilibrium can be found using Mirror Descent (MD) with an exponential last-iterate convergence rate. Building on these insights, we propose the Approximate Proximal-Point ($\mathtt{APP}$) algorithm, which approximately implements the PP update via a small number of MD steps. Numerical experiments on standard benchmarks confirm that the $\mathtt{APP}$ algorithm reliably converges to the unregularized mean-field equilibrium without time-averaging.
+  venue: NeurIPS 2025
+  venue_short: NeurIPS
+  year: 2025
+  date: 2025-12-03
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2410.05127

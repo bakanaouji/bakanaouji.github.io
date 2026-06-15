@@ -1,0 +1,74 @@
+# Research project: policy-testing-mdp
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+topics:
+- Reinforcement Learning
+- Sequential Decision Making
+- Markov Games
+- Policy Evaluation
+venues:
+- slug: reinforcement-learning-sequential-decision-2024
+  lang: ja
+  title: マルコフ決定過程における良方策検定手法の提案
+  authors:
+  - 蟻生 開人
+  - Po-An Wang
+  - 阿部 拳之
+  - Alexandre Proutiere
+  abstract: ''
+  venue: 第27回情報論的学習理論ワークショップ (IBIS 2024)
+  year: 2024
+  date: 2024-11-04
+  status: Accepted
+  type: Domestic
+- slug: policy-testing-in-markov-decision-processes-2025-2
+  lang: ja
+  title: Policy Testing in Markov Decision Processes
+  authors:
+  - Po-An Wang
+  - Kaito Ariu
+  - Alexandre Proutiere
+  - Kenshi Abe
+  abstract: ''
+  venue: 第28回情報論的学習理論ワークショップ (IBIS 2025)
+  year: 2025
+  date: 2025-11-12
+  status: Accepted
+  type: Domestic
+- slug: policy-testing-in-markov-decision-processes-2025
+  lang: en
+  title: Policy Testing in Markov Decision Processes
+  authors:
+  - Kaito Ariu
+  - Po-An Wang
+  - Alexandre Proutiere
+  - Kenshi Abe
+  abstract: We study the policy testing problem in discounted Markov decision processes (MDPs) in the fixed-confidence setting under a generative model with static sampling. The goal is to decide whether the value of a given policy exceeds a specified threshold while minimizing the number of samples. We first derive an instance-dependent lower bound that any reasonable algorithm must satisfy, characterized as the solution to an optimization problem with non-convex constraints. Guided by this formulation, we propose a new algorithm. While this design paradigm is common in pure exploration problems such as best-arm identification, the non-convex constraints that arise in MDPs introduce substantial difficulties. To address them, we reformulate the lower-bound problem by swapping the roles of the objective and the constraints, yielding an alternative problem with a non-convex objective but convex constraints. This reformulation admits an interpretation as a policy optimization task in a newly constructed reversed MDP. We further show that the global KL constraint can be decomposed exactly into a family of product-box subproblems, which are solved by projected policy gradient and combined through an outer budget search. Beyond policy testing, our reformulation and reversed MDP view suggest extensions to other pure exploration tasks in MDPs, including policy evaluation and best policy identification.
+  venue: NeurIPS 2025 Workshop on Aligning Reinforcement Learning Experimentalists and Theorists
+  venue_short: NeurIPS
+  year: 2025
+  date: 2025-12-06
+  status: Accepted
+  type: Workshop
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2505.15342
+- slug: policy-testing-in-markov-decision-processes-2026
+  lang: en
+  title: Policy Testing in Markov Decision Processes
+  authors:
+  - Kaito Ariu
+  - Po-An Wang
+  - Alexandre Proutiere
+  - Kenshi Abe
+  abstract: We study the policy testing problem in discounted Markov decision processes (MDPs) in the fixed-confidence setting under a generative model with static sampling. The goal is to decide whether the value of a given policy exceeds a specified threshold while minimizing the number of samples. We first derive an instance-dependent lower bound that any reasonable algorithm must satisfy, characterized as the solution to an optimization problem with non-convex constraints. Guided by this formulation, we propose a new algorithm. While this design paradigm is common in pure exploration problems such as best-arm identification, the non-convex constraints that arise in MDPs introduce substantial difficulties. To address them, we reformulate the lower-bound problem by swapping the roles of the objective and the constraints, yielding an alternative problem with a non-convex objective but convex constraints. This reformulation admits an interpretation as a policy optimization task in a newly constructed reversed MDP. We further show that the global KL constraint can be decomposed exactly into a family of product-box subproblems, which are solved by projected policy gradient and combined through an outer budget search. Beyond policy testing, our reformulation and reversed MDP view suggest extensions to other pure exploration tasks in MDPs, including policy evaluation and best policy identification.
+  venue: AISTATS 2026
+  venue_short: AISTATS
+  year: 2026
+  date: 2026-05-02
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2505.15342

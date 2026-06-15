@@ -1,0 +1,30 @@
+# Research project: the-power-of-perturbation-under-sampling-in-solving-ext
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+venues:
+- slug: the-power-of-perturbation-under-sampling-in-solving-ext
+  lang: en
+  title: The Power of Perturbation under Sampling in Solving Extensive-Form Games
+  authors:
+  - Wataru Masaka
+  - Mitsuki Sakamoto
+  - Kenshi Abe
+  - Kaito Ariu
+  - Tuomas Sandholm
+  - Atsushi Iwasaki
+  abstract: 'We investigate how perturbation does and does not improve the Follow-the-Regularized-Leader (FTRL) algorithm in solving imperfect-information extensive-form games under sampling, where payoffs are estimated from sampled trajectories. While optimistic algorithms are effective under full feedback, they often become unstable in the presence of sampling noise. Payoff perturbation offers a promising alternative for stabilizing learning and achieving \textit{last-iterate convergence}. We present a unified framework for \textit{Perturbed FTRL} algorithms and study two variants: PFTRL-KL (standard KL divergence) and PFTRL-RKL (Reverse KL divergence), the latter featuring an estimator with both unbiasedness and conditional zero variance. While PFTRL-KL generally achieves equivalent or better performance across benchmark games, PFTRL-RKL consistently outperforms it in Leduc poker, whose structure is more asymmetric than the other games in a sense. Given the modest advantage of PFTRL-RKL, we design the second experiment to isolate the effect of conditional zero variance, showing that the variance-reduction property of RKL improve last-iterate performance.'
+  venue: arXiv
+  venue_short: arXiv
+  date: 2025-01-28
+  status: Preprint
+  type: Preprint
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2501.16600

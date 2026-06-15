@@ -1,0 +1,46 @@
+# Research project: case-based-policy-optimization
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- reinforcement-learning-sequential-decision
+topics:
+- Reinforcement Learning
+- Sequential Decision Making
+- Markov Games
+- Policy Evaluation
+venues:
+- slug: reinforcement-learning-sequential-decision-2016-2
+  lang: ja
+  title: 自然進化戦略を用いた事例ベース政策最適化
+  authors:
+  - 阿部 拳之
+  - 小野 功
+  abstract: ''
+  venue: 第54回システム工学部会研究会 (2016年)
+  year: 2016
+  date: 2016-03-07
+  status: Accepted
+  type: Domestic
+- slug: reinforcement-learning-sequential-decision-2016
+  lang: ja
+  title: 多峰性景観下での自然進化戦略による事例ベース政策最適化
+  authors:
+  - 阿部 拳之
+  - 小野 功
+  abstract: ''
+  venue: 計測自動制御学会システム・情報部門学術講演会 (SSI 2016)
+  year: 2016
+  date: 2016-12-06
+  status: Accepted
+  type: Domestic
+- slug: reinforcement-learning-sequential-decision-2017
+  lang: ja
+  title: 活用と探索の釣り合いを考慮した事例ベース政策最適化
+  authors:
+  - 阿部 拳之
+  - 小野 功
+  abstract: ''
+  venue: 第12回進化計算学会研究会 (2017年)
+  year: 2017
+  date: 2017-03-13
+  status: Accepted
+  type: Domestic

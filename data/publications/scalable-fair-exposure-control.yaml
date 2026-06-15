@@ -1,0 +1,42 @@
+# Research project: scalable-fair-exposure-control
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- fairness-recsys-allocation
+topics:
+- Fairness
+- Recommender Systems
+- Resource Allocation
+venues:
+- slug: fair-matrix-factorisation-for-large-scale-recommender-s-2022
+  lang: en
+  title: Fair Matrix Factorisation for Large-Scale Recommender Systems
+  authors:
+  - Riku Togashi
+  - Kenshi Abe
+  abstract: Recommender systems are hedged with various requirements, such as ranking quality, optimisation efficiency, and item fairness. Item fairness is an emerging yet impending issue in practical systems. The notion of item fairness requires controlling the opportunity of items (e.g. the exposure) by considering the entire set of rankings recommended for users. However, the intrinsic nature of fairness destroys the separability of optimisation subproblems for users and items, which is an essential property of conventional scalable algorithms, such as implicit alternating least squares (iALS). Few fairness-aware methods are thus available for large-scale item recommendation. Because of the paucity of simple tools for practitioners, unfairness issues would be costly to solve or, at worst, would be abandoned. This study takes a step towards solving real-world unfairness issues by developing a simple and scalable collaborative filtering method for fairness-aware item recommendation. We built a method named fiADMM, which inherits the scalability of iALS and maintains a provable convergence guarantee.
+  venue: RecSys 2022 FAccTRec Workshop
+  venue_short: RecSys
+  year: 2022
+  date: 2022-09-23
+  status: Accepted
+  type: Workshop
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2209.04394
+- slug: scalable-and-provably-fair-exposure-control-for-large-s-2024
+  lang: en
+  title: Scalable and Provably Fair Exposure Control for Large-Scale Recommender Systems
+  authors:
+  - Riku Togashi
+  - Kenshi Abe
+  - Yuta Saito
+  abstract: Recommender systems are hedged with various requirements, such as ranking quality, optimisation efficiency, and item fairness. Item fairness is an emerging yet impending issue in practical systems. The notion of item fairness requires controlling the opportunity of items (e.g. the exposure) by considering the entire set of rankings recommended for users. However, the intrinsic nature of fairness destroys the separability of optimisation subproblems for users and items, which is an essential property of conventional scalable algorithms, such as implicit alternating least squares (iALS). Few fairness-aware methods are thus available for large-scale item recommendation. Because of the paucity of simple tools for practitioners, unfairness issues would be costly to solve or, at worst, would be abandoned. This study takes a step towards solving real-world unfairness issues by developing a simple and scalable collaborative filtering method for fairness-aware item recommendation. We built a method named fiADMM, which inherits the scalability of iALS and maintains a provable convergence guarantee.
+  venue: WWW 2024
+  venue_short: WWW
+  year: 2024
+  date: 2024-05-14
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2209.04394

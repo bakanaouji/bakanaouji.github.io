@@ -1,0 +1,45 @@
+# Research project: last-iterate-full-noisy-feedback
+# venues[] lists every appearance (each kept in its own language).
+projects:
+- learning-dynamics-equilibrium-games
+topics:
+- Learning in Games
+- Learning Dynamics
+- Equilibrium Computation
+- Last-Iterate Convergence
+- Game Theory
+venues:
+- slug: last-iterate-convergence-with-full-and-noisy-informatio-2022
+  lang: ja
+  title: Last-Iterate Convergence with Full- and Noisy-Information Feedback in Two-Player Zero-Sum Games
+  authors:
+  - 阿部 拳之
+  - 蟻生 開人
+  - 坂本 充生
+  - 豊島 健太郎
+  - 岩崎 敦
+  abstract: ''
+  venue: 第25回情報論的学習理論ワークショップ (IBIS 2022)
+  year: 2022
+  date: 2022-11-20
+  status: Accepted
+  type: Domestic
+- slug: last-iterate-convergence-with-full-and-noisy-feedback-i-2023
+  lang: en
+  title: Last-Iterate Convergence with Full and Noisy Feedback in Two-Player Zero-Sum Games
+  authors:
+  - Kenshi Abe
+  - Kaito Ariu
+  - Mitsuki Sakamoto
+  - Kentaro Toyoshima
+  - Atsushi Iwasaki
+  abstract: This paper proposes Mutation-Driven Multiplicative Weights Update (M2WU) for learning an equilibrium in two-player zero-sum normal-form games and proves that it exhibits the last-iterate convergence property in both full and noisy feedback settings. In the former, players observe their exact gradient vectors of the utility functions. In the latter, they only observe the noisy gradient vectors. Even the celebrated Multiplicative Weights Update (MWU) and Optimistic MWU (OMWU) algorithms may not converge to a Nash equilibrium with noisy feedback. On the contrary, M2WU exhibits the last-iterate convergence to a stationary point near a Nash equilibrium in both feedback settings. We then prove that it converges to an exact Nash equilibrium by iteratively adapting the mutation term. We empirically confirm that M2WU outperforms MWU and OMWU in exploitability and convergence rates.
+  venue: AISTATS 2023
+  venue_short: AISTATS
+  year: 2023
+  date: 2023-04-25
+  status: Accepted
+  type: Conference
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2208.09855
