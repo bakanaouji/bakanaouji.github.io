@@ -1,7 +1,6 @@
 # Research project: exemplar-policy-optimization-ee
 # venues[] lists every appearance (each kept in its own language).
-projects:
-- reinforcement-learning-sequential-decision
+projects: []
 venues:
 - lang: ja
   title: 活用と探索の釣り合いを考慮した事例ベース政策最適化

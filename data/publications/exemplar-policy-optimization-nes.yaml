@@ -1,7 +1,6 @@
 # Research project: exemplar-policy-optimization-nes
 # venues[] lists every appearance (each kept in its own language).
-projects:
-- reinforcement-learning-sequential-decision
+projects: []
 venues:
 - lang: ja
   title: 自然進化戦略を用いた事例ベース政策最適化

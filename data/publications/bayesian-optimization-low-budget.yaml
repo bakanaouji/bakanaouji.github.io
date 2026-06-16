@@ -1,7 +1,6 @@
 # Research project: bayesian-optimization-low-budget
 # venues[] lists every appearance (each kept in its own language).
-projects:
-- bandits-online-learning
+projects: []
 venues:
 - lang: ja
   title: Black-box最適化に対するBudgetを考慮した探索空間の初期化

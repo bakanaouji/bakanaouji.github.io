@@ -1,7 +1,7 @@
 # Research project: misperception-repeated-games
 # venues[] lists every appearance (each kept in its own language).
 projects:
-- reinforcement-learning-sequential-decision
+- learning-dynamics-equilibrium-games
 venues:
 - lang: ja
   title: 見間違えのある繰り返し囚人のジレンマにおける方策勾配法に関する研究

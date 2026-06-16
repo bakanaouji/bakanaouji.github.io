@@ -1,7 +1,7 @@
 # Research project: multi-agent-rl-cournot-competition
 # venues[] lists every appearance (each kept in its own language).
 projects:
-- reinforcement-learning-sequential-decision
+- learning-dynamics-equilibrium-games
 venues:
 - lang: ja
   title: クールノー競争におけるマルチエージェント強化学習に関する研究

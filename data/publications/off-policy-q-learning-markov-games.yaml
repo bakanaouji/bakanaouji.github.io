@@ -1,7 +1,7 @@
 # Research project: off-policy-q-learning-markov-games
 # venues[] lists every appearance (each kept in its own language).
 projects:
-- reinforcement-learning-sequential-decision
+- learning-dynamics-equilibrium-games
 venues:
 - lang: ja
   title: 二人零和マルコフゲームにおけるオフ方策評価のためのQ学習

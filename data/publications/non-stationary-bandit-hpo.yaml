@@ -1,7 +1,6 @@
 # Research project: non-stationary-bandit-hpo
 # venues[] lists every appearance (each kept in its own language).
 projects:
-- bandits-online-learning
 venues:
 - lang: ja
   title: 非定常多腕バンディットアルゴリズムを用いたハイパーパラメータ最適化フレームワークの提案
