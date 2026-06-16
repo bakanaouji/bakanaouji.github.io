@@ -1,6 +1,12 @@
 {{ define "main" }}
   {{ .Scratch.Set "scope" "list" }}
 
+  {{/* Hero — theme-native wave background (matches official Blowfish list pages) */}}
+  {{ if .Params.showHero | default (site.Params.list.showHero | default false) }}
+    {{ $heroStyle := print "hero/" (.Params.heroStyle | default site.Params.list.heroStyle) ".html" }}
+    {{ if templates.Exists (printf "partials/%s" $heroStyle) }}{{ partial $heroStyle . }}{{ else }}{{ partial "hero/basic.html" . }}{{ end }}
+  {{ end }}
+
   <header class="mb-8">
     <h1 class="mt-2 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
   </header>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{/* Project override of Blowfish's homepage template.
+       Adds the theme-native wave hero to the top of the homepage (the profile
+       layout has no hero of its own), then renders the configured home partial
+       below it — so the landing page matches the official Blowfish wave behaviour,
+       including the neutral backdrop-blur that settles in on scroll.
+       scope = "single" makes hero/background.html render that blur layer.
+       hero/background.html self-guards: with no background image it outputs nothing. */}}
+  {{ .Scratch.Set "scope" "single" }}
+  {{ partial "hero/background.html" . }}
+
+  {{ $partial := print "home/" .Site.Params.homepage.layout ".html" }}
+  {{ if templates.Exists (printf "partials/%s" $partial) }}
+    {{ partial $partial . }}
+  {{ else }}
+    {{ partial "home/profile.html" . }}
+  {{ end }}
+{{ end }}
