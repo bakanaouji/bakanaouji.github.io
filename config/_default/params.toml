@@ -26,7 +26,7 @@ defaultBackgroundImage = "img/background.svg" # theme wave SVG; used by heroStyl
 fingerprintAlgorithm = "sha512"
 
 [header]
-  layout = "fixed-fill-blur" # subtle, modern sticky header
+  layout = "fixed" # neutral translucent sticky header, same as the official Blowfish sites
 
 [footer]
   showMenu = false
