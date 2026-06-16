@@ -1,6 +1,6 @@
 ---
 title: "Bandits and Online Learning"
-short: "Bandits"
+short: "Bandits & Online Learning"
 summary: "How can agents learn efficiently while making decisions online?"
 order: 2
 keywords: ["Bandits", "Online Learning", "Non-Stationarity"]

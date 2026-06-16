@@ -1,6 +1,6 @@
 ---
 title: "Bandits and Online Learning"
-short: "Bandits"
+short: "Bandits & Online Learning"
 summary: "オンライン環境で意思決定をしながら効率的に学習するには？"
 order: 2
 keywords: ["Bandits", "Online Learning", "Non-Stationarity"]

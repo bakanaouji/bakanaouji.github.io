@@ -1,6 +1,6 @@
 ---
 title: "Learning Dynamics and Equilibrium Computation in Games"
-short: "Learning Dynamics"
+short: "Learning in Games"
 summary: "How can learning algorithms converge quickly to Nash equilibrium?"
 order: 1
 keywords: ["Learning in Games", "Learning Dynamics", "Equilibrium Computation", "Last-Iterate Convergence", "Game Theory"]
