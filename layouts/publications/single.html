@@ -1,6 +1,12 @@
 {{ define "main" }}
   {{ .Scratch.Set "scope" "single" }}
 
+  {{/* Hero — theme-native wave background (matches official Blowfish article pages) */}}
+  {{ if .Params.showHero | default (site.Params.article.showHero | default false) }}
+    {{ $heroStyle := print "hero/" (.Params.heroStyle | default site.Params.article.heroStyle) ".html" }}
+    {{ if templates.Exists (printf "partials/%s" $heroStyle) }}{{ partial $heroStyle . }}{{ else }}{{ partial "hero/basic.html" . }}{{ end }}
+  {{ end }}
+
   {{ $authors := .Params.authors | default slice }}
   {{ $venue := .Params.venue | default "" }}
   {{ $venueUrl := .Params.venue_url | default "" }}
